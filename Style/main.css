@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 0 !important;
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: #FFFFFF; */
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+    overflow-x: hidden;
+}
+
+/*
+//// Utility classes /////
+*/
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-align{
+  align-items: flex-end;
+}
+
+.bdr{
+  border: 1px solid red;
+}
+
+.bold{
+  font-weight: 500;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.hidden{
+  display: none;
+}
+.overlay.active{
+    display: inline-block;
+    opacity: .6;
+    /* transition: all .5s ease-in-out; */
+}
+.hide{
+  visibility: hidden;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.mobile-nav-main-wrapper.active{
+  transform: translateX(0rem);
+  background-color: #fff;
+}
+.mobile-nav.active{
+  transform: translateX(0rem);
+  background-color: #fff;
+}
+
+/* responsive nav toggle for mobile */
+
+.sub-items-wrapper.active{
+  /* top: 7.1rem; */
+
+  height: 68rem;
+  overflow-y: auto;
+}
+
+.arrow-wrapper.active i{
+  transform: rotate(-90deg);
+}
+
+.z-index-1008{
+  z-index: 1008;
+}
+
+/* Home banner */
+
+.c-button span.fill{
+  background-color: #FFFFFF;
+}
+
