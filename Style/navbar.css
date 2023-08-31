@@ -568,6 +568,18 @@
 
   }
 
+
+/* 
+  @media screen and (max-width: 768px){
+
+
+  .mobile-nav-main-wrapper{
+    width: 100vw;
+    overflow: hidden;
+ }
+
+} */
+
 /* styling nav roller menu */
 
 #nav-roller-wrapper{
@@ -620,3 +632,6 @@
     background-color: #8C8C8C;
     transition: width 0.2s ease-out;
 }
+
+
+
