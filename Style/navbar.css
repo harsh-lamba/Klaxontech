@@ -556,7 +556,7 @@
     
     }
     .mobile-nav-main-wrapper{
-       /* width: 100vw; */
+       width: 100vw;
        overflow: hidden;
     }
     .dropdown-wrapper{
