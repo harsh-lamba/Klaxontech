@@ -13,6 +13,28 @@ const hamburger = document.querySelector("#hamburger");
 const body = document.querySelector("#body");
 const mobileNav = document.querySelector(".mobile-nav");
 
+const textAnim = document.querySelectorAll(".scrol-animate");
+
+
+
+
+// animate text when visible
+
+window.addEventListener("scroll",()=>{
+    textAnim.forEach(elem=>{
+        let windowHeight = window.innerHeight;
+        let revealTop = elem.getBoundingClientRect().top;
+        let revealPoint = 180;
+
+        if(revealTop < windowHeight - revealPoint){
+            elem.classList.add("active")
+        }
+        else{
+            elem.classList.remove("active")
+        }
+    })
+})
+
 // selecting google translate elements
 
 // Get the target element by its ID
