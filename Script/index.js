@@ -18,7 +18,28 @@ const cBtn = document.querySelectorAll(".c-btn");
 const textAnim = document.querySelectorAll(".scrol-animate");
 
 
-console.log(cBtn)
+// carousel btn
+let carouselPosition = 40;
+
+cBtn[0].addEventListener("click",()=>{
+    carouselPosition += 350
+    if(carouselPosition <= 40){
+        cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
+    }
+    else{
+        carouselPosition = 40
+    }
+})
+cBtn[1].addEventListener("click",()=>{
+    carouselPosition -= 350
+    if( carouselPosition >= -2060){
+        cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
+    }
+    else{
+        carouselPosition = -2060
+    }
+})
+
 
 // animate text when visible
 

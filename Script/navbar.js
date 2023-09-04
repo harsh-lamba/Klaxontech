@@ -87,7 +87,7 @@ const scrollProgressBar = () => {
      let percent = st / (sh - h.clientHeight)*100;
      let roundedPercent = Math.round(percent);
     progressBar.style.width = `${roundedPercent}%`;
-    console.log(progressBar)
+    // console.log(progressBar)
 
 };
 

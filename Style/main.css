@@ -27,6 +27,7 @@ body{
     background-color: #fff;
     color: #000;
     overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #main{
