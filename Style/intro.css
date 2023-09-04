@@ -39,8 +39,9 @@
     color: #fff;
     padding: 0;
     text-align: left;
-    margin-top: 15rem;
+    /* margin-top: 15rem; */
     margin-left: 10rem;
+    top:30%;
 }
 .intro-text .first-text{
     color: #fff;
@@ -81,7 +82,8 @@
 }
 
 .wrapper-intro2 .intro-text{
-    margin-top: 25rem;
+    /* margin-top: 25rem; */
+    top:30%;
 }
 .wrapper-intro2 img{
     position: absolute;
@@ -105,11 +107,13 @@
     
     .intro-text{
         margin-left: 1.5rem;
-        margin-top: 40rem;
+        /* margin-top: 40rem; */
+        top:50%;
     }
     .wrapper-intro2 .intro-text{
         margin-left: 1.5rem;
-        margin-top: 46rem !important;
+        top:50%;
+        /* margin-top: 46rem !important; */
     }
     .intro-text .first-text{
         font-size: 36px;
