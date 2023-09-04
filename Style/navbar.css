@@ -625,6 +625,9 @@
     background-color: #1B48A4;
     border-radius: 50%;
     z-index: 600;
+    margin: 1.5rem 1.5rem;
+    opacity: 0.3;
+    transition:  0.3s all ease-in-out;
 }
 .arrow-wrapper i{
    font-size: 20px;
@@ -642,6 +645,7 @@
     background-color: #8C8C8C;
     transition: width 0.2s ease-out;
     z-index: 502;
+    border-radius: 7%;
 }
 
 

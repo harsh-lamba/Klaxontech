@@ -98,9 +98,11 @@ window.addEventListener("scroll",(e)=>{
 
     if(window.scrollY > 0){
         arrow.classList.add("active")
+        document.querySelector(".arrow-wrapper").style.opacity = `1`;
     }
     else{
         arrow.classList.remove("active")
+        document.querySelector(".arrow-wrapper").style.opacity = `0.3`;
     }
 
 })
