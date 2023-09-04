@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     height: 7rem;
+    z-index: 500;
     /* border: 1px solid rgb(77, 74, 74); */
 }
 
@@ -587,6 +588,7 @@
     /* background-color: #F2F2F2; */
     width: 100%;
     height: 5.7rem;
+    z-index: 501;
 }
 
 .nav-roller-wrap2{
@@ -631,6 +633,7 @@
     width: 0;
     background-color: #8C8C8C;
     transition: width 0.2s ease-out;
+    z-index: 502;
 }
 
 

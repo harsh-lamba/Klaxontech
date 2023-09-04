@@ -12,11 +12,13 @@ const mListContent = document.querySelectorAll(".sub-items-wrapper");
 const hamburger = document.querySelector("#hamburger");
 const body = document.querySelector("#body");
 const mobileNav = document.querySelector(".mobile-nav");
+const cardsWrapper = document.querySelector(".cards-wrapper");
+const cBtn = document.querySelectorAll(".c-btn");
 
 const textAnim = document.querySelectorAll(".scrol-animate");
 
 
-
+console.log(cBtn)
 
 // animate text when visible
 
@@ -52,7 +54,7 @@ const watiForElem = ()=>{
     //     }
     //   });
     // }
-    console.log(targetElement)
+   
 }
 
 setTimeout(watiForElem,5000)
