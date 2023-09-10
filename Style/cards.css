@@ -180,4 +180,20 @@
     .card-wrapper {
         width: 30rem;
     }
+
+    
+}
+
+@media screen and (max-width: 400px){
+
+    .carousel-btn-wrapper div{
+        width: 5rem;
+        height: 5rem;
+        margin: 0 .5rem;
+        /* background-color: red; */
+    }
+
+    .cards-wrapper {
+        transform: translate3d(10px, 0px, 0px);
+    }
 }
