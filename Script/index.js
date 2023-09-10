@@ -22,21 +22,24 @@ const textAnim = document.querySelectorAll(".scrol-animate");
 let carouselPosition = 40;
 
 cBtn[0].addEventListener("click",()=>{
-    carouselPosition += 350
+    carouselPosition += 320
     if(carouselPosition <= 40){
         cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
     }
     else{
         carouselPosition = 40
+        cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
     }
 })
 cBtn[1].addEventListener("click",()=>{
-    carouselPosition -= 350
+    carouselPosition -= 320
     if( carouselPosition >= -2060){
         cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
     }
     else{
         carouselPosition = -2060
+        cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
+
     }
 })
 

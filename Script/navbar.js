@@ -102,7 +102,7 @@ window.addEventListener("scroll",(e)=>{
     }
     else{
         arrow.classList.remove("active")
-        document.querySelector(".arrow-wrapper").style.opacity = `0.3`;
+        document.querySelector(".arrow-wrapper").style.opacity = `0`;
     }
 
 })
