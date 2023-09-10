@@ -44,11 +44,17 @@
     background-color: #f2f2f2;
     border-radius: 50%;
     text-align: center;
-    margin: 10px;
+    margin: 20px 10px;
     font-size: 30px;
     cursor: pointer;
-    
+}
 
+.right-wrapper .carousel-btn .c-btn{
+    opacity: 0.5;
+    transition: 0.2s all ease;
+}
+.right-wrapper .carousel-btn .c-btn:hover{
+    opacity: 1;
 }
 
 .img-container{
