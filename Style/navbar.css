@@ -365,7 +365,7 @@
 }
 
 .social-media{
-    margin-top: 1rem;
+    margin: 1rem 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -375,8 +375,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .social-media a{
     display: flex;
     justify-content: center;
