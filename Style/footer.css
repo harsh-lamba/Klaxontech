@@ -104,7 +104,13 @@
     color: #fff;
 }
 
+@media screen and (max-width: 685px){
 
+    .company-footer .site-logo{
+        margin-bottom: 1rem;
+    }
+
+}
 
 @media screen and (max-width: 500px){
 
@@ -118,6 +124,7 @@
         flex-wrap: wrap;
         font-size: 14px;
     }
+    
 }
 @media screen and (max-width: 400px){
 
