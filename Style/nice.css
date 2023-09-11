@@ -115,15 +115,18 @@
 @media screen and (max-width: 400px) {
 
     .img-container {
-        width: 340px;
-        height: 273px;
-
+        width: 300px;
+        height: 233px;
     }
 }
 
-Stlyling for Featured Companies .Featured-companies {
+/* Stlyling for Featured Companies  */
+
+
+.Featured-companies {
     position: relative;
     width: 100vw;
+    overflow-x: hidden;
 
 }
 
@@ -143,10 +146,9 @@ Stlyling for Featured Companies .Featured-companies {
     justify-content: flex-start;
     align-items: center;
     /* border: 2px solid yellow; */
-    /* overflow: hidden; */
+ 
+    overflow: hidden;
     width: 250rem;
-   
-    gap: 7.5rem;
     
 }
 
@@ -155,14 +157,20 @@ Stlyling for Featured Companies .Featured-companies {
     justify-content: flex-start;
     align-items: center;
     gap: 7.5rem;
+    
     transition: transform 7s ease;
-    animation: carouselAnimate 40s   infinite linear;
+   
+    animation: carouselAnimate 50s   infinite linear;
+    
 }
+
+
 
 .c-img-wrap {
     position: relative;
     width: 20rem;
     height: 10rem;
+    overflow: hidden;
     /* border: 2px solid red; */
     
 }

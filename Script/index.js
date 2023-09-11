@@ -13,6 +13,7 @@ const hamburger = document.querySelector("#hamburger");
 const body = document.querySelector("#body");
 const mobileNav = document.querySelector(".mobile-nav");
 const cardsWrapper = document.querySelector(".cards-wrapper");
+
 const cBtn = document.querySelectorAll(".c-btn");
 
 const textAnim = document.querySelectorAll(".scrol-animate");
@@ -68,20 +69,3 @@ const targetElement = document.querySelector(".goog-te-gadget")
 
 // Check if the target element exists
 
-const watiForElem = ()=>{
-
-    // if (targetElement) {
-    //   // Find the text node containing "Powered by" and remove it
-    //   targetElement.childNodes.forEach(childNode => {
-    //     if (childNode.nodeType === Node.TEXT_NODE && childNode.textContent.includes("Powered by")) {
-    //       childNode.textContent = childNode.textContent.replace("Powered by", "");
-    //     }
-    //   });
-    // }
-   
-}
-
-setTimeout(watiForElem,5000)
-
-
-// console.log(rmvTxt)
