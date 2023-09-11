@@ -1,10 +1,10 @@
-.nice-things{
+.nice-things {
     position: relative;
     /* border: 1px solid red; */
     width: 100vw;
 }
 
-.nice-things-wrapper{
+.nice-things-wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -14,14 +14,15 @@
     padding: 50px 50px 50px 50px;
 }
 
-.left-wrapper h3{
+.left-wrapper h3 {
     font-size: 42px;
     font-weight: 400;
     word-wrap: wrap;
     color: #000;
     line-height: 1.1;
 }
-.left-wrapper p{
+
+.left-wrapper p {
     font-size: 21px;
     font-weight: 300;
     margin: 21px 0;
@@ -29,16 +30,16 @@
     line-height: 1.2;
 }
 
-.right-wrapper{
+.right-wrapper {
     padding-left: 40px;
 }
 
-.right-wrapper .carousel-btn{
+.right-wrapper .carousel-btn {
     justify-content: flex-end;
-    
+
 }
 
-.right-wrapper .carousel-btn div{
+.right-wrapper .carousel-btn div {
     width: 4rem;
     height: 4rem;
     background-color: #f2f2f2;
@@ -49,25 +50,26 @@
     cursor: pointer;
 }
 
-.right-wrapper .carousel-btn .c-btn{
+.right-wrapper .carousel-btn .c-btn {
     opacity: 0.5;
     transition: 0.2s all ease;
 }
-.right-wrapper .carousel-btn .c-btn:hover{
+
+.right-wrapper .carousel-btn .c-btn:hover {
     opacity: 1;
 }
 
-.img-container{
+.img-container {
     position: relative;
     width: 640px;
     height: 360px;
     border-radius: 35px;
     cursor: pointer;
     overflow: hidden;
-    
+
 }
 
-.img-container img{
+.img-container img {
     position: absolute;
     top: 0;
     left: 0;
@@ -78,40 +80,115 @@
 
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
 
-    .img-container{
+    .img-container {
         width: 490px;
         height: 317px;
-        
+
     }
 
-} 
-@media screen and (max-width: 768px){
-
-.nice-things-wrapper{
-    flex-direction: column;
-    align-items: center;
 }
 
-.left-wrapper h3{
-    font-size: 32px;
-}
-.img-container{
-    width: 390px;
-    height: 217px;
-    
-}
-.right-wrapper{
-    padding-left: 0px;
-}
+@media screen and (max-width: 768px) {
+
+    .nice-things-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-wrapper h3 {
+        font-size: 32px;
+    }
+
+    .img-container {
+        width: 390px;
+        height: 217px;
+
+    }
+
+    .right-wrapper {
+        padding-left: 0px;
+    }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
 
-    .img-container{
+    .img-container {
         width: 340px;
         height: 273px;
-        
+
+    }
+}
+
+Stlyling for Featured Companies .Featured-companies {
+    position: relative;
+    width: 100vw;
+
+}
+
+.Featured-companies .wrapper {
+    width: 100%;
+}
+
+.h2-heading h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 15px 70px;
+}
+
+.Featured-companies .wrapper .img-carousel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    /* overflow: hidden; */
+    width: 250rem;
+   
+    gap: 7.5rem;
+    
+}
+
+.card-wrapper-c{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7.5rem;
+    transition: transform 7s ease;
+    animation: carouselAnimate 40s   infinite linear;
+}
+
+.c-img-wrap {
+    position: relative;
+    width: 20rem;
+    height: 10rem;
+    /* border: 2px solid red; */
+    
+}
+
+.c-img-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 2px solid red; */
+   
+}
+
+
+@keyframes carouselAnimate {
+    0% {
+        transform: translateX(0rem);
+    }
+
+    50% {
+        transform: translateX(-110rem);
+    }
+
+    100% {
+        transform: translateX(0rem);
     }
 }
