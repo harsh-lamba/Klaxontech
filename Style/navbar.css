@@ -419,6 +419,12 @@
 }
 .mobile-nav .list-item-wrapper li ion-icon {
     font-size: 20px;
+    color: #000;
+  }
+
+  .mobile-nav .list-item-wrapper li a{
+    text-decoration: none;
+    color: #000;
   }
 
   .sub-items-wrapper{

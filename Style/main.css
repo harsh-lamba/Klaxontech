@@ -95,9 +95,13 @@ body{
 .sub-items-wrapper.active{
   /* top: 7.1rem; */
 
-  height: 68rem;
+  height: 72rem;
   overflow-y: auto;
 }
+.sub-items-wrapper.fix-w.active{
+  height: 61rem;
+}
+
 
 .arrow-wrapper.active i{
   transform: rotate(-90deg);
