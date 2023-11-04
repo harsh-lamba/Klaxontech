@@ -1,0 +1,30 @@
+.about-us-hero{
+    max-width: 100vw;
+    height: 70vh;
+    position: relative;
+}
+.about-us-hero .wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.about-us-hero img{
+    position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   background-color: #03011E;
+
+}
+.about-us-hero p{
+    position: absolute;
+    /* top: 50%; */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    color: #1B48A4;
+    font-size: 5rem;
+    font-weight: 500;
+}
