@@ -2,7 +2,10 @@
     max-width: 100vw;
     height: 70vh;
     position: relative;
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,.05);
 }
+
+
 .about-us-hero .wrapper{
     width: 100%;
     height: 100%;
