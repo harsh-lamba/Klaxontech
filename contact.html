@@ -18,12 +18,61 @@
   <link rel="stylesheet" href="Style/cards.css" />
   <link rel="stylesheet" href="Style/nice.css" />
   <link rel="stylesheet" href="Style/footer.css" />
+  <link rel="stylesheet" href="Style/about-us.css" />
 
   <script defer type="text/javascript"
     src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <script defer src="Script/index.js"></script>
   <script defer src="Script/navbar.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Style/contact.css">
+<script nonce="64f34622-e2b6-49e6-9eaa-57792ac8cd7f">
+(function(w,d){!function(j,k,l,m){j[l]=j[l]||{};j[l].executed=[];j.zaraz={deferred:[],listeners:[]};j.zaraz.q=[];j.zaraz._f=function(n){return async function(){var o=Array.prototype.slice.call(arguments);j.zaraz.q.push({m:n,a:o})}};for(const p of["track","set","debug"])j.zaraz[p]=j.zaraz._f(p);j.zaraz.init=()=>{var q=k.getElementsByTagName(m)[0],r=k.createElement(m),s=k.getElementsByTagName("title")[0];s&&(j[l].t=k.getElementsByTagName("title")[0].text);j[l].x=Math.random();j[l].w=j.screen.width;j[l].h=j.screen.height;j[l].j=j.innerHeight;j[l].e=j.innerWidth;j[l].l=j.location.href;j[l].r=k.referrer;j[l].k=j.screen.colorDepth;j[l].n=k.characterSet;j[l].o=(new Date).getTimezoneOffset();if(j.dataLayer)for(const w of Object.entries(Object.entries(dataLayer).reduce(((x,y)=>({...x[1],...y[1]})),{})))zaraz.set(w[0],w[1],{scope:"page"});j[l].q=[];for(;j.zaraz.q.length;){const z=j.zaraz.q.shift();j[l].q.push(z)}r.defer=!0;for(const A of[localStorage,sessionStorage])Object.keys(A||{}).filter((C=>C.startsWith("_zaraz_"))).forEach((B=>{try{j[l]["z_"+B.slice(7)]=JSON.parse(A.getItem(B))}catch{j[l]["z_"+B.slice(7)]=A.getItem(B)}}));r.referrerPolicy="origin";r.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(j[l])));q.parentNode.insertBefore(r,q)};["complete","interactive"].includes(k.readyState)?zaraz.init():j.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document); 
+
+</script>
+
 </head>
+<style>
+    .contact-background-wrapper{
+        position: absolute;
+        width: 103vw;
+        height: 100%;
+        z-index: -1;
+        /* border: 2px solid red; */
+        
+    }
+    .contact-background-wrapper video{
+      position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #03011E;
+    }
+
+    .ftco-section{
+      padding: 0 !important;
+      /* border: 2px solid red; */
+    }
+
+    .container{
+      padding: 50px 0 112px 0 !important;
+      /* border: 2px solid red; */
+    }
+    .bg-hero:after{
+      opacity: 0 !important;
+    }
+    .info-wrap p, .info-wrap span,.info-wrap div, .info-wrap h3, .info-wrap h2, .info-wrap span a{
+      color: #000000 !important
+    }
+    .heading-section{
+      color: #000000 !important;
+    }
+    </style>
 
 <body id="body">
   <header id="site-header">
@@ -55,7 +104,7 @@
               <a href="index.html" class="klaxontech-logo" id="klaxontech-dark-logo">
                 <img src="Media/Klaxontech dark logo.png" alt="klaxontech logo" />
               </a>
-              <div class="site-menu flex">
+              <div class="site-menu flex" style="color: #000000 !important;">
                 <div class="list-item-wrapper flex">
                   <li class="list-item flex">
                     Services
@@ -155,7 +204,7 @@
 
             <div class="mobile-nav-contact-wrapper">
               <div class="contact-wrapper">
-                <a href="">Contact Us</a><a href="contact.html">Careers</a><a href="">Locations</a>
+                <a href="">Contact Us</a><a href="">Careers</a><a href="">Locations</a>
               </div>
               <div class="social-media">
                 <a href="https://www.linkedin.com/company/klaxontech/"><ion-icon name="logo-linkedin"></ion-icon></a><a href="https://twitter.com/Klaxontech_Inc/"><ion-icon
@@ -175,7 +224,7 @@
         <div class="nav-roller-progress-bar"></div>
         <ul class="nav-roller-menu flex">
           <button class="arrow-wrapper flex">
-            <span class="flex"><i class="bi bi-arrow-right"></i></span>
+            <span class="flex"><i class="bi bi-arrow-right" style="display: flex;"></i></span>
           </button>
           <!-- <li class="nav-roller-menu-item flex">
             <span>Case studies & stories</span>
@@ -192,206 +241,129 @@
         </ul>
       </div>
     </nav>
-    <div class="intro ">
-      <div class="carousel">
-        <div class="intro-text ">
-          <p class="first-text">Embrace the <br>Enlightened Evolution</p>
-          <p class="second-text">Your Partner in AI <br>for Business Excellence</p>
-        </div>
-        <div class="video-wrapper">
-          <video muted="" autoplay=""  playsinline="true" preload="auto" src="Media/0.mp4"></video>
-        </div>
 
-      </div>
-      <div class="wrapper-intro2">
-        <div class="intro-text scrol-animate">
-          <p class="first-text">
-            Credible. <br>
-            Protected. <br>
-            Efficient.</p>
-          <p class="second-text">Your Partner in AI <br>for Business Excellence</p>
-        </div>
-        <img src="Media/intro.jpg" alt="">
-
-        <div class="explore">
-
-        </div>
-      </div>
-    </div>
-
-    <section class="latest-news">
-      <div class="latest-news-title">Our Services</div>
-      <div class="carousel-btn-wrapper">
-        <div class="left-botton c-btn"><</div>
-        <div class="right-botton c-btn">></div>
-      </div>
-      <div class="cards-wrapper">
-        <div class="card-wrapper-w-img card">
-          <a href="">
-            <div class="img-wrapper">
-
-              <img
-                src="https://marvel-b1-cdn.bc0a.com/f00000000091204/www.nice.com/-/media/niceincontact/page-content/home---new/home/new-home/latest-news/gartner-nicecom-2023.ashx?rev=a5e60ea5efca4971962dbb9b29605207"
-                alt="">
+    <section class="ftco-section img bg-hero" >
+        <div class="contact-background-wrapper">
+            <video src="Media/contact-background.mp4" autoplay muted ></video>
             </div>
-            <h3 class="card-title">Report</h3>
-            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa consequatur modi rerum
-              eligendi od</p>
-            <div class="learn-more" style="display: flex;"><span
-                style="font-size: 30px; margin-right: 1rem; ;">></span><span>Learn more</span></div>
-          </a>
+        <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-md-6 text-center mb-5">
+        <h2 class="heading-section">Contact us
+</h2>
         </div>
-        <div class="card-wrapper card">
-          <a href="">
-            <h3 class="card-title">Report</h3>
-            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa consequatur modi rerum
-              eligendi od</p>
-            <div class="learn-more" style="display: flex;"><span
-                style="font-size: 30px; margin-right: 1rem; ;">></span><span>Learn more</span></div>
-          </a>
         </div>
-        <div class="card-wrapper-w-img card">
-          <a href="">
-            <div class="img-wrapper">
+        <div class="row justify-content-center">
+        <div class="col-lg-11">
+        <div class="wrapper">
+        <div class="row no-gutters justify-content-between">
+        <div class="col-lg-6 d-flex align-items-stretch">
+        <div class="info-wrap w-100 p-5" >
+        <h3 class="mb-4">Contact us</h3>
+        <div class="dbox w-100 d-flex align-items-start">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-map-marker"></span>
+        </div>
+        <div class="text pl-4">
+        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+        </div>
+        </div>
+        <div class="dbox w-100 d-flex align-items-start">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-phone"></span>
+        </div>
+        <div class="text pl-4">
+        <p><span>Phone:</span> <a href="tel://1234567920" style="color: #000000;">+ 1235 2355 98</a></p>
+        </div>
+        </div>
+        <div class="dbox w-100 d-flex align-items-start">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-paper-plane"></span>
+        </div>
+        <div class="text pl-4">
+        <p><span>Email:</span> <a href="/cdn-cgi/l/email-protection#84edeae2ebc4fdebf1f6f7edf0e1aae7ebe9"><span class="__cf_email__" data-cfemail="1a73747c755a63756f6869736e7f34797577">hr@klaxontech.com</span></a></p>
+        </div>
+        </div>
+        <div class="dbox w-100 d-flex align-items-start">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-globe"></span>
+        </div>
+        <div class="text pl-4">
+        <p><span>Website</span> <a href="/" style="color: #000000;">www.klaxontech.com</a></p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-5" style="
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;"
+    >
+        <div class="contact-wrap w-100 p-md-5 p-4"  >
+        <h3 class="mb-4">Get in touch</h3>
+        <div id="form-message-warning" class="mb-4"></div>
+        <div id="form-message-success" class="mb-4">
+        Your message was sent, thank you!
+        </div>
+        <form method="POST" id="contactForm" name="contactForm">
+        <div class="row">
+        <div class="col-md-12">
+        <div class="form-group">
+        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+        </div>
+        </div>
+        <div class="col-md-12">
+        <div class="form-group">
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+        </div>
+        </div>
+        <div class="col-md-12">
+        <div class="form-group">
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+        </div>
+        </div>
+        <div class="col-md-12">
+        <div class="form-group">
+        <textarea name="message" class="form-control" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+        </div>
+        </div>
+        <div class="col-md-12">
+        <div class="form-group">
+        <input type="submit" style="background-color: #1B48A4 !important;" value="Send Message" class="btn btn-primary">
+        <div class="submitting"></div>
+        </div>
+        </div>
+        </div>
+        </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/main.js"></script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"829ec8093d9084cb","version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
 
-              <img
-                src="https://marvel-b1-cdn.bc0a.com/f00000000091204/www.nice.com/-/media/niceincontact/page-content/home---new/home/new-home/latest-news/gartner-nicecom-2023.ashx?rev=a5e60ea5efca4971962dbb9b29605207"
-                alt="">
-            </div>
-            <h3 class="card-title">Report</h3>
-            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa consequatur modi rerum
-              eligendi od</p>
-            <div class="learn-more" style="display: flex;"><span
-                style="font-size: 30px; margin-right: 1rem; ;">></span><span>Learn more</span></div>
-          </a>
-        </div>
-        <div class="card-wrapper card">
-          <a href="">
-            <h3 class="card-title">Report</h3>
-            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa consequatur modi rerum
-              eligendi od</p>
-            <div class="learn-more" style="display: flex;"><span
-                style="font-size: 30px; margin-right: 1rem; ;">></span><span>Learn more</span></div>
-          </a>
-        </div>
-        <div class="card-wrapper-w-img card">
-          <a href="">
-            <div class="img-wrapper">
-
-              <img
-                src="https://marvel-b1-cdn.bc0a.com/f00000000091204/www.nice.com/-/media/niceincontact/page-content/home---new/home/new-home/latest-news/gartner-nicecom-2023.ashx?rev=a5e60ea5efca4971962dbb9b29605207"
-                alt="">
-            </div>
-            <h3 class="card-title">Report</h3>
-            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa consequatur modi rerum
-              eligendi od</p>
-            <div class="learn-more" style="display: flex;"><span
-                style="font-size: 30px; margin-right: 1rem; ;">></span><span>Learn more</span></div>
-          </a>
-        </div>
-        <div class="card-wrapper card">
-          <a href="">
-            <h3 class="card-title">Report</h3>
-            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa consequatur modi rerum
-              eligendi od</p>
-            <div class="learn-more" style="display: flex;"><span
-                style="font-size: 30px; margin-right: 1rem; ;">></span><span>Learn more</span></div>
-          </a>
-        </div>
-        <div class="card-wrapper-w-img card">
-          <a href="">
-            <div class="img-wrapper">
-
-              <img
-                src="https://marvel-b1-cdn.bc0a.com/f00000000091204/www.nice.com/-/media/niceincontact/page-content/home---new/home/new-home/latest-news/gartner-nicecom-2023.ashx?rev=a5e60ea5efca4971962dbb9b29605207"
-                alt="">
-            </div>
-            <h3 class="card-title">Report</h3>
-            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa consequatur modi rerum
-              eligendi od</p>
-            <div class="learn-more" style="display: flex;"><span
-                style="font-size: 30px; margin-right: 1rem; ;">></span><span>Learn more</span></div>
-          </a>
-        </div>
-      </div>
-
-      </div>
-    </section>
-    <section class="nice-things">
-      
-      <div class="nice-things-wrapper">
-        <div class="left-wrapper">
-          <h3>Nice things people say</h3>
-          <p>Our commitment to customer experiences has earned the trust of over 620,000 agents worldwide. Here’s what some of them say about us.</p>
-        </div>
-        <div class="right-wrapper">
-          <div class="carousel-btn flex">
-            <div class="left c-btn flex"><</div>
-            <div class="right c-btn flex">></div>
-          </div>
-        <div class="img-container">
-          <img src="Media/girl.jpg" alt="Customers Feedback">
-          <p></p>
-         <div class="watch-now">
-          <span></span><span></span>
-         </div>
-        </div>
-        </div>
-      </div>
-    </section>
-    <section class="Featured-companies">
-      <div class="wrapper">
-        <div class="h2-heading">
-          <h2>Trusted by the world's leading companies.</h2>
-        </div>
-
-        <div class="img-carousel">
-          <div class="card-wrapper-c">
-          <div class="c-img-wrap">
-            <img src="Media/Companies/200x100-aaa.webp" alt="">
-          </div>
-          <div class="c-img-wrap">
-            <img src="Media/Companies/200x100-accenture.webp" alt="">
-          </div>
-          <div class="c-img-wrap">
-            <img src="Media/Companies/200x100-americanairlines.webp" alt="">
-          </div>
-          <div class="c-img-wrap">
-            <img src="Media/Companies/200x100-moneygram.webp" alt="">
-          </div>
-          <div class="c-img-wrap">
-            <img src="Media/Companies/200x100-morgan.webp" alt="">
-          </div>
-          <div class="c-img-wrap">
-            <img src="Media/Companies/200x100-pepco.webp" alt="">
-          </div>
-          <div class="c-img-wrap">
-            <img src="Media/Companies/200x100-unionbank.webp" alt="">
-          </div>
-          <div class="c-img-wrap">
-            <img src="Media/Companies/200x100-unisys.webp" alt="">
-          </div>
-          <div class="c-img-wrap">
-            <img src="Media/Companies/200x100-visa.webp" alt="">
-          </div>
-        </div>
-        </div>
-
-      </div>
-    </section>
+     
+    
   </main>
   <footer id="footer">
     <nav>
       <ul>
         <div class="company-footer flex">
           <div class="site-logo">
-            <a href=""><img src="Media/Klaxontech light logo.png" alt="Klaxontech logo"></a>
+            <a href="/"><img src="Media/Klaxontech light logo.png" alt="Klaxontech logo"></a>
           </div>
           <div class="list-items flex">
             <a href="about-us.html">
               <li>ABOUT US</li>
             </a>
-            <a href="contact.html">
+            <a href="contact-us.html">
               <li>
                 CONTACT US</li>
             </a>

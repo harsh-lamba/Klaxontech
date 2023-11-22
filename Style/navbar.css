@@ -46,7 +46,7 @@
     /* display: none; */
     z-index: 1001;
     background-color: #FFFFFF;
-    border-bottom: 1px solid #e3e3e3;
+    
 }
 .desktop-nav ul #left-items{
     display: flex;
