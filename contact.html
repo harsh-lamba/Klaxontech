@@ -27,52 +27,61 @@
 
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="Style/contact.css">
-<script nonce="64f34622-e2b6-49e6-9eaa-57792ac8cd7f">
-(function(w,d){!function(j,k,l,m){j[l]=j[l]||{};j[l].executed=[];j.zaraz={deferred:[],listeners:[]};j.zaraz.q=[];j.zaraz._f=function(n){return async function(){var o=Array.prototype.slice.call(arguments);j.zaraz.q.push({m:n,a:o})}};for(const p of["track","set","debug"])j.zaraz[p]=j.zaraz._f(p);j.zaraz.init=()=>{var q=k.getElementsByTagName(m)[0],r=k.createElement(m),s=k.getElementsByTagName("title")[0];s&&(j[l].t=k.getElementsByTagName("title")[0].text);j[l].x=Math.random();j[l].w=j.screen.width;j[l].h=j.screen.height;j[l].j=j.innerHeight;j[l].e=j.innerWidth;j[l].l=j.location.href;j[l].r=k.referrer;j[l].k=j.screen.colorDepth;j[l].n=k.characterSet;j[l].o=(new Date).getTimezoneOffset();if(j.dataLayer)for(const w of Object.entries(Object.entries(dataLayer).reduce(((x,y)=>({...x[1],...y[1]})),{})))zaraz.set(w[0],w[1],{scope:"page"});j[l].q=[];for(;j.zaraz.q.length;){const z=j.zaraz.q.shift();j[l].q.push(z)}r.defer=!0;for(const A of[localStorage,sessionStorage])Object.keys(A||{}).filter((C=>C.startsWith("_zaraz_"))).forEach((B=>{try{j[l]["z_"+B.slice(7)]=JSON.parse(A.getItem(B))}catch{j[l]["z_"+B.slice(7)]=A.getItem(B)}}));r.referrerPolicy="origin";r.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(j[l])));q.parentNode.insertBefore(r,q)};["complete","interactive"].includes(k.readyState)?zaraz.init():j.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document); 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Style/contact.css">
+  <script nonce="64f34622-e2b6-49e6-9eaa-57792ac8cd7f">
+    (function (w, d) { !function (j, k, l, m) { j[l] = j[l] || {}; j[l].executed = []; j.zaraz = { deferred: [], listeners: [] }; j.zaraz.q = []; j.zaraz._f = function (n) { return async function () { var o = Array.prototype.slice.call(arguments); j.zaraz.q.push({ m: n, a: o }) } }; for (const p of ["track", "set", "debug"]) j.zaraz[p] = j.zaraz._f(p); j.zaraz.init = () => { var q = k.getElementsByTagName(m)[0], r = k.createElement(m), s = k.getElementsByTagName("title")[0]; s && (j[l].t = k.getElementsByTagName("title")[0].text); j[l].x = Math.random(); j[l].w = j.screen.width; j[l].h = j.screen.height; j[l].j = j.innerHeight; j[l].e = j.innerWidth; j[l].l = j.location.href; j[l].r = k.referrer; j[l].k = j.screen.colorDepth; j[l].n = k.characterSet; j[l].o = (new Date).getTimezoneOffset(); if (j.dataLayer) for (const w of Object.entries(Object.entries(dataLayer).reduce(((x, y) => ({ ...x[1], ...y[1] })), {}))) zaraz.set(w[0], w[1], { scope: "page" }); j[l].q = []; for (; j.zaraz.q.length;) { const z = j.zaraz.q.shift(); j[l].q.push(z) } r.defer = !0; for (const A of [localStorage, sessionStorage]) Object.keys(A || {}).filter((C => C.startsWith("_zaraz_"))).forEach((B => { try { j[l]["z_" + B.slice(7)] = JSON.parse(A.getItem(B)) } catch { j[l]["z_" + B.slice(7)] = A.getItem(B) } })); r.referrerPolicy = "origin"; r.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(j[l]))); q.parentNode.insertBefore(r, q) };["complete", "interactive"].includes(k.readyState) ? zaraz.init() : j.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);
 
-</script>
+  </script>
 
 </head>
 <style>
-    .contact-background-wrapper{
-        position: absolute;
-        width: 103vw;
-        height: 100%;
-        z-index: -1;
-        /* border: 2px solid red; */
-        
-    }
-    .contact-background-wrapper video{
-      position: absolute;
+  .contact-background-wrapper {
+    position: absolute;
+    width: 103vw;
+    height: 100%;
+    z-index: -1;
+    /* border: 2px solid red; */
+
+  }
+
+  .contact-background-wrapper video {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     background-color: #03011E;
-    }
+  }
 
-    .ftco-section{
-      padding: 0 !important;
-      /* border: 2px solid red; */
-    }
+  .ftco-section {
+    padding: 0 !important;
+    /* border: 2px solid red; */
+  }
 
-    .container{
-      padding: 50px 0 112px 0 !important;
-      /* border: 2px solid red; */
-    }
-    .bg-hero:after{
-      opacity: 0 !important;
-    }
-    .info-wrap p, .info-wrap span,.info-wrap div, .info-wrap h3, .info-wrap h2, .info-wrap span a{
-      color: #000000 !important
-    }
-    .heading-section{
-      color: #000000 !important;
-    }
-    </style>
+  .container {
+    padding: 50px 0 112px 0 !important;
+    /* border: 2px solid red; */
+  }
+
+  .bg-hero:after {
+    opacity: 0 !important;
+  }
+
+  .info-wrap p,
+  .info-wrap span,
+  .info-wrap div,
+  .info-wrap h3,
+  .info-wrap h2,
+  .info-wrap span a {
+    color: #000000 !important
+  }
+
+  .heading-section {
+    color: #000000 !important;
+  }
+</style>
 
 <body id="body">
   <header id="site-header">
@@ -80,12 +89,13 @@
       <div id="nav-wrapper">
         <div class="desktop-nav">
           <div class="dropdown-wrapper">
-            
+
             <div class="services-wrapper dropdown">
               <a href="">Application Services</a><a href="">Artificial Intelligence</a><a href="">Automation</a><a
                 href="">Business Process Outsourcing</a><a href="">Business Strategy</a><a href="">Change
-                Management</a><a href="">Cloud</a><a href="">Customer Experience</a><a href="">Data & Analytics</a><a href="">Enterprise Platforms</a><a href="">Finance Consulting</a><a
-                href="">Infrastructure</a><a href="">Marketing</a><a href="">Operating Models</a><a href="">Security</a><a href="">Supply Chain
+                Management</a><a href="">Cloud</a><a href="">Customer Experience</a><a href="">Data & Analytics</a><a
+                href="">Enterprise Platforms</a><a href="">Finance Consulting</a><a href="">Infrastructure</a><a
+                href="">Marketing</a><a href="">Operating Models</a><a href="">Security</a><a href="">Supply Chain
                 Management</a><a href="">Sustainability</a><a href="">Technology Consulting</a><a href="">Technology
                 Innovation</a>
             </div>
@@ -93,12 +103,12 @@
               <a href="">Aerospace and Defense</a><a href="">Automotive</a><a href="">Banking</a><a href="">Capital
                 Markets</a><a href="">Chemicals</a><a href="">Communications and Media</a><a href="">Consumer Goods and
                 Services</a><a href="">Energy</a><a href="">Health</a><a href="">High Tech</a><a
-                href="">Industrial</a><a href="">Insurance</a><a href="">Public Service</a><a href="">Retail</a><a href="">Software and Platforms</a><a
-                href="">Travel</a>
+                href="">Industrial</a><a href="">Insurance</a><a href="">Public Service</a><a href="">Retail</a><a
+                href="">Software and Platforms</a><a href="">Travel</a>
             </div>
           </div>
-          <ul>
-            <ion-icon name="menu-outline" size="large" id="hamburger" class="hamburger pointer"></ion-icon>
+          <ul style="margin-bottom: 0 !important;">
+            <ion-icon style="color: #000 !important;" name="menu-outline" size="large" id="hamburger" class="hamburger pointer"></ion-icon>
             <ion-icon name="close-outline" class="cross pointer hide"></ion-icon>
             <div id="left-items" class="">
               <a href="index.html" class="klaxontech-logo" id="klaxontech-dark-logo">
@@ -125,7 +135,7 @@
                 </div>
                 <div class="list-item-wrapper flex">
                   <li class="list-item flex">
-                    Careers
+                    <a href="/contact.html">Contact Us</a>
                     <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
                   </li>
                 </div>
@@ -134,7 +144,7 @@
                     <a href="about-us.html">
                       About Klaxontech
                     </a>
-                    
+
                     <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
                   </li>
                 </div>
@@ -144,7 +154,9 @@
               <div class="search-wrapper flex">
                 <i class="bi bi-search flex"></i>
               </div>
-              <div class="site-translator-wrapper">
+              <div class="site-translator-wrapper" style="
+              height: 93px;
+          ">
                 <div id="google_translate_element"></div>
               </div>
             </div>
@@ -161,11 +173,13 @@
                 </li>
                 <div class="sub-items-wrapper">
                   <a href="">Application Services</a><a href="">Artificial Intelligence</a><a href="">Automation</a><a
-                href="">Business Process Outsourcing</a><a href="">Business Strategy</a><a href="">Change
-                Management</a><a href="">Cloud</a><a href="">Customer Experience</a><a href="">Data & Analytics</a><a href="">Enterprise Platforms</a><a href="">Finance Consulting</a><a
-                href="">Infrastructure</a><a href="">Marketing</a><a href="">Operating Models</a><a href="">Security</a><a href="">Supply Chain
-                Management</a><a href="">Sustainability</a><a href="">Technology Consulting</a><a href="">Technology
-                Innovation</a>
+                    href="">Business Process Outsourcing</a><a href="">Business Strategy</a><a href="">Change
+                    Management</a><a href="">Cloud</a><a href="">Customer Experience</a><a href="">Data &
+                    Analytics</a><a href="">Enterprise Platforms</a><a href="">Finance Consulting</a><a
+                    href="">Infrastructure</a><a href="">Marketing</a><a href="">Operating Models</a><a
+                    href="">Security</a><a href="">Supply Chain
+                    Management</a><a href="">Sustainability</a><a href="">Technology Consulting</a><a href="">Technology
+                    Innovation</a>
                 </div>
               </div>
               <div class="list-item-wrapper m-list flex">
@@ -175,10 +189,11 @@
                 </li>
                 <div class="sub-items-wrapper fix-w">
                   <a href="">Aerospace and Defense</a><a href="">Automotive</a><a href="">Banking</a><a href="">Capital
-                    Markets</a><a href="">Chemicals</a><a href="">Communications and Media</a><a href="">Consumer Goods and
+                    Markets</a><a href="">Chemicals</a><a href="">Communications and Media</a><a href="">Consumer Goods
+                    and
                     Services</a><a href="">Energy</a><a href="">Health</a><a href="">High Tech</a><a
-                    href="">Industrial</a><a href="">Insurance</a><a href="">Public Service</a><a href="">Retail</a><a href="">Software and Platforms</a><a
-                    href="">Travel</a>
+                    href="">Industrial</a><a href="">Insurance</a><a href="">Public Service</a><a href="">Retail</a><a
+                    href="">Software and Platforms</a><a href="">Travel</a>
                 </div>
               </div>
               <div class="list-item-wrapper m-list flex">
@@ -186,11 +201,11 @@
                   <span><a href=""> Blogs</a></span>
                   <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
                 </li>
-              
+
               </div>
               <div class="list-item-wrapper m-list flex">
                 <li class="list-item flex">
-                  <span><a href=""> Careers</a></span>
+                  <span><a href="">Careers</a></span>
                   <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
                 </li>
               </div>
@@ -204,12 +219,13 @@
 
             <div class="mobile-nav-contact-wrapper">
               <div class="contact-wrapper">
-                <a href="">Contact Us</a><a href="">Careers</a><a href="">Locations</a>
+                <a href="/contact.html">Contact Us</a><a href="">Careers</a><a href="">Locations</a>
               </div>
               <div class="social-media">
-                <a href="https://www.linkedin.com/company/klaxontech/"><ion-icon name="logo-linkedin"></ion-icon></a><a href="https://twitter.com/Klaxontech_Inc/"><ion-icon
-                    name="logo-twitter"></ion-icon></a><a href="https://www.facebook.com/Klaxontech/"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="https://www.instagram.com/klaxontech_inc/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/company/klaxontech/"><ion-icon name="logo-linkedin"></ion-icon></a><a
+                  href="https://twitter.com/Klaxontech_Inc/"><ion-icon name="logo-twitter"></ion-icon></a><a
+                  href="https://www.facebook.com/Klaxontech/"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/klaxontech_inc/"><ion-icon name="logo-instagram"></ion-icon></a>
                 <a href=""><ion-icon name="mail"></ion-icon></a>
               </div>
             </div>
@@ -242,115 +258,124 @@
       </div>
     </nav>
 
-    <section class="ftco-section img bg-hero" >
-        <div class="contact-background-wrapper">
-            <video src="Media/contact-background.mp4" autoplay muted ></video>
-            </div>
-        <div class="container">
+    <section class="ftco-section img bg-hero">
+      <div class="contact-background-wrapper">
+        <video src="Media/contact-background.mp4" autoplay muted></video>
+      </div>
+      <div class="container">
         <div class="row justify-content-center">
-        <div class="col-md-6 text-center mb-5">
-        <h2 class="heading-section">Contact us
-</h2>
-        </div>
+          <div class="col-md-6 text-center mb-5">
+            <h2 class="heading-section">Contact us
+            </h2>
+          </div>
         </div>
         <div class="row justify-content-center">
-        <div class="col-lg-11">
-        <div class="wrapper">
-        <div class="row no-gutters justify-content-between">
-        <div class="col-lg-6 d-flex align-items-stretch">
-        <div class="info-wrap w-100 p-5" >
-        <h3 class="mb-4">Contact us</h3>
-        <div class="dbox w-100 d-flex align-items-start">
-        <div class="icon d-flex align-items-center justify-content-center">
-        <span class="fa fa-map-marker"></span>
-        </div>
-        <div class="text pl-4">
-        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-        </div>
-        </div>
-        <div class="dbox w-100 d-flex align-items-start">
-        <div class="icon d-flex align-items-center justify-content-center">
-        <span class="fa fa-phone"></span>
-        </div>
-        <div class="text pl-4">
-        <p><span>Phone:</span> <a href="tel://1234567920" style="color: #000000;">+ 1235 2355 98</a></p>
-        </div>
-        </div>
-        <div class="dbox w-100 d-flex align-items-start">
-        <div class="icon d-flex align-items-center justify-content-center">
-        <span class="fa fa-paper-plane"></span>
-        </div>
-        <div class="text pl-4">
-        <p><span>Email:</span> <a href="/cdn-cgi/l/email-protection#84edeae2ebc4fdebf1f6f7edf0e1aae7ebe9"><span class="__cf_email__" data-cfemail="1a73747c755a63756f6869736e7f34797577">hr@klaxontech.com</span></a></p>
-        </div>
-        </div>
-        <div class="dbox w-100 d-flex align-items-start">
-        <div class="icon d-flex align-items-center justify-content-center">
-        <span class="fa fa-globe"></span>
-        </div>
-        <div class="text pl-4">
-        <p><span>Website</span> <a href="/" style="color: #000000;">www.klaxontech.com</a></p>
-        </div>
-        </div>
-        </div>
-        </div>
-        <div class="col-lg-5" style="
+          <div class="col-lg-11">
+            <div class="wrapper">
+              <div class="row no-gutters justify-content-between">
+                <div class="col-lg-6 d-flex align-items-stretch">
+                  <div class="info-wrap w-100 p-5">
+                    <h3 class="mb-4">Contact us</h3>
+                    <div class="dbox w-100 d-flex align-items-start">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-map-marker"></span>
+                      </div>
+                      <div class="text pl-4">
+                        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-start">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-phone"></span>
+                      </div>
+                      <div class="text pl-4">
+                        <p><span>Phone:</span> <a href="tel://1234567920" style="color: #000000;">+ 1235 2355 98</a></p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-start">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-paper-plane"></span>
+                      </div>
+                      <div class="text pl-4">
+                        <p><span>Email:</span> <a
+                            href="/cdn-cgi/l/email-protection#84edeae2ebc4fdebf1f6f7edf0e1aae7ebe9"><span
+                              class="__cf_email__"
+                              data-cfemail="1a73747c755a63756f6869736e7f34797577">hr@klaxontech.com</span></a></p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-start">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-globe"></span>
+                      </div>
+                      <div class="text pl-4">
+                        <p><span>Website</span> <a href="/" style="color: #000000;">www.klaxontech.com</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5" style="
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        border-radius: 10px;"
-    >
-        <div class="contact-wrap w-100 p-md-5 p-4"  >
-        <h3 class="mb-4">Get in touch</h3>
-        <div id="form-message-warning" class="mb-4"></div>
-        <div id="form-message-success" class="mb-4">
-        Your message was sent, thank you!
+        border-radius: 10px;">
+                  <div class="contact-wrap w-100 p-md-5 p-4">
+                    <h3 class="mb-4">Get in touch</h3>
+                    <div id="form-message-warning" class="mb-4"></div>
+                    <div id="form-message-success" class="mb-4">
+                      Your message was sent, thank you!
+                    </div>
+                    <form id="contactForm" name="contactForm" action="/">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="5"
+                              placeholder="Message"></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="submit" style="background-color: #1B48A4 !important;" value="Send Message"
+                              class="btn btn-primary">
+                            <div class="submitting"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <form method="POST" id="contactForm" name="contactForm">
-        <div class="row">
-        <div class="col-md-12">
-        <div class="form-group">
-        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-        </div>
-        </div>
-        <div class="col-md-12">
-        <div class="form-group">
-        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-        </div>
-        </div>
-        <div class="col-md-12">
-        <div class="form-group">
-        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-        </div>
-        </div>
-        <div class="col-md-12">
-        <div class="form-group">
-        <textarea name="message" class="form-control" id="message" cols="30" rows="5" placeholder="Message"></textarea>
-        </div>
-        </div>
-        <div class="col-md-12">
-        <div class="form-group">
-        <input type="submit" style="background-color: #1B48A4 !important;" value="Send Message" class="btn btn-primary">
-        <div class="submitting"></div>
-        </div>
-        </div>
-        </div>
-        </form>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </section>
-        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/main.js"></script>
-        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"829ec8093d9084cb","version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+      </div>
+    </section>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+    <script defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+      integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
+      data-cf-beacon='{"rayId":"829ec8093d9084cb","version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}'
+      crossorigin="anonymous"></script>
 
-     
-    
+
+
   </main>
   <footer id="footer">
     <nav>
@@ -377,10 +402,11 @@
             </a>
           </div>
           <div class="social-media">
-            <a href="https://www.linkedin.com/company/klaxontech/"><ion-icon name="logo-linkedin"></ion-icon></a><a href="https://twitter.com/Klaxontech_Inc/"><ion-icon
-              name="logo-twitter"></ion-icon></a><a href="https://www.facebook.com/Klaxontech/"><ion-icon name="logo-facebook"></ion-icon></a>
-              <a href="https://www.instagram.com/klaxontech_inc/"><ion-icon name="logo-instagram"></ion-icon></a>
-          <a href=""><ion-icon name="mail"></ion-icon></a>
+            <a href="https://www.linkedin.com/company/klaxontech/"><ion-icon name="logo-linkedin"></ion-icon></a><a
+              href="https://twitter.com/Klaxontech_Inc/"><ion-icon name="logo-twitter"></ion-icon></a><a
+              href="https://www.facebook.com/Klaxontech/"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/klaxontech_inc/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href=""><ion-icon name="mail"></ion-icon></a>
           </div>
         </div>
         <div class="site-footer flex">

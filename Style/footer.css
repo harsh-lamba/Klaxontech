@@ -123,7 +123,7 @@
     .company-footer .list-items {
         flex-wrap: wrap;
         font-size: 14px;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .site-footer{
        
