@@ -639,11 +639,12 @@
     cursor: pointer;
     height: 5rem;
     width: 5rem;
-    background-color: #1B48A4;
+    background-color: rgb(27 72 164 / 78%);
     border-radius: 50%;
     z-index: 600;
     margin: 1.5rem 1.5rem;
     opacity: 0;
+    border: none;
     transition:  0.3s all ease-in-out;
    
 }
