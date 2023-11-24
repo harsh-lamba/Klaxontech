@@ -424,6 +424,7 @@
     width: 100%;
     padding: 1rem 0;
     margin: 0;
+    color: #000;
 }
 .mobile-nav .list-item-wrapper li ion-icon {
     font-size: 20px;
@@ -634,18 +635,21 @@
 }
 
 .arrow-wrapper{
+    position: relative;
+    left: 93.4vw;
     padding: 1.7rem 2.2rem;
     outline: none;
     border: none;
     cursor: pointer;
-    height: 5rem;
-    width: 5rem;
+    height: 3.6rem;
+    width: 3.6rem;
     background-color: rgb(27 72 164 / 78%);
     border-radius: 50%;
     z-index: 600;
     margin: 1.5rem 1.5rem;
     opacity: 0;
     border: none;
+    outline: none !important;
     transition:  0.2s all ease;
    
 }
