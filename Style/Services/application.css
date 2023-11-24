@@ -96,6 +96,7 @@ first Section */
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 50px;
+    padding-bottom: 1rem;
 }
 
 .tittle-wrap{
@@ -104,6 +105,7 @@ first Section */
     padding-bottom: 3rem;
     
 }
+
 .tittle-wrap h2{
     font-size: 4.8rem;
     flex-basis: 66.66667%;
@@ -127,6 +129,8 @@ first Section */
     font-size: 1.6rem;
     line-height: 1.6;
     display: block;
+    color: #000;
+    font-weight: 400;
 } 
 
 .para-img-wrap p:nth-child(2){
@@ -142,6 +146,7 @@ first Section */
 
 .img-wrap{
     padding-left: 15px;
+   
     flex-basis: 50%;
 }
 
@@ -216,4 +221,29 @@ first Section */
         padding-bottom: 2rem;
     }
 
+}
+
+@media screen and (max-width: 500px){
+
+    .tittle-wrap h2{
+        flex-basis: 100%;
+    }
+
+    .para-img-wrap p{
+        font-size: 1.4rem;
+        
+    } 
+
+    .para-img-wrap p:nth-child(2){
+        margin-top: 1.6rem;
+    } 
+
+    .section-wrap{
+        padding-top: 30px;
+    }
+
+    .tittle-wrap{
+        padding-bottom: 2rem;
+        
+    }
 }
