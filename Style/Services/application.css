@@ -138,7 +138,7 @@ first Section */
     font-weight: 400;
 }
 
-.para-img-wrap p:nth-child(2) {
+.para-img-wrap p:nth-child(2), .para-img-wrap p:nth-child(3), .para-img-wrap p:nth-child(4){
     margin-top: 2.56rem;
 }
 
