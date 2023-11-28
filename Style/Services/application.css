@@ -19,6 +19,10 @@
     padding: 50px 15px 3.5rem;
 
 }
+.hero-content-wrap h1{
+   padding-top: 30px;
+
+}
 
 .main-content-wrap {
     position: absolute;
