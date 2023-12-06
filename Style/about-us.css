@@ -32,7 +32,18 @@
     font-weight: 500;
 }
 
+
+.who-we-are-wrap{
+    position: relative;
+    background-color: #fff;
+    /* width: 100vw; */
+    
+}
+
+
 .who-we-are{
+    position: relative;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;

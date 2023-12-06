@@ -19,6 +19,22 @@
   <link rel="stylesheet" href="Style/nice.css" />
   <link rel="stylesheet" href="Style/footer.css" />
   <link rel="stylesheet" href="Style/about-us.css" />
+  <link rel="stylesheet" href="Style/Services/application.css" />
+
+
+  <style>
+
+#about-us-content{
+  color: #000;
+}
+
+@media screen and (max-width: 768px){
+
+  #about-us-content{
+    color: #fff;
+  }
+}
+  </style>
 
   <script defer type="text/javascript"
     src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
@@ -194,13 +210,25 @@
       </div>
     </nav>
 
-    <section class="about-us-hero">
-      <div class="wrapper">
-        <img src="Media/about-us-hero.jpg" alt="about us klaxontech">
-        <p>About us</p>
+    <section id="hero-section">
+      <div class="hero-wrapper">
+        <div class="main-content-wrap">
+
+          <div class="hero-content-wrap" id="about-us-content">
+            <h1>About Klaxontech
+            </h1>
+            <p><span>
+              Bringing together the power of technology and human creativity to fulfill our commitments.
+
+              </span></p>
+          </div>
+        </div>
+        <div class="video-wrap">
+          <video src="Media/About-us.mp4" autoplay muted loop></video>
+        </div>
       </div>
     </section>
-
+    <div class="who-we-are-wrap"> 
     <section class="who-we-are">
       <h2> Who <span style="color:#1B48A4;">we are. </span></h2>
       <div class="content">
@@ -216,6 +244,7 @@ We paint with our customers to expand custom-designed IT answers that meet their
 We are devoted to supporting our customers to obtain IT excellence. We accept as true that the proper IT answers can deliver groups an aggressive benefit and assist them in obtaining their commercial enterprise goals.</p>
 </div>
     </section>
+  </div>
 
     <section class="what-we-do">
       <div class="img-wrapper">
