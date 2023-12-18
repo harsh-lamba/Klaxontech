@@ -115,7 +115,7 @@ first Section */
     font-size: 4.8rem;
     flex-basis: 66.66667%;
     line-height: 1.05;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     text-transform: none;
     color: #000;
@@ -178,7 +178,7 @@ first Section */
 
 .tittle-wrapper h2{
     padding: 50px 0 30px 0;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     text-transform: none;
     color: #000;
