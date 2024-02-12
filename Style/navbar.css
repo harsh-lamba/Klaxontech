@@ -69,10 +69,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     list-style: none;
     gap: 1rem;
-    font-weight: 300;
+    font-weight: 500;
     padding: 0rem 3rem;
 }
 

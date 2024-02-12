@@ -1,0 +1,23 @@
+section.offering{
+    /* background-color: red; */
+    padding: 0 1.2rem;
+    margin:  0 10.1rem;
+    padding-top: 10.1rem;
+
+}
+
+.offering h2{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 6rem;
+    text-align: center;
+}
+.offering p{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(118,118,118,1);
+    padding-top: 1rem 1rem;
+}
+
+
