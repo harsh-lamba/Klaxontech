@@ -1591,3 +1591,189 @@ Nice things.css
         transform: translateX(0rem);
     }
 }
+
+/**
+About-us.css
+*/
+
+.about-us-hero{
+    max-width: 100vw;
+    height: 70vh;
+    position: relative;
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,.05);
+}
+
+
+.about-us-hero .wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.about-us-hero img{
+    position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   background-color: #03011E;
+
+}
+.about-us-hero p{
+    position: absolute;
+    /* top: 50%; */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    color: #1B48A4;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+
+.who-we-are-wrap{
+    position: relative;
+    background-color: #fff;
+    /* width: 100vw; */
+    
+}
+
+
+.who-we-are{
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    margin: 0 275px;
+}
+.who-we-are p {
+    margin: 18px 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: center;
+}
+.who-we-are h2{
+    font-weight: 400;
+    font-size: 28px;
+    
+    
+    
+}
+
+
+.what-we-do{
+    width: 100vw;
+    /* border: 2px solid blue; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    padding: 50px 15px;
+    
+}
+.what-we-do h2{
+    font-weight: 400;
+    font-size: 28px;
+}
+    
+
+
+.what-we-do .img-wrapper{
+    width: 751px;
+    height: 421px;
+    
+    position: relative;
+    overflow: hidden;
+    border-radius: 35px;
+
+}
+.what-we-do .img-wrapper img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.what-we-do p{
+    margin: 18px 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.what-we-do .wrapper{
+   width: 50%;
+   padding: 0 25px;
+}
+
+/* Responsive style */
+
+@media screen and (max-width: 1200px){
+    .about-us-hero{
+        max-width: 100vw;
+        height: 40vh;
+        position: relative;
+    }
+    .about-us-hero p{
+        position: absolute;
+        /* top: 50%; */
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,50%);
+        color: #1B48A4;
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .who-we-are{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+        margin: 0 15px;
+    }
+
+}
+@media screen and (max-width: 1000px){
+    .what-we-do{
+        width: 100vw;
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+       
+        flex-direction: column;
+        
+    }
+    .what-we-do .img-wrapper{
+        width: 751px;
+        height: 421px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 35px;
+        padding-bottom: 25px;
+    
+    }
+    .what-we-do .wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 25px 0px;
+     }
+
+}
+@media screen and (max-width: 768px){
+    .what-we-do .img-wrapper{
+        width: 333px;
+        height: 186px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 35px;
+        padding-bottom: 25px;
+    
+    }
+    
+}
