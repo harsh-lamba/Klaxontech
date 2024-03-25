@@ -46,8 +46,8 @@ https://www2.deloitte.com/us/en.html
 
 
 Tasks:
-1. Pages placeholder: For all the links: services and industries. - Prateek
-2. index.html links update and then copy them to each and every html. - Prateek
+1. Pages placeholder: For all the links: services and industries. - Prateek  --->done
+2. index.html links update and then copy them to each and every html. - Prateek   ---> done
 3. Card design - Prateek. (Harsh)
 4. Button design - Harsh
 5. Form design and button design. (make it consiste across application) : Harsh

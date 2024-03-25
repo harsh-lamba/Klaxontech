@@ -19,8 +19,9 @@
     padding: 50px 15px 3.5rem;
 
 }
-.hero-content-wrap h1{
-   padding-top: 30px;
+
+.hero-content-wrap h1 {
+    padding-top: 30px;
 
 }
 
@@ -35,7 +36,7 @@
 }
 
 .hero-content-wrap h1 {
-    font-size: 5.8rem;
+    font-size: 4.8rem;
     font-weight: 800;
     font-style: normal;
     text-transform: none;
@@ -138,7 +139,9 @@ first Section */
     font-weight: 400;
 }
 
-.para-img-wrap p:nth-child(2), .para-img-wrap p:nth-child(3), .para-img-wrap p:nth-child(4){
+.para-img-wrap p:nth-child(2),
+.para-img-wrap p:nth-child(3),
+.para-img-wrap p:nth-child(4) {
     margin-top: 2.56rem;
 }
 
@@ -176,7 +179,7 @@ first Section */
     max-width: 787px;
 }
 
-.tittle-wrapper h2{
+.tittle-wrapper h2 {
     padding: 50px 0 30px 0;
     font-weight: 500;
     font-style: normal;
@@ -185,7 +188,8 @@ first Section */
     line-height: 1.05;
     font-size: 4.8rem;
 }
-.tittle-wrapper p{
+
+.tittle-wrapper p {
     padding-bottom: 20px;
     line-height: 1.6;
     text-transform: none;
@@ -194,13 +198,14 @@ first Section */
 
 }
 
-.cards-container .card-wrap .s-card{
+.cards-container .card-wrap .s-card {
     border: 1px solid #ccc;
     background-color: #f2f2f2;
     padding: 25px 20px;
     transition: .2s all ease;
 }
-.cards-container .card-wrap .s-card h3{
+
+.cards-container .card-wrap .s-card h3 {
     font-weight: 800;
     font-style: normal;
     text-transform: none;
@@ -208,28 +213,30 @@ first Section */
     line-height: 1.2;
     font-size: 2.5rem;
 }
-.cards-container .card-wrap .s-card p{
+
+.cards-container .card-wrap .s-card p {
     margin-top: 15px;
     font-size: 1.4rem;
     line-height: 1.2;
 }
 
-.card-wrap{
+.card-wrap {
     padding: 5px 5px 0 0;
-    background: linear-gradient(270deg,#1B48A4 5px,transparent 0) 100% 0,linear-gradient(180deg,#1B48A4 5px,transparent 0) 100% 0;
+    background: linear-gradient(270deg, #1B48A4 5px, transparent 0) 100% 0, linear-gradient(180deg, #1B48A4 5px, transparent 0) 100% 0;
     background-repeat: no-repeat;
     background-size: 56px 40px;
     transition: 0.2s all ease;
 }
 
-.card-wrap:hover{
-    transform: translate(-2px,-2px);
+.card-wrap:hover {
+    transform: translate(-2px, -2px);
 }
-.s-card:hover{
+
+.s-card:hover {
     box-shadow: rgb(38, 57, 77) 0px 10px 15px -5px;
 }
 
-.cards-container{
+.cards-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -241,7 +248,7 @@ first Section */
 }
 
 
-.card-wrap{
+.card-wrap {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -254,12 +261,12 @@ first Section */
 
 /* Third Section css */
 
-#third-section{
+#third-section {
     width: 100%;
     background-color: #F2F2F2;
 }
 
-#third-section .main-wrap .card-wrap .s-card{
+#third-section .main-wrap .card-wrap .s-card {
     background-color: #FFFFFF;
 }
 
@@ -291,30 +298,34 @@ first Section */
         font-size: 1.4rem;
     }
 
-    .tittle-wrap h2, .tittle-wrapper h2 {
+    .tittle-wrap h2,
+    .tittle-wrapper h2 {
         font-size: 2.4rem;
     }
-    .tittle-wrapper p{
+
+    .tittle-wrapper p {
         font-size: 1.4rem;
     }
+
     .main-wrap {
-        margin: 0 ;
+        margin: 0;
         padding: 0 35px 20px 35px;
     }
 
-    .cards-container .card-wrap .s-card h3{
-        
+    .cards-container .card-wrap .s-card h3 {
+
         font-size: 1.8rem;
     }
-    .cards-container .card-wrap .s-card P{
+
+    .cards-container .card-wrap .s-card P {
         font-size: 1.2rem;
     }
 
-    .card-wrap{
+    .card-wrap {
         flex: 0 0 50%;
-        max-width: 45%;  
+        max-width: 45%;
     }
-    
+
 }
 
 @media screen and (max-width: 768px) {
@@ -350,20 +361,21 @@ first Section */
         padding-bottom: 2rem;
     }
 
-    .card-wrap{
+    .card-wrap {
         flex: 0 0 96%;
-        max-width: 100%;  
+        max-width: 100%;
     }
 
-    .tittle-wrapper h2{
+    .tittle-wrapper h2 {
         padding: 30px 0 20px 0;
-        
+
     }
 
     .main-wrap {
         padding: 0 15px 10px 15px;
     }
-    .cards-container{
+
+    .cards-container {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -374,11 +386,11 @@ first Section */
         max-width: calc(100% + 60px);
     }
 
-    
-.card-wrap{
-    margin-left: 0px;
-    margin-right: 0PX;
-}
+
+    .card-wrap {
+        margin-left: 0px;
+        margin-right: 0PX;
+    }
 
 }
 
