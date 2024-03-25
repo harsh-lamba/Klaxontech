@@ -1990,3 +1990,13 @@ About-us.css
     border-radius: 5px;
     /* Rounded corners */
 }
+
+.intro20 h2 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.intro20 {
+    padding-bottom: 20px;
+}
