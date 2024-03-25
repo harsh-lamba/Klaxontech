@@ -43,3 +43,16 @@ https://www.compunnel.com/
 https://www.tcs.com/
 https://www.accenture.com/us-en/industries/industrial-equipment-index
 https://www2.deloitte.com/us/en.html
+
+
+Tasks:
+1. Pages placeholder: For all the links: services and industries. - Prateek
+2. index.html links update and then copy them to each and every html. - Prateek
+3. Card design - Prateek. (Harsh)
+4. Button design - Harsh
+5. Form design and button design. (make it consiste across application) : Harsh
+6. Update the home page - Harsh.
+7. Move to top button update - Harsh
+8. Update Menu - Harsh
+6. For rest of the pages, we need videos.mp4. - Prateek and Harsh
+7. Now we should start coping content f
