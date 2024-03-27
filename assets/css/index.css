@@ -6,19 +6,19 @@
     --primary-light-2: #90b4f0;
     --primary-dark-1: #0e3a7b;
     --primary-dark-2: #092b5c;
-  
+
     --secondary: #f9f9f9;
     --secondary-dark: #e0e0e0;
-  
+
     --text: #333333;
     --text-light: #666666;
     --text-link: var(--primary);
     --text-link-hover: var(--primary-dark-1);
-  
+
     --background: #f9f9f9;
     --background-main: #ffffff;
     --background-accent: #e0e0e0;
-  }
+}
 
 *,
 *::before,
@@ -797,7 +797,7 @@ body {
     /* background-color: #F2F2F2; */
 }
 
-.move-to-top{
+.move-to-top {
     position: relative;
 }
 
@@ -808,7 +808,7 @@ body {
     cursor: pointer;
     height: 5rem;
     width: 5rem;
-    background-color:var(--primary);
+    background-color: var(--primary);
     border-radius: 50%;
     z-index: 600;
     opacity: 0;
@@ -1253,7 +1253,8 @@ Footers
     justify-content: space-between;
 }
 
-.carousel-btn-wrapper .left-botton, .carousel-btn-wrapper .right-botton {
+.carousel-btn-wrapper .left-botton,
+.carousel-btn-wrapper .right-botton {
     font-size: 2rem;
     transition: 0.3s all ease;
     cursor: pointer;
@@ -1319,7 +1320,7 @@ Footers
 }
 
 .card:hover {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     /* transform: translate(-3px, -3px); */
 }
 
@@ -1348,7 +1349,7 @@ Footers
     height: 399px;
 }
 
-.cards-wrapper .card-title{
+.cards-wrapper .card-title {
 
     font-weight: 300;
     font-size: 16px;
@@ -1921,6 +1922,172 @@ About-us.css
     padding-bottom: 20px;
 }
 
-.nice-things{
+.nice-things {
     margin-bottom: 6rem;
+}
+
+.container-section {
+    min-height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+p {
+    margin: 0px
+}
+
+.card {
+    width: 430px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+}
+
+.card .backgroundEffect {
+    bottom: 0;
+    height: 0px;
+    width: 100%
+}
+
+.card:hover {
+    color: #fff;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.card:hover .backgroundEffect {
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    /* background: #1b9ce3; */
+    background: #c3d8d6;
+    animation: popBackground 0.3s ease-in
+}
+
+@keyframes popBackground {
+    0% {
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%
+    }
+
+    50% {
+        height: 80px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%
+    }
+
+    75% {
+        height: 160px;
+        border-top-left-radius: 85%;
+        border-top-right-radius: 85%
+    }
+
+    100% {
+        height: 320px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%
+    }
+}
+
+.card .pic {
+    position: relative
+}
+
+.card .pic img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover
+}
+
+.card .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 70px;
+    background-color: #1b9ce3;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    transition: all ease
+}
+
+.card .date .day {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.card .date .month,
+.card .date .year {
+    font-size: 10px
+}
+
+.card .text-muted {
+    font-size: 12px
+}
+
+.card:hover .text-muted {
+    color: #fff !important
+}
+
+.card .content {
+    padding: 0 20px
+}
+
+.card .content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #1b9ce3;
+    border-radius: 25px;
+    font-size: 12px;
+    border: none
+}
+
+.card:hover .content .btn {
+    background: #fff;
+    color: #1b9ce3;
+    box-shadow: #0000001a 0px 3px 5px
+}
+
+.card .content .btn .fas {
+    font-size: 10px;
+    padding-left: 5px
+}
+
+.card .content .foot .admin {
+    color: #1b9ce3;
+    font-size: 12px
+}
+
+.card:hover .content .foot .admin {
+    color: #fff
+}
+
+.card .content .foot .icon {
+    font-size: 12px
+}
+
+.paragraph-section {
+    font-size: 20px;
+    /* font-weight: 500; */
+    color: #000;
+}
+
+.section-heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
 }
