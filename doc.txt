@@ -56,3 +56,26 @@ Tasks:
 8. Update Menu - Harsh
 6. For rest of the pages, we need videos.mp4. - Prateek and Harsh
 7. Now we should start coping content f
+
+
+Tasks (Design):
+- Header and Footer
+- Home page - design.
+- For sub pages.: 
+    - 4 component : repeat it with other sub pages.
+- Blog
+- About us.
+- Contact us.
+    Form:
+    Form elements: input box and select box and button.
+
+Header:
+Sub header add icon.
+
+Font-family:
+
+body:
+
+Menu:
+- Height of the sub menu should be of content height and only apply padding.
+- icon for each and every

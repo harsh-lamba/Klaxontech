@@ -36,17 +36,14 @@
 }
 
 .hero-content-wrap h1 {
-    font-size: 4.8rem;
-    font-weight: 800;
-    font-style: normal;
-    text-transform: none;
-    line-height: 1;
-
+    font-size: 3.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
 }
 
 .hero-content-wrap p {
-    padding-top: 3rem;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
+    font-weight: 400;
 }
 
 
@@ -284,17 +281,7 @@ first Section */
 
     }
 
-    .hero-content-wrap h1 {
-        font-size: 3.6rem;
-        font-weight: 800;
-        font-style: normal;
-        text-transform: none;
-        line-height: 1;
-
-    }
-
     .hero-content-wrap p {
-        padding-top: 3rem;
         font-size: 1.4rem;
     }
 
