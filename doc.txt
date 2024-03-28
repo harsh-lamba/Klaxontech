@@ -59,13 +59,13 @@ Tasks:
 
 
 Tasks (Design):
-- Header and Footer
-- Home page - design.
+- Header (Done) and Footer (??)
+- Home page - design. (??)
 - For sub pages.: 
     - 4 component : repeat it with other sub pages.
-- Blog
-- About us.
-- Contact us.
+- Blog (??)
+- About us. (??)
+- Contact us. (??)
     Form:
     Form elements: input box and select box and button.
 
@@ -79,3 +79,35 @@ body:
 Menu:
 - Height of the sub menu should be of content height and only apply padding.
 - icon for each and every
+
+Component A:
+Experience in store (https://www.bang-olufsen.com/en/int:)
+Component B:
+World of B&0.(https://www.bang-olufsen.com/en/int:)
+Component C: Carousel:
+https://itrexgroup.com/#cases:
+
+
+Page Structure (Sub Pages):
+Header:
+Hero:
+Title + content: (https://lollypop.design/clients/) ??
+Differentiator component: Experience in store (https://www.bang-olufsen.com/en/int:)
+Componet: Text component: https://lollypop.design/clients/
+Card Component: https://itrexgroup.com/#cases (Carousel style)
+Component 4 (Text)
+Component 5 ()
+Footer:
+
+Home Page
+
+
+https://www.figma.com/file/62itibPsdROfn46EuDqE6A/DigitalCo.?type=design&node-id=65-146&mode=design
+
+Reference:
+https://www.bang-olufsen.com/en/int
+https://itrexgroup.com/#cases
+https://www.howtodesignbetter.com/ebook?aff=35jJx
+https://www.chimeraprime.com/
+https://lollypop.design/clients/
+https://www.aufaitux.com/work/
