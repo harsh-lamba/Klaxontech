@@ -339,7 +339,7 @@ body {
 /* styling dropdown */
 
 .klaxon-desktop-nav-dropdown-wrapper {
-    top: 4px; width: 74%;
+    top: 4px; width: 78%;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -391,8 +391,8 @@ body {
     font-weight: 500;
     color: #000;
 }
-.klaxon-desktop-nav-dropdown i.bi {
-    font-size: 2rem;
+.klaxon-desktop-nav-dropdown i {
+    font-size: 1.6rem;
     margin-right: 1rem;
 }
 
