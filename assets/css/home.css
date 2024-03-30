@@ -1,0 +1,27 @@
+/**WIll be merged into index.css**/
+/*Text component*/
+.page-information{
+    background-color: #F3E5F5;
+    padding: 12rem 0;
+    color: #333333;
+}
+
+.page-information__title{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    border-left: 1rem solid var(--primary);
+    padding: 0 4rem;
+    line-height: 1;
+}
+
+.page-information__sub-title{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+}
+
+.page-information__description{
+    font-size: 2rem;
+    padding: 0 4rem;
+}
