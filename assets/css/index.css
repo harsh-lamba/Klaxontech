@@ -48,6 +48,14 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+/**
+buttons
+*/
+.btn-klaton{
+    font-size: 2rem;
+    padding: 10px 5rem;
+}
+
 .flex {
     display: flex;
     justify-content: center;
