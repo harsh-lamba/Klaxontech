@@ -1,9 +1,9 @@
 /**WIll be merged into index.css**/
 /*Text component*/
 .page-information{
-    background-color: #F3E5F5;
-    padding: 12rem 0;
-    color: #333333;
+    background-color: #141414;
+    padding: 19rem 0;
+    color: #fff;
 }
 
 .page-information__title{
@@ -24,4 +24,201 @@
 .page-information__description{
     font-size: 2rem;
     padding: 0 4rem;
+}
+
+/**
+Page Story
+*/
+.page-stories-section-container{
+    height: 88vh
+}
+
+.page-stories-section-container .position-relative {
+    position: relative !important;
+}
+
+.page-stories-section-container .w-100 {
+    width: 100% !important;
+}
+
+.page-stories-section-container .bg-image {
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-stories-section-container .image-gradient-bg {
+    position: relative;
+}
+
+@media only screen and (max-width: 1199px){
+    .text-image-banner-section .position-left-bg-image {
+        background-position: 50%;
+    }
+}
+
+@media only screen and (min-width: 1199px){
+
+    .text-image-banner-section .position-left-bg-image {
+        background-position: left 0;
+    }
+}
+
+.text-image-banner-section .text-bg-image-banner {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1199px){
+    .text-image-banner-section .text-bg-image-banner {
+        padding: 200px 0 0;
+        background-size: cover;
+        background-position: 50%;
+        display: block;
+        height: 300px;
+    }
+}
+
+.page-stories-section-container .image-gradient-bg:before {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: "";
+    z-index: 1;
+    opacity: .6;
+}
+
+@media only screen and (min-width: 1199px){
+    .text-image-banner-section .left-image-gradient-bg:before {
+        width: 70%;
+        right: auto;
+    }
+}
+
+.text-image-banner-section .text-linear-bg-left:after {
+    background: -webkit-gradient(linear, left top, right top, from(#000), to(transparent));
+    background: linear-gradient(90deg, #000, transparent);
+}
+
+.page-stories-section-container .text-linear-bg-left:after, .text-linear-bg-right:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    content: "";
+    top: 0;
+    z-index: 1;
+    opacity: .8;
+}
+
+@media only screen and (min-width: 1199px){
+    .text-image-banner-section .text-linear-bg-left:after {
+        background-size: 70% 100%;
+        background-position: left 0;
+        background-repeat: no-repeat;
+        background: transparent;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .text-image-banner-section .text-linear-bg-left:after, .text-image-banner-section .text-linear-bg-right:after {
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+
+}
+
+.dynamic-media-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.fit-cover {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.fluidimage {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 1199px){
+    .text-image-banner-section .position-left-bg-image .dynamic-media-image {
+        width: 70% !important;
+        left: 0;
+    }
+}
+
+.text-image-banner-section .text-bg-image-banner .text-image-banner-content-div {
+    background: #fff;
+    padding: 4pc;
+    width: 95%;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.text-image-banner-section .text-bg-image-banner .text-image-banner-content-div .text-image-banner-heading {
+    font-size: 1.5rem;
+    letter-spacing: .15em;
+    color: #747678;
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+.text-image-banner-section .text-bg-image-banner .text-image-banner-content-div .text-image-banner-title {
+    font-size: 4rem;
+    color: var(--primary);
+    margin-bottom: 2rem;
+}
+
+.text-image-banner-section .text-bg-image-banner .text-image-banner-content-div .text-image-banner-rte-description p {
+    line-height: 3.2rem;
+    letter-spacing: .03125rem;
+    color: #5e6162;
+    opacity: .9;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+
+.tcs-custom-container {
+    margin: auto;
+}
+
+@media only screen and (min-width: 1200px){
+    .tcs-custom-container {
+        max-width: calc(100% - 150px);
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .tcs-custom-container {
+        max-width: calc(100% - 88px);
+    }
+}
+
+@media only screen and (max-width: 576px){
+
+    .tcs-custom-container {
+        max-width: calc(100% - 3pc);
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .text-image-banner-section .mobile-view-padding-0, .text-image-banner-section .tcs-custom-container {
+        padding: 0;
+    }
+}
+
+.page-stories-section-container .z-index-2 {
+    z-index: 2;
 }
