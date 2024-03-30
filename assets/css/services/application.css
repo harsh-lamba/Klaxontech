@@ -316,32 +316,32 @@ first Section */
 }
 
 @media screen and (max-width: 768px) {
-
     .hero-content-wrap {
-
+        position: absolute;
+        text-align: center;
         width: 100%;
-        padding: 50px 15px 3.5rem;
-
+        max-width: 400px;
+        padding: 0;
+        color: #fff;
     }
 
-    .main-content-wrap {
+    .hero-content-wrap h1 {
+        font-size: 2.8rem;
+        padding-top: 20px;
+    }
 
-        position: static;
-        background-color: #1B48A4;
+    .hero-content-wrap p {
+        font-size: 1.6rem;
     }
 
     .tittle-wrap h2 {
-        font-size: 2.4rem;
+        font-size: 2rem;
+        line-height: 1.2;
+        padding: 30px 0 20px 0;
     }
 
     .para-img-wrap {
-
         flex-direction: column;
-    }
-
-    .para-img-wrap .img-wrap {
-
-        padding-left: 0;
     }
 
     .para-wrap {
@@ -353,43 +353,38 @@ first Section */
         max-width: 100%;
     }
 
-    .tittle-wrapper h2 {
-        padding: 30px 0 20px 0;
-
-    }
-
     .main-wrap {
         padding: 0 15px 10px 15px;
     }
 
     .cards-container {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
         margin-left: 0px;
         margin-right: 0px;
-        max-width: calc(100% + 60px);
     }
-
 
     .card-wrap {
         margin-left: 0px;
-        margin-right: 0PX;
+        margin-right: 0px;
     }
-
 }
 
 @media screen and (max-width: 500px) {
+    .hero-content-wrap h1 {
+        font-size: 2.4rem;
+        padding-top: 15px;
+    }
+
+    .hero-content-wrap p {
+        font-size: 1.4rem;
+    }
 
     .tittle-wrap h2 {
-        flex-basis: 100%;
+        font-size: 1.8rem;
+        line-height: 1.2;
     }
 
     .para-img-wrap p {
         font-size: 1.4rem;
-
     }
 
     .para-img-wrap p:nth-child(2) {
@@ -402,6 +397,5 @@ first Section */
 
     .tittle-wrap {
         padding-bottom: 2rem;
-
     }
 }
