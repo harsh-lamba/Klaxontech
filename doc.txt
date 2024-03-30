@@ -89,14 +89,15 @@ https://itrexgroup.com/#cases:
 
 
 Page Structure (Sub Pages):
-Header:
-Hero:
-Title + content: (https://lollypop.design/clients/) ??
-Differentiator component: Experience in store (https://www.bang-olufsen.com/en/int:)
-Componet: Text component: https://lollypop.design/clients/
-Card Component: https://itrexgroup.com/#cases (Carousel style)
-Component 4 (Text)
-Component 5 ()
+- Header:
+- Hero:
+- Title + content: (https://lollypop.design/clients/) ??
+- Differentiator component: Experience in store (https://www.bang-olufsen.com/en/)
+- Componet: Text component: https://lollypop.design/clients/ (X)
+- Card Component: https://itrexgroup.com/#cases (Carousel style)
+- Component 4 (Text)
+- Component 5 ()
+- Join us (Harsh)
 Footer:
 
 Home Page
