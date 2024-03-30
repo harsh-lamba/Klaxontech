@@ -27,7 +27,7 @@ Retail
 Software and Platforms
 Travel
 Life Science
-Manufacturing 
+Manufacturing
 
 Word Files Shared - Delloite/ENY/KPMG/PWC
 
@@ -111,3 +111,23 @@ https://www.howtodesignbetter.com/ebook?aff=35jJx
 https://www.chimeraprime.com/
 https://lollypop.design/clients/
 https://www.aufaitux.com/work/
+
+home page:
+- First carousel
+- second carousel
+- text desing: Clients section on https://lollypop.design/clients/
+- REad the story button section : https://www.nagarro.com/en
+- feature insight: https://www.nagarro.com/en
+- What can we help you achieve? https://www.nagarro.com/en
+- Experience in store https://www.bang-olufsen.com/en/int
+- footer
+
+
+- who we are: https://www.tcs.com/
+The Fluidic Enterprise Vision:   (grey background)
+featured insights: https://www.nagarro.com/en
+
+Join us section : What can we help you achieve?: https://www.nagarro.com/en
+Form: https://www.nagarro.com/en/industries/automotive
+
+Footer::https://www.compunnel.com/
