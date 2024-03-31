@@ -56,6 +56,19 @@ buttons
     padding: 10px 5rem;
 }
 
+
+@media (max-width: 991.98px) { 
+    /* .btn-klaton{
+        font-size: 1.5rem;
+    } */
+}
+
+@media (max-width: 576px) { 
+    .btn-klaton{
+        font-size: 1.5rem;
+    }
+}
+
 .flex {
     display: flex;
     justify-content: center;
