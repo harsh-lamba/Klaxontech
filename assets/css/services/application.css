@@ -1,7 +1,7 @@
 #hero-section {
     position: relative;
     width: 100vw;
-
+    overflow: hidden;
 }
 
 .hero-wrapper {
