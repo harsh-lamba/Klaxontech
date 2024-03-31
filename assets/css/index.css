@@ -886,7 +886,7 @@ buttons
 .scrol-animate {
     transform: translateY(2rem);
     transition: all 1.5s ease;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .scrol-animate.active {
@@ -912,7 +912,7 @@ buttons
     position: absolute;
     top: 0;
     left: 0;
-    width: 120%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     background-color: #03011E;
