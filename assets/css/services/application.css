@@ -317,10 +317,8 @@ first Section */
 
 @media screen and (max-width: 768px) {
     .hero-content-wrap {
-        position: absolute;
         text-align: center;
         width: 100%;
-        max-width: 400px;
         padding: 0;
         color: #fff;
     }

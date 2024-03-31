@@ -7,12 +7,12 @@
     <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon" />
     <title>Klaxontech - Connecting Talent, Powering Solutions.</title>
     <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"> -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Include tempaltes -->
     <script src="../assets/script/include.js"></script>
@@ -20,7 +20,36 @@
     <link rel="stylesheet" href="../assets/css/index.css" />
     <link rel="stylesheet" href="../assets/css/services/application.css" />
     <link rel="stylesheet" href="../assets/css/industries/aerospace.css" />
-    <!-- move the css -->
+    <style>
+        .service-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .icon-wrapper {
+            width: 60px;
+            /* Set the width of the icon wrapper */
+            height: 60px;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .icon-wrapper i {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .post-list-content {
+            width: 100%;
+            /* Set the width of the post list content */
+        }
+    </style>
 
 </head>
 
@@ -369,7 +398,7 @@
                     </div>
                 </div>
             </section>
-            <!-- Component A -->
+            <!-- page-need-help-Component-A -->
             <section class="page-need-help">
                 <div class="sc-182o2pm-0 lkUPuV o-needHelp">
                     <div class="sc-182o2pm-0 bpzKIn a-container container-fluid -padded">
@@ -385,21 +414,28 @@
                                                     variant="secondary" aria-label="Find store near you">
                                                     <div class="sc-182o2pm-0 chUjjz -large -loaded a-responsiveImage">
                                                         <div class="sc-182o2pm-0 kCwnwR a-observer -inView">
-                                                            <img
-                                                                alt="Interior of the Bang &amp; Olufsen flagship store in London"
-                                                                class="-loaded" itemprop=""
+                                                            <img alt="Interior of the Bang &amp; Olufsen flagship store in London"
+                                                                class="-loaded img-fluid" itemprop=""
                                                                 sizes="(min-width: 1024px) 1440px, (min-width: 768px) 1024px, 375px"
-                                                                src="//images.ctfassets.net/8cd2csgvqd3m/2C4PDfprsTL0Z2UEZtvpvg/793a067fe33a8086e00f8cc6396586ca/Underc_111223-19.jpg?q=90&amp;fm=webp&amp;w=1440&amp;h=810&amp;fit=fill">
+                                                                src="https://images.pexels.com/photos/5327584/pexels-photo-5327584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2&amp;fm=webp&amp;w=1440&amp;h=810&amp;fit=fill">
+                                                            <!-- src="//images.ctfassets.net/8cd2csgvqd3m/2C4PDfprsTL0Z2UEZtvpvg/793a067fe33a8086e00f8cc6396586ca/Underc_111223-19.jpg?q=90&amp;fm=webp&amp;w=1440&amp;h=810&amp;fit=fill"> -->
                                                         </div>
                                                     </div>
                                                 </a></div>
                                         </div>
+
                                         <div class="col-xs-12 col-sm-6">
                                             <div class="needHelp__textWrapper">
-                                                <h2 class="brand-reignite h5 needHelp__textWrapper__title">Up close and
-                                                    personal</h2>
-                                                <h2 class="brand-reignite h3 needHelp__textWrapper__subtitle">Allied Health Staffing</h2>
-                                                <p class="brand-reignite b1 needHelp__textWrapper__description">Recruiting professionals such as medical assistants, therapists, and technicians to support patient care
+                                                <h2 class="font-value brand-reignite h5 needHelp__textWrapper__title">Up
+                                                    close and personal</h2>
+                                                <h2
+                                                    class="brand-reignite h3 needHelp__textWrapper__subtitle font-value2">
+                                                    Allied
+                                                    Health Staffing</h2>
+                                                <p
+                                                    class="brand-reignite b1 needHelp__textWrapper__description font-value3">
+                                                    Recruiting professionals such as medical assistants, therapists, and
+                                                    technicians to support patient care
                                                 </p>
                                             </div>
                                         </div>
@@ -490,17 +526,46 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!--  -->
+                        <div class="col-md-4 cat-listing normal-link service-post-list pharma-life-science-staffing">
+                            <figure>
+                                <img src="https://www.compunnel.com/storage/2023/04/pharma-life-science-staffing-img.jpg"
+                                    alt="Pharma/ Life Science Staffing"
+                                    class="img-rounded img-responsive center-block featured wp-post-image">
+                            </figure>
+                            <div class="post-list-content">
+                                <div class="article clearfix">
+                                    <h3 class="card-title">Pharma/ Life Science Staffing</h3>
+                                    <p>Hiring individuals for research, development, manufacturing, or sales of
+                                        pharmaceutical and life science products</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 cat-listing normal-link service-post-list pharma-life-science-staffing">
+                            <figure>
+                                <img src="https://images.pexels.com/photos/5327584/pexels-photo-5327584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="Pharma/ Life Science Staffing" class="img-fluid">
+                            </figure>
+                            <div class="post-list-content">
+                                <div class="article clearfix">
+                                    <h3 class="card-title">Pharma/ Life Science Staffing</h3>
+                                    <p>Hiring individuals for research, development, manufacturing, or sales of
+                                        pharmaceutical and life science products</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
+            <!-- <section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
                 <div class="container">
                     <div class="row">
                         <div class="section-header text-center">
                             <h2 class="fw-bold fs-1">
                                 Expertise across healthcare segments
-                                <!-- <span class="b-class-secondary">Advertiser </span>Services -->
+                                <span class="b-class-secondary">Advertiser </span>Services
                             </h2>
                             <p class="sec-icon"><i class="fa-solid fa-gear"></i></p>
                             <p class="text-large mt-2 card-paragraph">Harness the power of advanced technologies to
@@ -555,9 +620,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
-            <section class="page-section intro-section section-one-wrapper our-vision-dtaj reveal active">
+            <!-- <section class="page-section intro-section section-one-wrapper our-vision-dtaj reveal active">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -614,10 +679,10 @@
                     </div>
 
                 </div>
-            </section>
+            </section> -->
 
 
-            <section id="fourth-section" style="display:none;"class="bg-light py-5">
+            <section id="fourth-section" style="display:none;" class="bg-light py-5">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-12">
@@ -641,20 +706,20 @@
             </section>
             <section class="page-help">
                 <div class="container text-center">
-                  <div class="row align-items-center justify-content-center">
-                    <div class="col-sm-6">
-                      <h2 class="page-title mb-5">The next AI revolution will be built by people like you.</h2>
-                    </div>
-                    <div class="col-sm-6 page-help__button">
-                      <div class="row">
-                        <div class="col-sm-12">
-                          <button class="btn btn-primary btn-klaton" type="submit">Join us</button>
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-sm-6">
+                            <h2 class="page-title mb-5">The next AI revolution will be built by people like you.</h2>
                         </div>
-                      </div>
+                        <div class="col-sm-6 page-help__button">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <button class="btn btn-primary btn-klaton" type="submit">Join us</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </section>
+            </section>
         </div>
     </main>
     <footer id="footer" class="footer">

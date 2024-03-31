@@ -1887,7 +1887,7 @@ About-us.css
 }
 
 .service-post-list {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .post-list-content {
@@ -2130,7 +2130,7 @@ p {
     background-color: #fff;
     padding: 10rem 0;
     color: #202020;
-    border:none;
+    border: none;
 }
 
 .page-information__title {
@@ -2180,12 +2180,12 @@ Page Story
     height: 88vh
 }
 
-@media (max-width: 575.98px) { 
-    
+@media (max-width: 575.98px) {
+
     .page-stories-section-container {
         height: 95vh
     }
- }
+}
 
 .page-stories-section-container .position-relative {
     position: relative !important;
@@ -2254,7 +2254,8 @@ Page Story
         width: 70%;
         right: auto;
     }
-    .text-image-banner-section .right-image-gradient-bg:before{
+
+    .text-image-banner-section .right-image-gradient-bg:before {
         width: 70%;
         right: 0;
         left: auto;
@@ -2267,11 +2268,12 @@ Page Story
 }
 
 .text-linear-bg-left:after {
-    background: -webkit-gradient(linear,left top,right top,from(#000),to(transparent));
-    background: linear-gradient(90deg,#000,transparent)
+    background: -webkit-gradient(linear, left top, right top, from(#000), to(transparent));
+    background: linear-gradient(90deg, #000, transparent)
 }
 
-.text-linear-bg-left:after,.text-linear-bg-right:after {
+.text-linear-bg-left:after,
+.text-linear-bg-right:after {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2295,8 +2297,8 @@ Page Story
 }
 
 .text-linear-bg-right:after {
-    background: -webkit-gradient(linear,left top,right top,from(transparent),to(#000));
-    background: linear-gradient(90deg,transparent,#000)
+    background: -webkit-gradient(linear, left top, right top, from(transparent), to(#000));
+    background: linear-gradient(90deg, transparent, #000)
 }
 
 @media only screen and (min-width: 1199px) {
@@ -2360,10 +2362,10 @@ Page Story
     width: 95%;
 }
 
-@media only screen and (max-width: 1199px){
-    .text-image-banner-section .text-bg-image-banner .text-image-banner-content-div{
+@media only screen and (max-width: 1199px) {
+    .text-image-banner-section .text-bg-image-banner .text-image-banner-content-div {
         padding: 2pc 24px 0;
-        width: 100%;    
+        width: 100%;
     }
 }
 
@@ -2385,13 +2387,14 @@ Page Story
     margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 599px){
-    .text-image-banner-section .text-bg-image-banner .text-image-banner-content-div .text-image-banner-heading{
+@media only screen and (max-width: 599px) {
+    .text-image-banner-section .text-bg-image-banner .text-image-banner-content-div .text-image-banner-heading {
         font-size: 1.5rem;
         margin-bottom:
     }
+
     .text-image-banner-section .text-bg-image-banner .text-image-banner-content-div .text-image-banner-title {
-        
+
         font-size: 3rem;
     }
 
@@ -2444,23 +2447,23 @@ Page Story
 /**
 Page title
 */
-.page-title{
+.page-title {
     font-size: 4rem;
 }
 
-@media (max-width: 991.98px) { 
-    .page-title{
+@media (max-width: 991.98px) {
+    .page-title {
         font-size: 3rem;
     }
 }
 
-@media (max-width: 576px) { 
-    .page-title{
+@media (max-width: 576px) {
+    .page-title {
         font-size: 2rem;
     }
 }
 
-.page-h4{
+.page-h4 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -2490,19 +2493,19 @@ Page title
     color: #222;
 }
 
-.page-help__button .btn-klaton.btn-outline-primary{
+.page-help__button .btn-klaton.btn-outline-primary {
     border-color: #fff;
     background: transparent;
     color: #fff;
 }
 
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
     .page-help {
         padding: 10rem 0;
     }
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
     .page-help {
         padding: 8rem 0;
     }
@@ -2511,31 +2514,31 @@ Page title
 /**
 Footer CSS
 */
-.footer{
+.footer {
     padding: 5rem 0 2rem 1rem;
 }
 
-.footer-industry-partner{
+.footer-industry-partner {
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.partners-logo{
+.partners-logo {
     margin: 0;
     padding-left: 0;
     list-style-type: none;
 }
 
-.partners-logo li{
+.partners-logo li {
     display: inline-block;
     margin-left: 0;
     margin-right: 6rem;
     margin-bottom: 15px;
 }
 
-.partners-logo li a{
+.partners-logo li a {
     display: inline-block;
     text-indent: -10000px;
     height: 27px;
@@ -2544,48 +2547,49 @@ Footer CSS
     transition: .5s;
 }
 
-.partners-logo li a{
+.partners-logo li a {
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.partners-logo li a.microsoft{
+.partners-logo li a.microsoft {
     background-image: url(../images/microsoft-solution-partner-logo.svg);
     width: 120px;
     height: 40px;
 }
 
-.partners-logo li a.aws{
+.partners-logo li a.aws {
     background-image: url(../images/partner-logo-aws-advanced-consulting.svg);
     width: 96px;
     height: 41px;
 }
 
-.partners-logo li a.automation-anywhere{
+.partners-logo li a.automation-anywhere {
     background-image: url(../images/partner-logo-automation-anywhere.svg);
     width: 96px;
     height: 34px;
 }
 
-.partners-logo li a.adobe-bronze{
+.partners-logo li a.adobe-bronze {
     background-image: url(../images/partner-logo-adobe-bronze.svg);
     width: 120px;
     height: 32px;
 }
 
-.partners-logo li a.uipath{
+.partners-logo li a.uipath {
     background-image: url(../images/partner-logo-uipath.svg);
     width: 67px;
     height: 23px;
     top: 7px;
     position: relative;
 }
-.partners-logo li a:hover{
+
+.partners-logo li a:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
 
-.lower-footer{
+.lower-footer {
     color: #fff;
     /* height: 60px; */
     width: 100%;
@@ -2594,7 +2598,7 @@ Footer CSS
     padding: 4px 18px;
 }
 
-.lower-footer ul{
+.lower-footer ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -2639,16 +2643,17 @@ Footer CSS
     background-image: url(../images/footer-icon-linkedin.svg);
     background-repeat: no-repeat
 }
-.footer-logo{
+
+.footer-logo {
     width: 12rem;
     display: inline-block;
 }
 
-.footer-logo img{
+.footer-logo img {
     max-width: 100%;
 }
 
-.footer-copyrite{
+.footer-copyrite {
     text-align: right;
 }
 
@@ -2700,12 +2705,12 @@ Footer CSS
     top: 13px
 }
 
-.foot-add.email a{
-    color:#fff;
+.foot-add.email a {
+    color: #fff;
     text-decoration: none;
 }
 
-.middle-footer h3{
+.middle-footer h3 {
     font-size: 1.8rem;
 }
 
@@ -2722,7 +2727,8 @@ Footer CSS
     padding-bottom: 7px
 }
 
-.link, .middle-footer .footer-links li a{
+.link,
+.middle-footer .footer-links li a {
     text-decoration: none;
     color: #fff;
     transition: .4s;
@@ -2746,7 +2752,7 @@ Footer CSS
     padding-bottom: 30px;
 }
 
-@media (min-width: 64rem){
+@media (min-width: 64rem) {
     .bpzKIn.a-container.-padded {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -2757,13 +2763,13 @@ Footer CSS
     background-color: rgb(245, 244, 243);
 }
 
-@media (min-width: 48rem){
+@media (min-width: 48rem) {
     .lkUPuV.o-needHelp .needHelpWrapper {
         padding: 0px 20px;
     }
 }
 
-@media (min-width: 64rem){
+@media (min-width: 64rem) {
     .lkUPuV.o-needHelp .needHelpWrapper {
         padding: 0px 48px;
     }
@@ -2826,6 +2832,7 @@ Footer CSS
     position: relative;
     opacity: 1;
 }
+
 .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper .a-responsiveImage img {
     height: 100%;
     transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
@@ -2843,7 +2850,7 @@ Footer CSS
     background-color: rgb(255, 255, 255);
 }
 
-@media (min-width: 48rem){
+@media (min-width: 48rem) {
     .khNChs.o-needHelpTextAndImage .needHelp__textWrapper {
         -webkit-box-align: center;
         align-items: center;
@@ -2851,7 +2858,7 @@ Footer CSS
     }
 }
 
-@media (min-width: 64rem){
+@media (min-width: 64rem) {
     .khNChs.o-needHelpTextAndImage .needHelp__textWrapper {
         padding: 48px 60px 48px 40px;
     }
@@ -2863,7 +2870,7 @@ Footer CSS
     color: rgb(25, 24, 23);
 }
 
-@media (min-width: 48rem){
+@media (min-width: 48rem) {
     .khNChs.o-needHelpTextAndImage .needHelp__textWrapper .needHelp__textWrapper__title {
         margin-top: initial;
     }
@@ -2875,7 +2882,7 @@ Footer CSS
     color: rgb(25, 24, 23);
 }
 
-@media (min-width: 64rem){
+@media (min-width: 64rem) {
     .khNChs.o-needHelpTextAndImage .needHelp__textWrapper .needHelp__textWrapper__subtitle {
         margin-bottom: 24px;
     }
@@ -2896,11 +2903,12 @@ Footer CSS
 
 
 /*Media queries*/
-@media (max-width: 991.98px) { 
-    .lower-footer{
+@media (max-width: 991.98px) {
+    .lower-footer {
         text-align: center;
     }
-    .partners-logo li{
+
+    .partners-logo li {
         display: inline-block;
         margin-left: 0;
         margin-right: 4rem;
@@ -2915,42 +2923,81 @@ Footer CSS
     .lower-footer {
         height: auto
     }
-    .footer-social-wrapper{
+
+    .footer-social-wrapper {
         margin-bottom: 2rem;
     }
-    .footer-copyrite{
+
+    .footer-copyrite {
         text-align: center;
     }
-    
+
 }
 
-@media (max-width: 576px) { 
-    .partners-logo li{
+@media (max-width: 576px) {
+    .partners-logo li {
         display: inline-block;
         margin-left: 0;
         margin-right: 10px;
         margin-bottom: 15px;
     }
-    .footer-links{
+
+    .footer-links {
         width: 49%;
         margin-bottom: 1rem;
     }
+
     .page-information__title {
-        font-size:3.5rem;
+        font-size: 3.5rem;
     }
-    .page-information__sub-title{
+
+    .page-information__sub-title {
         font-size: 2.5rem;
     }
 
-    .page-information__description{
+    .page-information__description {
         font-size: 1.6rem;
     }
 }
 
-@media (min-width: 576px) { 
-    .logo-container{
+@media (min-width: 576px) {
+    .logo-container {
         display: flex;
         flex-direction: column;
-    align-items: center;
+        align-items: center;
+    }
+}
+
+
+
+.font-value {
+    font-size: 30px !important;
+    align-self: center;
+
+}
+
+.font-value2 {
+    font-size: 40px !important;
+    font-weight: 500;
+    align-self: center;
+}
+
+.font-value3 {
+    font-size: 20px !important;
+    font-weight: 500;
+    align-self: center;
+}
+
+@media (max-width: 576px) {
+    .font-value {
+        font-size: 15px !important;
+        align-self: center;
+
+    }
+
+    .font-value2 {
+        font-size: 22px !important;
+        font-weight: 500;
+        align-self: center;
     }
 }
