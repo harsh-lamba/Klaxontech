@@ -306,6 +306,7 @@ Page title
 
 .page-help {
     background: #1b48a4;
+    background: linear-gradient(186deg, #AA00FF 0, #9C27B0 99.99%, #4A148C 100%);
     padding: 13rem 0;
 }
 
@@ -321,6 +322,15 @@ Page title
 .page-help__button .btn-klaton {
     margin-bottom: 2rem;
     width: 250px;
+    background: #fff;
+    border-color: #fff;
+    color: #222;
+}
+
+.page-help__button .btn-klaton.btn-outline-primary{
+    border-color: #fff;
+    background: transparent;
+    color: #fff;
 }
 
 @media (max-width: 991.98px) { 
@@ -339,7 +349,7 @@ Page title
 Footer CSS
 */
 .footer{
-    padding: 5rem 0 2rem 0;
+    padding: 5rem 0 2rem 1rem;
 }
 
 .footer-industry-partner{
