@@ -8,12 +8,11 @@
     background-color: #202020;
 }
 
-.page-information__while {
+.page-information__white {
     background-color: #fff;
     padding: 10rem 0;
     color: #202020;
-    /* border-top: 1px solid #2a2a2a; */
-    /* background-color: #202020; */
+    border:none;
 }
 
 .page-information__title {
@@ -611,6 +610,174 @@ Footer CSS
     transition: .4s;
 }
 
+.lkUPuV.o-needHelp {
+    position: relative;
+    width: 100%;
+    background-color: rgb(245, 244, 243);
+}
+
+.bpzKIn.a-container {
+    width: 100%;
+    max-width: 1512px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bpzKIn.a-container.-padded {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 64rem){
+    .bpzKIn.a-container.-padded {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.lkUPuV.o-needHelp .a-container {
+    background-color: rgb(245, 244, 243);
+}
+
+@media (min-width: 48rem){
+    .lkUPuV.o-needHelp .needHelpWrapper {
+        padding: 0px 20px;
+    }
+}
+
+@media (min-width: 64rem){
+    .lkUPuV.o-needHelp .needHelpWrapper {
+        padding: 0px 48px;
+    }
+}
+
+.lkUPuV.o-needHelp .needHelpWrapper .o-needHelp__textAndImageWrapper {
+    margin-bottom: 40px;
+}
+
+.khNChs.o-needHelpTextAndImage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(25, 24, 23);
+}
+
+.khNChs.o-needHelpTextAndImage .needHelp__imageWrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.hDjgnE {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    transition: color 200ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+
+.chUjjz.a-responsiveImage {
+    position: relative;
+    width: 100%;
+    background: rgb(250, 250, 250);
+}
+
+.khNChs.o-needHelpTextAndImage .needHelp__imageWrapper .a-responsiveImage {
+    height: 100%;
+}
+
+.kCwnwR.a-observer {
+    height: 100%;
+}
+
+.khNChs.o-needHelpTextAndImage .needHelp__imageWrapper .a-responsiveImage .a-observer {
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.chUjjz.a-responsiveImage img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 400ms ease-in-out 0s;
+}
+
+.chUjjz.a-responsiveImage img.-loaded {
+    position: relative;
+    opacity: 1;
+}
+.khNChs.o-needHelpTextAndImage .needHelp__imageWrapper .a-responsiveImage img {
+    height: 100%;
+    transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+
+.khNChs.o-needHelpTextAndImage .needHelp__textWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+@media (min-width: 48rem){
+    .khNChs.o-needHelpTextAndImage .needHelp__textWrapper {
+        -webkit-box-align: center;
+        align-items: center;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 64rem){
+    .khNChs.o-needHelpTextAndImage .needHelp__textWrapper {
+        padding: 48px 60px 48px 40px;
+    }
+}
+
+.khNChs.o-needHelpTextAndImage .needHelp__textWrapper .needHelp__textWrapper__title {
+    margin-bottom: 8px;
+    margin-top: 4px;
+    color: rgb(25, 24, 23);
+}
+
+@media (min-width: 48rem){
+    .khNChs.o-needHelpTextAndImage .needHelp__textWrapper .needHelp__textWrapper__title {
+        margin-top: initial;
+    }
+}
+
+.khNChs.o-needHelpTextAndImage .needHelp__textWrapper .needHelp__textWrapper__subtitle {
+    margin-bottom: 16px;
+    padding-bottom: 0px;
+    color: rgb(25, 24, 23);
+}
+
+@media (min-width: 64rem){
+    .khNChs.o-needHelpTextAndImage .needHelp__textWrapper .needHelp__textWrapper__subtitle {
+        margin-bottom: 24px;
+    }
+}
+
+.kaJFVA p {
+    color: rgb(85, 85, 85);
+}
+
+.khNChs.o-needHelpTextAndImage .needHelp__textWrapper .needHelp__textWrapper__description {
+    margin-top: 0px;
+    color: rgb(25, 24, 23);
+}
+
+.khNChs.o-needHelpTextAndImage .needHelp__textWrapper .needHelp__textWrapper__description {
+    text-align: center;
+}
+
+
+/*Media queries*/
 @media (max-width: 991.98px) { 
     .lower-footer{
         text-align: center;
@@ -636,6 +803,7 @@ Footer CSS
     .footer-copyrite{
         text-align: center;
     }
+    
 }
 
 @media (max-width: 576px) { 
@@ -648,6 +816,16 @@ Footer CSS
     .footer-links{
         width: 49%;
         margin-bottom: 1rem;
+    }
+    .page-information__title {
+        font-size:3.5rem;
+    }
+    .page-information__sub-title{
+        font-size: 2.5rem;
+    }
+
+    .page-information__description{
+        font-size: 1.6rem;
     }
 }
 
