@@ -297,6 +297,11 @@ Page title
     }
 }
 
+.page-h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
 /** page help */
 
 .page-help {
@@ -327,5 +332,246 @@ Page title
 @media (max-width: 576px) { 
     .page-help {
         padding: 8rem 0;
+    }
+}
+
+/**
+Footer CSS
+*/
+.footer{
+    padding: 5rem 0 2rem 0;
+}
+
+.footer-industry-partner{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-logo{
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.partners-logo li{
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 6rem;
+    margin-bottom: 15px;
+}
+
+.partners-logo li a{
+    display: inline-block;
+    text-indent: -10000px;
+    height: 27px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+.partners-logo li a{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partners-logo li a.microsoft{
+    background-image: url(../images/microsoft-solution-partner-logo.svg);
+    width: 120px;
+    height: 40px;
+}
+
+.partners-logo li a.aws{
+    background-image: url(../images/partner-logo-aws-advanced-consulting.svg);
+    width: 96px;
+    height: 41px;
+}
+
+.partners-logo li a.automation-anywhere{
+    background-image: url(../images/partner-logo-automation-anywhere.svg);
+    width: 96px;
+    height: 34px;
+}
+
+.partners-logo li a.adobe-bronze{
+    background-image: url(../images/partner-logo-adobe-bronze.svg);
+    width: 120px;
+    height: 32px;
+}
+
+.partners-logo li a.uipath{
+    background-image: url(../images/partner-logo-uipath.svg);
+    width: 67px;
+    height: 23px;
+    top: 7px;
+    position: relative;
+}
+.partners-logo li a:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.lower-footer{
+    color: #fff;
+    /* height: 60px; */
+    width: 100%;
+    font-size: 11px;
+    overflow: hidden;
+    padding: 4px 18px;
+}
+
+.lower-footer ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+
+.lower-footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 3px
+}
+
+.lower-footer ul li a {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    text-indent: -10000px;
+    opacity: .7;
+    transition: .5s
+}
+
+.lower-footer ul li a:hover {
+    opacity: 1
+}
+
+.lower-footer ul li a.instagram {
+    background-image: url(../images/footer-icon-instagram.svg);
+    background-repeat: no-repeat
+}
+
+.lower-footer ul li a.facebook {
+    background-image: url(../images/footer-icon-facebook.svg);
+    background-repeat: no-repeat
+}
+
+.lower-footer ul li a.twitter {
+    background-image: url(../images/footer-icon-twitter.svg);
+    background-repeat: no-repeat
+}
+
+.lower-footer ul li a.linkedin {
+    background-image: url(../images/footer-icon-linkedin.svg);
+    background-repeat: no-repeat
+}
+.footer-logo{
+    width: 12rem;
+    display: inline-block;
+}
+
+.footer-logo img{
+    max-width: 100%;
+}
+
+.footer-copyrite{
+    text-align: right;
+}
+
+.footer-address {
+    min-height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-section .foot-add {
+    font-size: 1.5rem;
+    position: relative;
+    padding: 6px 0;
+    padding-left: 25px;
+    /* width: 300px; */
+}
+
+.address-section .foot-add::before {
+    content: "";
+    width: 16px;
+    height: 13px;
+    left: 0;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 10px
+}
+
+.address-section .foot-add.address::before {
+    background: url(../images/icon-location.svg) center center no-repeat;
+    height: 17px
+}
+
+.address-section .foot-add.email::before {
+    background: url(../images/icon-mail.svg) center center no-repeat
+}
+
+.address-section .foot-add.phone::before {
+    background: url(../images/icon-phone.svg) center center no-repeat;
+    height: 15px
+}
+
+.page-template-contact-page .address-section .foot-add {
+    font-size: 1rem
+}
+
+.page-template-contact-page .address-section .foot-add.email::before {
+    top: 13px
+}
+
+.foot-add.email a{
+    color:#fff;
+    text-decoration: none;
+}
+
+@media (max-width: 991.98px) { 
+    .lower-footer{
+        text-align: center;
+    }
+    .partners-logo li{
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 4rem;
+        margin-bottom: 15px;
+    }
+
+    .lower-footer ul {
+        float: none;
+        margin-top: 20px
+    }
+
+    .lower-footer {
+        height: auto
+    }
+    .footer-social-wrapper{
+        margin-bottom: 2rem;
+    }
+    .footer-copyrite{
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) { 
+    .partners-logo li{
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 576px) { 
+    .logo-container{
+        display: flex;
+    justify-content: center;
+    align-items: center;
     }
 }
