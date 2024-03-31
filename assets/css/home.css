@@ -532,6 +532,29 @@ Footer CSS
     text-decoration: none;
 }
 
+.middle-footer h3{
+    font-size: 1.8rem;
+}
+
+.middle-footer .footer-links ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    padding-right: 30px
+}
+
+.middle-footer .footer-links li {
+    margin-left: 0;
+    font-size: 1.3rem;
+    padding-bottom: 7px
+}
+
+.link, .middle-footer .footer-links li a{
+    text-decoration: none;
+    color: #fff;
+    transition: .4s;
+}
+
 @media (max-width: 991.98px) { 
     .lower-footer{
         text-align: center;
@@ -566,12 +589,16 @@ Footer CSS
         margin-right: 10px;
         margin-bottom: 15px;
     }
+    .footer-links{
+        width: 49%;
+        margin-bottom: 1rem;
+    }
 }
 
 @media (min-width: 576px) { 
     .logo-container{
         display: flex;
-    justify-content: center;
+        flex-direction: column;
     align-items: center;
     }
 }
