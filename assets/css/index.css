@@ -2763,7 +2763,7 @@ Footer CSS
 }
 
 .lkUPuV.o-needHelp .a-container {
-    background-color: rgb(245, 244, 243);
+    background-color: #f5f5f5;
 }
 
 @media (min-width: 48rem) {
@@ -2775,6 +2775,8 @@ Footer CSS
 @media (min-width: 64rem) {
     .lkUPuV.o-needHelp .needHelpWrapper {
         padding: 0px 48px;
+        height: 400px;
+        overflow: hidden;
     }
 }
 
@@ -2837,16 +2839,20 @@ Footer CSS
     transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
 }
 
+.khNChs.o-needHelpTextAndImage .needHelp__imageWrapper .a-responsiveImage img:hover{
+    transform: scale(1.1);
+}
+
 .khNChs.o-needHelpTextAndImage .needHelp__textWrapper {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    align-items: flex-start;
     padding: 20px;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 @media (min-width: 48rem) {
@@ -2901,6 +2907,26 @@ Footer CSS
 }
 
 
+
+.font-value {
+    font-size: 1.6rem;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.font-value2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    align-self: center;
+}
+
+.font-value3 {
+    font-size: 2rem;
+    font-weight: 500;
+    align-self: center;
+}
+
+
 /*Media queries*/
 @media (max-width: 991.98px) {
     .lower-footer {
@@ -2931,6 +2957,35 @@ Footer CSS
         text-align: center;
     }
 
+    .font-value {
+        font-size: 1.3rem;
+        align-self: center;
+    }
+
+    .font-value2 {
+        font-size: 2.5rem;
+    }
+    .font-value3{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .font-value {
+        font-size: 1.3rem;
+        align-self: center;
+    }
+
+    .font-value2 {
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+    .font-value3{
+        font-size: 2rem;
+        font-weight: 500;
+    }
 }
 
 @media (max-width: 576px) {
@@ -2957,6 +3012,23 @@ Footer CSS
     .page-information__description {
         font-size: 1.6rem;
     }
+
+    .needHelp__textWrapper{
+        padding: 20px;
+    }
+
+    .font-value {
+        font-size: 1.3rem;
+        align-self: center;
+    }
+
+    .font-value2 {
+        font-size: 2.5rem;
+    }
+    .font-value3{
+        font-size: 2rem;
+        font-weight: 500;
+    }
 }
 
 @media (min-width: 576px) {
@@ -2964,39 +3036,5 @@ Footer CSS
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-}
-
-
-
-.font-value {
-    font-size: 1.8rem;
-    align-self: center;
-
-}
-
-.font-value2 {
-    font-size: 4rem;
-    font-weight: 600;
-    align-self: center;
-}
-
-.font-value3 {
-    font-size: 2rem;
-    font-weight: 500;
-    align-self: center;
-}
-
-@media (max-width: 576px) {
-    .font-value {
-        font-size: 15px !important;
-        align-self: center;
-
-    }
-
-    .font-value2 {
-        font-size: 22px !important;
-        font-weight: 500;
-        align-self: center;
     }
 }
