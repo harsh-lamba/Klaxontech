@@ -374,7 +374,7 @@ first Section */
 
 @media screen and (max-width: 500px) {
     .hero-content-wrap h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         padding-top: 15px;
     }
 
@@ -404,6 +404,6 @@ first Section */
     }
 
     .video-wrap video{
-        width: 200%;
+        width: 250%;
     }
 }

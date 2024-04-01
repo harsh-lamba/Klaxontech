@@ -3002,7 +3002,8 @@ Footer CSS
     }
 
     .page-information__title {
-        font-size: 3.5rem;
+        font-size: 3rem;
+        padding: 0 3rem;
     }
 
     .page-information__sub-title {
