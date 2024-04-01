@@ -2190,6 +2190,13 @@ Page Story
     }
 }
 
+@media (max-width: 470.98px) {
+
+    .page-stories-section-container {
+        height: 100vh
+    }
+}
+
 .page-stories-section-container .position-relative {
     position: relative !important;
 }
