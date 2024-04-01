@@ -132,3 +132,6 @@ Join us section : What can we help you achieve?: https://www.nagarro.com/en
 Form: https://www.nagarro.com/en/industries/automotive
 
 Footer::https://www.compunnel.com/
+
+https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
+https://unsplash.com/s/photos/technology?license=free

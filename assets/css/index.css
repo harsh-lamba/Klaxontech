@@ -2474,6 +2474,9 @@ Page title
     background: #1b48a4;
     background: linear-gradient(186deg, #AA00FF 0, #9C27B0 99.99%, #4A148C 100%);
     padding: 13rem 0;
+    background-image: linear-gradient(to right bottom, #4c7de0, #3b67bd, #2b529b, #1a3e7b, #092b5c);
+    background-image: linear-gradient(to right top, #1b48a4, #2651af, #2f5bba, #3865c6, #416fd1, #4a78d8, #5482de, #5d8be5, #6995e8, #76a0eb, #83aaee, #90b4f0);
+    background-image: linear-gradient(to right bottom, #660099, #591e9e, #4c2ca2, #3e37a4, #303fa5, #26409f, #1c4199, #134192, #0e3c84, #0b3677, #093169, #092b5c);
 }
 
 .page-help h2 {
