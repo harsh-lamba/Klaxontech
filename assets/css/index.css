@@ -2316,6 +2316,61 @@ p {
     padding-top: 4rem;
 }
 
+.page-information__blogs{
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.page-information__blogs-image{
+    margin-bottom: 2rem;
+}
+.page-information__blogs-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom:1rem;
+}
+.page-information__blogs-para{
+font-size: 1.75rem
+}
+.page-information__blogs__small-container{
+    padding: 0 2rem;
+}
+.page-information__blogs-small{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.page-information__blogs-small a{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+}
+
+.page-information__blogs-small-image{
+    flex: 0 0 30%;
+    padding-right: 1rem;
+}
+
+.page-information__blogs-small-content{
+    padding-left: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.page-information__blogs-small-content h4{
+    font-size: 1.4rem;
+}
+
+.page-information__blogs-small-content h3{
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
 @media (max-width: 992px) {
     .page-information {
         padding: 12rem 0;
@@ -2586,7 +2641,6 @@ Page Story
 @media only screen and (max-width: 599px) {
     .text-image-banner-section .text-bg-image-banner .text-image-banner-content-div .text-image-banner-heading {
         font-size: 1.5rem;
-        margin-bottom:
     }
 
     .text-image-banner-section .text-bg-image-banner .text-image-banner-content-div .text-image-banner-title {
