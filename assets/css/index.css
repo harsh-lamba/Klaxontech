@@ -2135,12 +2135,32 @@ p {
     background-color: #202020;
 }
 
+.page-information--more-spacing{
+    /* padding: 8rem 2rem 0rem 2rem; */
+}
+
+.page-information img{
+    display: block;
+    margin: 0;
+    line-height: 0;
+    max-width: 100%;
+    height: auto;
+}
+
 .page-information__white {
     background-color: #fff;
     padding: 7rem 0;
     color: #202020;
     border: none;
 }
+
+.page-information__grey{
+    background-color: rgb(245, 244, 243);
+    border-top: 0;
+    color: #1e1e1e;
+    padding-top: 10rem;
+}
+
 .page-information__white.small-spacing{
     padding: 5rem 0;
 }
@@ -2205,12 +2225,19 @@ p {
     color: #eee;
 }
 .page-information-cards__heading {
-    padding: 20px 10px;
-    font-size: 2rem;
-    font-weight: 500;
+    padding: 2rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 11px;
 }
 .page-information-cards__heading a{
     color: var(--bs-heading-color)
+}
+
+.page-information-cards__sub-heading {
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
 
 .page-information-lists{
@@ -2227,6 +2254,36 @@ p {
     margin-right: 1rem;
 }
 
+.page-information__disclaimer{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.page-information__heading{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.page-information__para{
+    font-size: 1.75rem;
+    margin-bottom:2rem;
+    line-height: 2.8rem;
+}
+
+.page-information__container--right{
+    padding-left:6rem;
+}
+.page-information__container--left{
+    padding-right:6rem;
+}
+
+.award-recognition-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
 @media (max-width: 992px) {
     .page-information {
         padding: 12rem 0;
@@ -2237,11 +2294,30 @@ p {
     .page-information {
         padding: 8rem 0;
     }
+
+    .page-information__container--left{
+        padding:inherit
+    }
+    .page-information__container--right{
+        padding:inherit
+    }
+    .page-information--more-spacing{
+        padding: 8rem 4rem 7rem 2rem;
+    }
 }
 
 @media (max-width: 576px) {
     .page-information {
         padding: 5rem 0;
+    }
+    .page-information__container--left{
+        padding:inherit
+    }
+    .page-information__container--right{
+        padding:inherit
+    }
+    .page-information--more-spacing{
+        padding: 8rem 4rem 7rem 2rem;
     }
 
 }
