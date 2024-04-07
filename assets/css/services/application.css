@@ -19,6 +19,10 @@
 
 }
 
+.hero-content-wrap--dark{
+    color: var(--bs-gray-dark);
+}
+
 .hero-content-wrap h1 {
     padding-top: 30px;
 
