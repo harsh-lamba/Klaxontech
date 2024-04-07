@@ -2203,6 +2203,39 @@ p {
     padding-right: 2.4rem;
 }
 
+.page-information-svgs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7rem;
+}
+
+.page-information-svg-card{
+    flex: 1 1 0;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 2rem;
+    margin-right: 4rem;
+    border-radius: 10px;
+    background: rgb(245, 244, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    max-width: 286px;
+    min-width: 250px;
+}
+
+.page-information-svg-card__svg{
+    padding: 3rem 5rem;
+}
+
+.page-information-svg-card__heading{
+    padding: 0 2rem;
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 600;
+}
+
 .page-information-card{
     border: 1px solid #dedede;
     box-shadow: 0 7px 30px -10px rgb(133,153,162,.5);
@@ -2280,7 +2313,6 @@ p {
 
 .award-recognition-list{
     display: flex;
-    justify-content: center;
     padding-top: 4rem;
 }
 
@@ -2318,6 +2350,13 @@ p {
     }
     .page-information--more-spacing{
         padding: 8rem 4rem 7rem 2rem;
+    }
+    .page-information-svgs{
+        padding: 0 5rem 0 3rem;
+    }
+
+    .page-information-svg-card{
+        margin-right: 0;
     }
 
 }
@@ -2681,7 +2720,6 @@ Footer CSS
 .footer-industry-partner {
     color: #fff;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
