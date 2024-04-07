@@ -174,3 +174,86 @@ Work With Us -> Other Form -> To fill up details and attach resume
 
 
     http://coaccelerate.io/industries/healthcare/
+
+http://coaccelerate.io/
+
+Offerings(coaccelerate) - Services(klaxon):
+
+
+Tasks:
+1. Complete services page following same structure:
+--------------------------------------------------
+Services(klaxon):
+-------------------------------------------------
+
+HealthCare Solutions Technology :
+http://coaccelerate.io/industries/healthcare/
+
+Business Process Outsourcing 
+http://coaccelerate.io/offerings/strategy/
+
+Data & AI  
+http://coaccelerate.io/offerings/technology-implementation/ai-generativeai/
+
+Cloud Solutions 
+http://coaccelerate.io/offerings/technology-implementation/cloud-transformation/
+
+Marketing Solutions 
+http://coaccelerate.io/offerings/technology-implementation/digital-transformation/
+
+Network and Cyber Security 
+http://coaccelerate.io/offerings/technology-implementation/cyber-security-privacy/
+
+Supply Chain Management
+http://coaccelerate.io/offerings/process-optimization/ 
+
+Sustainability ( ESG ) 
+http://coaccelerate.io/offerings/esg-sustainability-reporting/
+
+Technology Consulting 
+http://coaccelerate.io/offerings/technology-implementation/erp-enterprise-applications/
+
+Technology Innovation :
+http://coaccelerate.io/offerings/technology-implementation/erp-enterprise-applications/
+
+Workforce Solutions
+
+Application Services 
+
+Automation 
+
+
+2. Complete industries page following same structure:
+--------------------------------------------------
+Industries:
+-------------------------------------------------
+
+Automotive
+http://coaccelerate.io/industries/transportation/
+
+Banking, Finance and Capital Markets
+http://coaccelerate.io/industries/banking-and-financial-services/
+
+Communications and Media
+http://coaccelerate.io/industries/media-and-entertainment/
+
+Healthcare
+http://coaccelerate.io/industries/healthcare/
+
+Insurance
+http://coaccelerate.io/industries/insurance/
+
+
+Life Science
+http://coaccelerate.io/industries/life-sciences/
+
+Manufacturing
+http://coaccelerate.io/industries/manufacturing/
+
+Retail
+Software and Platforms
+Travel
+Aerospace and Defense
+Consumer Goods and Services
+Energy
+Pharma and Chemicals 
