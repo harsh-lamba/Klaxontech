@@ -49,27 +49,27 @@ const cBtn = document.querySelectorAll(".c-btn");
 // carousel btn
 let carouselPosition = 40;
 
-cBtn[0].addEventListener("click", () => {
-    carouselPosition += 380
-    if (carouselPosition <= 40) {
-        cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
-    }
-    else {
-        carouselPosition = 40
-        cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
-    }
-})
-cBtn[1].addEventListener("click", () => {
-    carouselPosition -= 380
-    if (carouselPosition >= -1660) {
-        cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
-    }
-    else {
-        carouselPosition = -1660
-        cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
+// cBtn[0].addEventListener("click", () => {
+//     carouselPosition += 380
+//     if (carouselPosition <= 40) {
+//         cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
+//     }
+//     else {
+//         carouselPosition = 40
+//         cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
+//     }
+// })
+// cBtn[1].addEventListener("click", () => {
+//     carouselPosition -= 380
+//     if (carouselPosition >= -1660) {
+//         cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
+//     }
+//     else {
+//         carouselPosition = -1660
+//         cardsWrapper.style.transform = `translateX(${carouselPosition}px)`
 
-    }
-})
+//     }
+// })
 
 
 // animate text when visible

@@ -135,3 +135,42 @@ Footer::https://www.compunnel.com/
 
 https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
 https://unsplash.com/s/photos/technology?license=free
+
+
+Feedbacks:
+Footer:
+- We need to add award and reg. -> https://www.compunnel.com/
+
+Careers? ()
+- We need to add it on Top menu and footer menu (Resources)
+
+Images -? Akhilesh and Sahil
+Other Pages COntent (Which are not avaialble on coaccelerate) -> Sahil and Akhilesh.
+
+Blogs: (Top: 20)
+http://coaccelerate.io/blog/
+
+
+
+-> About Us - Content
+
+
+Sub Pages:
+Need to align with coaccelerate design for content.
+
+Pages: 
+Who We Are: 
+Founder: 
+Our Leaders:
+Technology Partners
+Information Security Policy
+Terms of Use
+Privacy Policy
+
+Home page: 
+
+Work With Us -> Other Form -> To fill up details and attach resume
+    -> Attach a file and then save at some location.
+
+
+    http://coaccelerate.io/industries/healthcare/

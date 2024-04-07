@@ -28,6 +28,12 @@
     padding: 0;
 }
 
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth !important;
@@ -2131,9 +2137,18 @@ p {
 
 .page-information__white {
     background-color: #fff;
-    padding: 10rem 0;
+    padding: 7rem 0;
     color: #202020;
     border: none;
+}
+.page-information__white.small-spacing{
+    padding: 5rem 0;
+}
+
+.page-information-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .page-information__title {
@@ -2154,6 +2169,62 @@ p {
 .page-information__description {
     font-size: 2rem;
     padding: 0 4rem;
+}
+
+.page-information__description__margin-bottom{
+    margin-bottom: 1rem;
+}
+
+.page-information-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2.4rem;
+}
+
+.page-information-card{
+    border: 1px solid #dedede;
+    box-shadow: 0 7px 30px -10px rgb(133,153,162,.5);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all 600ms ease-in-out;
+    margin-bottom: 2rem;
+}
+
+.page-information-cards__image img{
+    display: block;
+    margin: 0;
+    line-height: 0;
+    max-width: 100%;
+    height: auto;
+    transition: transform 650ms ease-in-out, filter 650ms ease-in-out;
+}
+.page-information-cards__image a{
+    color: #eee;
+}
+.page-information-cards__heading {
+    padding: 20px 10px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.page-information-cards__heading a{
+    color: var(--bs-heading-color)
+}
+
+.page-information-lists{
+    font-size: 2rem;
+    padding: 0 4rem;
+    margin-bottom: 2rem;
+}
+
+.page-information-lists li{
+    padding: 0.5rem 0;
+}
+.page-information-lists li i{
+    color: var(--primary);
+    margin-right: 1rem;
 }
 
 @media (max-width: 992px) {
@@ -2807,7 +2878,7 @@ Footer CSS
 
 .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper {
     width: 100%;
-    height: 100%;
+    height: 400px;
 }
 
 .hDjgnE {
@@ -2953,7 +3024,7 @@ Footer CSS
     height: 100%;
     position: relative;
     transition-property: transform;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .case_link{
     display: block;
@@ -3022,6 +3093,9 @@ Footer CSS
 
 /*Media queries*/
 @media (max-width: 991.98px) {
+    .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper{
+        height: auto;
+    }
     .lower-footer {
         text-align: center;
     }
@@ -3067,6 +3141,9 @@ Footer CSS
 }
 
 @media screen and (max-width: 768px) {
+    .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper{
+        height: 241px;
+    }
     .font-value {
         font-size: 1.3rem;
         align-self: center;
@@ -3084,6 +3161,9 @@ Footer CSS
 }
 
 @media (max-width: 576px) {
+    .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper{
+        height: 338px;
+    }
     .partners-logo li {
         display: inline-block;
         margin-left: 0;
@@ -3105,7 +3185,7 @@ Footer CSS
         font-size: 2.5rem;
     }
 
-    .page-information__description {
+    .page-information__description, .page-information-lists {
         font-size: 1.6rem;
     }
 
@@ -3125,6 +3205,10 @@ Footer CSS
     .font-value3 {
         font-size: 2rem;
         font-weight: 500;
+    }
+
+    .page-information-cards{
+        padding: 0 5rem 0 3rem
     }
 }
 
