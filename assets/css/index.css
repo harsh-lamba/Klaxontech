@@ -28,7 +28,8 @@
     padding: 0;
 }
 
-ul,ol{
+ul,
+ol {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -62,7 +63,7 @@ buttons
     padding: 10px 5rem;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -2135,11 +2136,11 @@ p {
     background-color: #202020;
 }
 
-.page-information--more-spacing{
+.page-information--more-spacing {
     /* padding: 8rem 2rem 0rem 2rem; */
 }
 
-.page-information img{
+.page-information img {
     display: block;
     margin: 0;
     line-height: 0;
@@ -2154,18 +2155,18 @@ p {
     border: none;
 }
 
-.page-information__grey{
+.page-information__grey {
     background-color: rgb(245, 244, 243);
     border-top: 0;
     color: #1e1e1e;
     padding-top: 10rem;
 }
 
-.page-information__white.small-spacing{
+.page-information__white.small-spacing {
     padding: 5rem 0;
 }
 
-.page-information-center{
+.page-information-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2191,11 +2192,11 @@ p {
     padding: 0 4rem;
 }
 
-.page-information__description__margin-bottom{
+.page-information__description__margin-bottom {
     margin-bottom: 1rem;
 }
 
-.page-information-cards{
+.page-information-cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2203,42 +2204,9 @@ p {
     padding-right: 2.4rem;
 }
 
-.page-information-svgs{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 7rem;
-}
-
-.page-information-svg-card{
-    flex: 1 1 0;
-    border: 1px solid rgba(0, 0, 0, .1);
-    padding: 2rem;
-    margin-right: 4rem;
-    border-radius: 10px;
-    background: rgb(245, 244, 243);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 2rem;
-    max-width: 286px;
-    min-width: 250px;
-}
-
-.page-information-svg-card__svg{
-    padding: 3rem 5rem;
-}
-
-.page-information-svg-card__heading{
-    padding: 0 2rem;
-    font-size: 2.4rem;
-    text-align: center;
-    font-weight: 600;
-}
-
-.page-information-card{
+.page-information-card {
     border: 1px solid #dedede;
-    box-shadow: 0 7px 30px -10px rgb(133,153,162,.5);
+    box-shadow: 0 7px 30px -10px rgb(133, 153, 162, .5);
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -2246,7 +2214,7 @@ p {
     margin-bottom: 2rem;
 }
 
-.page-information-cards__image img{
+.page-information-cards__image img {
     display: block;
     margin: 0;
     line-height: 0;
@@ -2254,16 +2222,19 @@ p {
     height: auto;
     transition: transform 650ms ease-in-out, filter 650ms ease-in-out;
 }
-.page-information-cards__image a{
+
+.page-information-cards__image a {
     color: #eee;
 }
+
 .page-information-cards__heading {
     padding: 2rem;
     font-size: 2.4rem;
     font-weight: 600;
     margin-bottom: 11px;
 }
-.page-information-cards__heading a{
+
+.page-information-cards__heading a {
     color: var(--bs-heading-color)
 }
 
@@ -2273,45 +2244,47 @@ p {
     font-weight: 500;
 }
 
-.page-information-lists{
+.page-information-lists {
     font-size: 2rem;
     padding: 0 4rem;
     margin-bottom: 2rem;
 }
 
-.page-information-lists li{
+.page-information-lists li {
     padding: 0.5rem 0;
 }
-.page-information-lists li i{
+
+.page-information-lists li i {
     color: var(--primary);
     margin-right: 1rem;
 }
 
-.page-information__disclaimer{
+.page-information__disclaimer {
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
-.page-information__heading{
+.page-information__heading {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1.2rem;
 }
 
-.page-information__para{
-    font-size: 1.75rem;
-    margin-bottom:2rem;
-    line-height: 2.8rem;
+.page-information__para_BPO {
+    font-weight: 400;
+    font-size: 2.4375rem;
+    margin-top: 1.2em;
 }
 
-.page-information__container--right{
-    padding-left:6rem;
-}
-.page-information__container--left{
-    padding-right:6rem;
+.page-information__container--right {
+    padding-left: 6rem;
 }
 
-.award-recognition-list{
+.page-information__container--left {
+    padding-right: 6rem;
+}
+
+.award-recognition-list {
     display: flex;
     padding-top: 4rem;
 }
@@ -2382,13 +2355,15 @@ font-size: 1.75rem
         padding: 8rem 0;
     }
 
-    .page-information__container--left{
-        padding:inherit
+    .page-information__container--left {
+        padding: inherit
     }
-    .page-information__container--right{
-        padding:inherit
+
+    .page-information__container--right {
+        padding: inherit
     }
-    .page-information--more-spacing{
+
+    .page-information--more-spacing {
         padding: 8rem 4rem 7rem 2rem;
     }
 }
@@ -2397,20 +2372,24 @@ font-size: 1.75rem
     .page-information {
         padding: 5rem 0;
     }
-    .page-information__container--left{
-        padding:inherit
+
+    .page-information__container--left {
+        padding: inherit
     }
-    .page-information__container--right{
-        padding:inherit
+
+    .page-information__container--right {
+        padding: inherit
     }
-    .page-information--more-spacing{
+
+    .page-information--more-spacing {
         padding: 8rem 4rem 7rem 2rem;
     }
-    .page-information-svgs{
+
+    .page-information-svgs {
         padding: 0 5rem 0 3rem;
     }
 
-    .page-information-svg-card{
+    .page-information-svg-card {
         margin-right: 0;
     }
 
@@ -3182,11 +3161,11 @@ Footer CSS
     align-self: center;
 }
 
-.page-cards{
+.page-cards {
     padding: 6rem 0;
 }
 
-.swiper-slide{
+.swiper-slide {
     flex-shrink: 0;
     width: 100%;
     height: 100%;
@@ -3194,11 +3173,12 @@ Footer CSS
     transition-property: transform;
     margin-bottom: 3rem;
 }
-.case_link{
+
+.case_link {
     display: block;
 }
 
-.case_link:hover{
+.case_link:hover {
     cursor: pointer;
 }
 
@@ -3261,9 +3241,10 @@ Footer CSS
 
 /*Media queries*/
 @media (max-width: 991.98px) {
-    .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper{
+    .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper {
         height: auto;
     }
+
     .lower-footer {
         text-align: center;
     }
@@ -3309,9 +3290,10 @@ Footer CSS
 }
 
 @media screen and (max-width: 768px) {
-    .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper{
+    .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper {
         height: 241px;
     }
+
     .font-value {
         font-size: 1.3rem;
         align-self: center;
@@ -3329,9 +3311,10 @@ Footer CSS
 }
 
 @media (max-width: 576px) {
-    .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper{
+    .khNChs.o-needHelpTextAndImage .needHelp__imageWrapper {
         height: 338px;
     }
+
     .partners-logo li {
         display: inline-block;
         margin-left: 0;
@@ -3353,7 +3336,8 @@ Footer CSS
         font-size: 2.5rem;
     }
 
-    .page-information__description, .page-information-lists {
+    .page-information__description,
+    .page-information-lists {
         font-size: 1.6rem;
     }
 
@@ -3375,7 +3359,7 @@ Footer CSS
         font-weight: 500;
     }
 
-    .page-information-cards{
+    .page-information-cards {
         padding: 0 5rem 0 3rem
     }
 }

@@ -181,39 +181,42 @@ Offerings(coaccelerate) - Services(klaxon):
 
 
 Tasks:
+
+images are remaining 
+
 1. Complete services page following same structure:
 --------------------------------------------------
 Services(klaxon):
 -------------------------------------------------
 
-HealthCare Solutions Technology :
+HealthCare Solutions Technology : Done
 http://coaccelerate.io/industries/healthcare/
 
-Business Process Outsourcing 
+Business Process Outsourcing Done
 http://coaccelerate.io/offerings/strategy/
 
-Data & AI  
+Data & AI  Done
 http://coaccelerate.io/offerings/technology-implementation/ai-generativeai/
 
-Cloud Solutions 
+Cloud Solutions Done
 http://coaccelerate.io/offerings/technology-implementation/cloud-transformation/
 
 Marketing Solutions 
 http://coaccelerate.io/offerings/technology-implementation/digital-transformation/
 
-Network and Cyber Security 
+Network and Cyber Security Done
 http://coaccelerate.io/offerings/technology-implementation/cyber-security-privacy/
 
-Supply Chain Management
+Supply Chain Management Done
 http://coaccelerate.io/offerings/process-optimization/ 
 
-Sustainability ( ESG ) 
+Sustainability ( ESG ) Done
 http://coaccelerate.io/offerings/esg-sustainability-reporting/
 
-Technology Consulting 
+Technology Consulting Done
 http://coaccelerate.io/offerings/technology-implementation/erp-enterprise-applications/
 
-Technology Innovation :
+Technology Innovation : Done
 http://coaccelerate.io/offerings/technology-implementation/erp-enterprise-applications/
 
 Workforce Solutions
