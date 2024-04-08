@@ -231,10 +231,10 @@ Automation
 Industries:
 -------------------------------------------------
 
-Automotive
+Automotive Done
 http://coaccelerate.io/industries/transportation/
 
-Banking, Finance and Capital Markets
+Banking, Finance and Capital Markets Done
 http://coaccelerate.io/industries/banking-and-financial-services/
 
 Communications and Media
