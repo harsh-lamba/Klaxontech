@@ -237,20 +237,20 @@ http://coaccelerate.io/industries/transportation/
 Banking, Finance and Capital Markets Done
 http://coaccelerate.io/industries/banking-and-financial-services/
 
-Communications and Media
+Communications and Media done
 http://coaccelerate.io/industries/media-and-entertainment/
 
-Healthcare
+Healthcare done
 http://coaccelerate.io/industries/healthcare/
 
-Insurance
+Insurance done
 http://coaccelerate.io/industries/insurance/
 
 
-Life Science
+Life Science done
 http://coaccelerate.io/industries/life-sciences/
 
-Manufacturing
+Manufacturing 
 http://coaccelerate.io/industries/manufacturing/
 
 Retail
