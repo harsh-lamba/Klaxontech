@@ -250,7 +250,7 @@ http://coaccelerate.io/industries/insurance/
 Life Science done
 http://coaccelerate.io/industries/life-sciences/
 
-Manufacturing 
+Manufacturing done
 http://coaccelerate.io/industries/manufacturing/
 
 Retail
