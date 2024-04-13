@@ -253,12 +253,12 @@ http://coaccelerate.io/industries/life-sciences/
 Manufacturing done
 http://coaccelerate.io/industries/manufacturing/
 
-Retail - Done
-Software and Platforms - Done.
-Travel 
-Aerospace and Defense - Done
-Consumer Goods and Services - Done
-Energy - Done
-Pharma and Chemicals - Done
+Retail - Done Done
+Software and Platforms - Done. Done
+Travel - Done Done mp4
+Aerospace and Defense - Done Done
+Consumer Goods and Services - Done Done
+Energy - Done Done
+Pharma and Chemicals - Done Done
 
 mp4 pending.
