@@ -2,581 +2,684 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
-    <title>Klaxontech - Connecting Talent, Powering Solutions.</title>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <!-- Option 1: Include in HTML -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon" />
+  <title>Klaxontech - Connecting Talent, Powering Solutions.</title>
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" /> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/index.css" />
-    <link rel="stylesheet" href="/assets/css/services/application.css" />
-    <link rel="stylesheet" href="/assets/css/industries/aerospace.css" />
+  <!-- Include tempaltes -->
+  <script src="../assets/script/include.js"></script>
+
+  <link rel="stylesheet" href="../assets/css/index.css" />
+  <link rel="stylesheet" href="../assets/css/services/application.css" />
+  <link rel="stylesheet" href="../assets/css/industries/aerospace.css" />
 </head>
 
 <body id="body">
-    <header id="site-header" class="klaxon-header">
-        <nav class="site-navbar klaxon-nav-wrapper" id="site-navbar">
-          <div class="desktop-nav klaxon-desktop-nav">
-            <div class="dropdown-wrapper klaxon-desktop-nav-dropdown-wrapper">
-              <div class="services-wrapper dropdown klaxon-desktop-nav-dropdown">
+  <header id="site-header" class="klaxon-header">
+    <nav class="site-navbar klaxon-nav-wrapper" id="site-navbar">
+      <div class="desktop-nav klaxon-desktop-nav">
+        <div class="dropdown-wrapper klaxon-desktop-nav-dropdown-wrapper">
+          <div class="services-wrapper dropdown klaxon-desktop-nav-dropdown">
+            <a href="../services/health-care-solution.html">
+              <i class="fa-solid fa-leaf"></i>
+              HealthCare Solutions Technology</a>
+            <a href="#">
+              <i class="fa-solid fa-handshake"></i>
+              Workforce Solutions</a>
+            <a href="#">
+              <i class="fa-solid fa-wrench"></i>
+              Application Services</a>
+            <a href="#">
+              <i class="fa-solid fa-wand-magic"></i>
+              Automation</a>
+            <a href="../services/business-process-outsourcing.html">
+              <!-- <i class="bi bi-globe"></i> -->
+              <i class="fa-solid fa-globe"></i>
+              Business Process Outsourcing</a>
+            <a href="../services/data-ai.html">
+              <i class="fa-solid fa-brain"></i>
+              Data & AI</a>
+            <a href="../services/cloud.html">
+              <i class="fa-solid fa-cloud"></i>
+              Cloud Solutions</a>
+            <a href="../services/marketing-solution.html">
+              <i class="fa-solid fa-lightbulb"></i>
+              Marketing Soltions</a>
+            <a href="../services/network-cybersecurity.html">
+              <i class="fa-solid fa-shield"></i>
+              Network and Cyber Security</a>
+            <a href="../services/supply-chain-management.html">
+              <i class="fa-solid fa-qrcode"></i>
+              Supply Chain Management</a>
+            <a href="../services/sustainability.html">
+              <i class="fa-solid fa-recycle"></i>
+              Sustainability</a>
+            <a href="../services/technology-consulting.html">
+              <i class="fa-solid fa-gear"></i>
+              Technology Consulting</a>
+            <a href="../services/technology-innovation.html">
+              <i class="fa-solid fa-bullseye"></i>
+              Technology Innovation</a>
+          </div>
+          <div class="industries-wrapper dropdown klaxon-desktop-nav-dropdown">
+            <a href="./aerospace.html">
+              <i class="fa-solid fa-shield-halved"></i>
+              Aerospace and Defense
+            </a>
+            <a href="./automotive.html">
+              <i class="fa-solid fa-wrench"></i>
+              Automotive</a>
+            <a href="./banking-finance-capital-markets.html">
+              <i class="fa-solid fa-chart-line"></i>
+              Banking, Finance and Capital
+              Markets</a>
+            <a href="./pharma-chemicals.html"> <i class="fa-solid fa-capsules"></i> Pharma and Chemicals
+            </a>
+            <a href="./communications-media.html"><i class="fa-solid fa-envelope"></i>
+              Communications
+              and Media</a>
+            <a href="./consumer-goods-services.html"> <i class="fa-solid fa-tag"></i> Consumer
+              Goods and Services</a>
+            <a href="./energy.html"> <i class="fa-solid fa-bolt"></i> Energy</a>
+            <a href="./healthcare.html"> <i class="fa-solid fa-star-of-life"></i> Healthcare</a>
+            <a href="./insurance.html"> <i class="fa-solid fa-umbrella"></i> Insurance</a>
+            <a href="./retail.html"> <i class="fa-solid fa-box"></i> Retail</a>
+            <a href="./software-platform.html"> <i class="fa-solid fa-server"></i> Software and
+              Platforms</a>
+            <a href="./travel.html"> <i class="fa-solid fa-location-dot"></i> Travel</a>
+            <a href="./life-sciences.html"> <i class="fa-solid fa-dna"></i>Life Science</a>
+            <a href="./manufacturing.html"> <i class="fa-solid fa-industry"></i> Manufacturing</a>
+          </div>
+        </div>
+        <ion-icon name="menu-outline" size="large" id="hamburger" class="hamburger pointer"></ion-icon>
+        <ion-icon name="close-outline" class="cross pointer hide"></ion-icon>
+        <div class="klaxon-desktop-nav__left-section">
+          <a href="../index.html" class="klaxontech-logo" id="klaxontech-dark-logo">
+            <img src="../assets/images/dark-logo.png" alt="klaxontech logo" />
+          </a>
+          <div class="flex klaxon-desktop-site-menu">
+            <div class="list-item-wrapper flex">
+              <li class="list-item flex">
+                Services
+                <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
+              </li>
+            </div>
+            <div class="list-item-wrapper flex">
+              <li class="list-item flex">
+                Industries
+                <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
+              </li>
+            </div>
+            <div class="list-item-wrapper flex">
+              <li class="list-item flex">
+                <a href="../blogs.html">Blogs</a>
+              </li>
+            </div>
+            <div class="list-item-wrapper flex">
+              <li class="list-item flex">
+                <a href="../contact.html">Contact Us</a>
+              </li>
+            </div>
+            <div class="list-item-wrapper flex">
+              <li class="list-item flex">
+                <a href="../about-us.html">
+                  About Klaxontech
+                </a>
+              </li>
+            </div>
+          </div>
+        </div>
+        <div class="klaxon-desktop-nav__right-section">
+          <!-- <div class="search-wrapper flex">
+                <i class="bi bi-search flex"></i>
+              </div> -->
+          <!-- <div class="site-translator-wrapper"> -->
+          <div id="google_translate_element" style="display: none;"></div>
+          <!-- </div> -->
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <div class="overlay"></div>
+        <ul class="mobile-nav-main-wrapper">
+          <div class="mobile-nav-wrapper">
+            <div class="list-item-wrapper m-list flex">
+              <li class="list-item flex">
+                <span>Services</span>
+                <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
+              </li>
+              <div class="sub-items-wrapper">
                 <a href="../services/health-care-solution.html">
-                  <i class="fa-solid fa-leaf"></i>
                   HealthCare Solutions Technology</a>
                 <a href="#">
-                  <i class="fa-solid fa-handshake"></i>
                   Workforce Solutions</a>
                 <a href="#">
-                  <i class="fa-solid fa-wrench"></i>
                   Application Services</a>
                 <a href="#">
-                  <i class="fa-solid fa-wand-magic"></i>
                   Automation</a>
                 <a href="../services/business-process-outsourcing.html">
-                  <!-- <i class="bi bi-globe"></i> -->
-                  <i class="fa-solid fa-globe"></i>
                   Business Process Outsourcing</a>
                 <a href="../services/data-ai.html">
-                  <i class="fa-solid fa-brain"></i>
                   Data & AI</a>
                 <a href="../services/cloud.html">
-                  <i class="fa-solid fa-cloud"></i>
                   Cloud Solutions</a>
                 <a href="../services/marketing-solution.html">
-                  <i class="fa-solid fa-lightbulb"></i>
                   Marketing Soltions</a>
                 <a href="../services/network-cybersecurity.html">
-                  <i class="fa-solid fa-shield"></i>
                   Network and Cyber Security</a>
                 <a href="../services/supply-chain-management.html">
-                  <i class="fa-solid fa-qrcode"></i>
                   Supply Chain Management</a>
                 <a href="../services/sustainability.html">
-                  <i class="fa-solid fa-recycle"></i>
                   Sustainability</a>
                 <a href="../services/technology-consulting.html">
-                  <i class="fa-solid fa-gear"></i>
                   Technology Consulting</a>
                 <a href="../services/technology-innovation.html">
-                  <i class="fa-solid fa-bullseye"></i>
                   Technology Innovation</a>
               </div>
-              <div class="industries-wrapper dropdown klaxon-desktop-nav-dropdown">
+            </div>
+            <div class="list-item-wrapper m-list flex">
+              <li class="list-item flex">
+                <span>Industries</span>
+                <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
+              </li>
+              <div class="sub-items-wrapper fix-w">
                 <a href="./aerospace.html">
-                  <i class="fa-solid fa-shield-halved"></i>
+
                   Aerospace and Defense
                 </a>
                 <a href="./automotive.html">
-                  <i class="fa-solid fa-wrench"></i>
+
                   Automotive</a>
                 <a href="./banking-finance-capital-markets.html">
-                  <i class="fa-solid fa-chart-line"></i>
+
                   Banking, Finance and Capital
                   Markets</a>
-                <a href="./pharma-chemicals.html"> <i class="fa-solid fa-capsules"></i> Pharma and Chemicals
+                <a href="./pharma-chemicals.html"> Pharma and Chemicals
                 </a>
-                <a href="./communications-media.html"><i class="fa-solid fa-envelope"></i>
+                <a href="./communications-media.html">
                   Communications
                   and Media</a>
-                <a href="./consumer-goods-services.html"> <i class="fa-solid fa-tag"></i> Consumer
+                <a href="./consumer-goods-services.html"> Consumer
                   Goods and Services</a>
-                <a href="./energy.html"> <i class="fa-solid fa-bolt"></i> Energy</a>
-                <a href="./healthcare.html"> <i class="fa-solid fa-star-of-life"></i> Healthcare</a>
-                <a href="./insurance.html"> <i class="fa-solid fa-umbrella"></i> Insurance</a>
-                <a href="./retail.html"> <i class="fa-solid fa-box"></i> Retail</a>
-                <a href="./software-platform.html"> <i class="fa-solid fa-server"></i> Software and
+                <a href="./energy.html"> Energy</a>
+                <a href="./healthcare.html"> Healthcare</a>
+                <a href="./insurance.html"> Insurance</a>
+                <a href="./retail.html"> Retail</a>
+                <a href="./software-platform.html"> Software and
                   Platforms</a>
-                <a href="./travel.html"> <i class="fa-solid fa-location-dot"></i> Travel</a>
-                <a href="./life-sciences.html"> <i class="fa-solid fa-dna"></i>Life Science</a>
-                <a href="./manufacturing.html"> <i class="fa-solid fa-industry"></i> Manufacturing</a>
+                <a href="./travel.html"> Travel</a>
+                <a href="./life-sciences.html"> Life Science</a>
+                <a href="./manufacturing.html"> Manufacturing</a>
               </div>
             </div>
-            <ion-icon name="menu-outline" size="large" id="hamburger" class="hamburger pointer"></ion-icon>
-            <ion-icon name="close-outline" class="cross pointer hide"></ion-icon>
-            <div class="klaxon-desktop-nav__left-section">
-              <a href="../index.html" class="klaxontech-logo" id="klaxontech-dark-logo">
-                <img src="../assets/images/dark-logo.png" alt="klaxontech logo" />
-              </a>
-              <div class="flex klaxon-desktop-site-menu">
-                <div class="list-item-wrapper flex">
-                  <li class="list-item flex">
-                    Services
-                    <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
-                  </li>
-                </div>
-                <div class="list-item-wrapper flex">
-                  <li class="list-item flex">
-                    Industries
-                    <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
-                  </li>
-                </div>
-                <div class="list-item-wrapper flex">
-                  <li class="list-item flex">
-                    <a href="../blogs.html">Blogs</a>
-                  </li>
-                </div>
-                <div class="list-item-wrapper flex">
-                  <li class="list-item flex">
-                    <a href="../contact.html">Contact Us</a>
-                  </li>
-                </div>
-                <div class="list-item-wrapper flex">
-                  <li class="list-item flex">
-                    <a href="../about-us.html">
-                      About Klaxontech
-                    </a>
-                  </li>
-                </div>
-              </div>
+            <div class="list-item-wrapper m-list flex">
+              <li class="list-item flex">
+                <span><a href="../blogs.html"> Blogs</a></span>
+              </li>
+
             </div>
-            <div class="klaxon-desktop-nav__right-section">
-              <!-- <div class="search-wrapper flex">
-                    <i class="bi bi-search flex"></i>
-                  </div> -->
-              <!-- <div class="site-translator-wrapper"> -->
-              <div id="google_translate_element" style="display: none;"></div>
-              <!-- </div> -->
+            <div class="list-item-wrapper m-list flex">
+              <li class="list-item flex">
+                <span><a href="#"> Contact Us</a></span>
+              </li>
+            </div>
+            <div class="list-item-wrapper m-list flex">
+              <li class="list-item flex">
+                <span><a href="../about-us.html"> About Klaxontech </a></span>
+              </li>
             </div>
           </div>
-          <div class="mobile-nav">
-            <div class="overlay"></div>
-            <ul class="mobile-nav-main-wrapper">
-              <div class="mobile-nav-wrapper">
-                <div class="list-item-wrapper m-list flex">
-                  <li class="list-item flex">
-                    <span>Services</span>
-                    <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
-                  </li>
-                  <div class="sub-items-wrapper">
-                    <a href="../services/health-care-solution.html">
-                      HealthCare Solutions Technology</a>
-                    <a href="#">
-                      Workforce Solutions</a>
-                    <a href="#">
-                      Application Services</a>
-                    <a href="#">
-                      Automation</a>
-                    <a href="../services/business-process-outsourcing.html">
-                      Business Process Outsourcing</a>
-                    <a href="../services/data-ai.html">
-                      Data & AI</a>
-                    <a href="../services/cloud.html">
-                      Cloud Solutions</a>
-                    <a href="../services/marketing-solution.html">
-                      Marketing Soltions</a>
-                    <a href="../services/network-cybersecurity.html">
-                      Network and Cyber Security</a>
-                    <a href="../services/supply-chain-management.html">
-                      Supply Chain Management</a>
-                    <a href="../services/sustainability.html">
-                      Sustainability</a>
-                    <a href="../services/technology-consulting.html">
-                      Technology Consulting</a>
-                    <a href="../services/technology-innovation.html">
-                      Technology Innovation</a>
-                  </div>
+
+          <div class="mobile-nav-contact-wrapper">
+            <!-- <div class="contact-wrapper">
+              <a href="contact.html">Contact Us</a><a href="">Careers</a><a href="">Locations</a>
+            </div> -->
+            <div class="social-media">
+              <a href="https://www.linkedin.com/company/klaxontech/"><ion-icon name="logo-linkedin"></ion-icon></a><a
+                href="https://twitter.com/Klaxontech_Inc/"><ion-icon name="logo-twitter"></ion-icon></a><a
+                href="https://www.facebook.com/Klaxontech/"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="https://www.instagram.com/klaxontech_inc/"><ion-icon name="logo-instagram"></ion-icon></a>
+              <a href=""><ion-icon name="mail"></ion-icon></a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="main" class="main" tabindex=0>
+    <nav id="nav-roller-wrapper" class="">
+      <div class="nav-roller-wrap2 flex">
+        <div class="nav-roller-progress-bar"></div>
+        <ul class="nav-roller-menu flex">
+          <button class="arrow-wrapper flex">
+            <span class="flex"><i class="bi bi-arrow-right"></i></span>
+          </button>
+        </ul>
+      </div>
+    </nav>
+    <div id="main-wrapper">
+      <section id="hero-section">
+        <div class="hero-wrapper">
+          <div class="main-content-wrap">
+            <div class="hero-content-wrap">
+              <h1>Software and Platforms Solutions
+              </h1>
+              <p>
+                Klaxontech offers innovative software and platform solutions designed to address the diverse needs of businesses across industries. With our comprehensive suite of services, we empower organizations to streamline operations, enhance productivity, and drive growth in today's digital landscape.
+              </p>
+            </div>
+          </div>
+          <div class="video-wrap">
+            <video src="../assets/videos/aerospace.mp4" autoplay muted loop></video>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-information page-information__white">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm12 page-information-center">
+              <h2 class="page-information__title">Custom Software Development
+              </h2>
+              <h4 class="page-information__sub-title">Unlock the full potential of your business with Klaxontech's custom software development services. From web and mobile applications to enterprise solutions and IoT platforms, our expert team designs and develops bespoke software solutions tailored to your unique requirements, empowering you to achieve your business objectives efficiently and effectively.
+              </h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 page-information-svgs">
+              <div class="page-information-svg-card">
+                <div class="page-information-svg-card__svg">
+                  <img src="../assets/images/img1.svg" alt="" />
                 </div>
-                <div class="list-item-wrapper m-list flex">
-                  <li class="list-item flex">
-                    <span>Industries</span>
-                    <ion-icon name="chevron-down-outline" class="down-icon flex-align"></ion-icon>
-                  </li>
-                  <div class="sub-items-wrapper fix-w">
-                    <a href="./aerospace.html">
-                      
-                      Aerospace and Defense
-                    </a>
-                    <a href="./automotive.html">
-                      
-                      Automotive</a>
-                    <a href="./banking-finance-capital-markets.html">
-                      
-                      Banking, Finance and Capital
-                      Markets</a>
-                    <a href="./pharma-chemicals.html">  Pharma and Chemicals
-                    </a>
-                    <a href="./communications-media.html">
-                      Communications
-                      and Media</a>
-                    <a href="./consumer-goods-services.html">  Consumer
-                      Goods and Services</a>
-                    <a href="./energy.html">  Energy</a>
-                    <a href="./healthcare.html"> Healthcare</a>
-                    <a href="./insurance.html">  Insurance</a>
-                    <a href="./retail.html">  Retail</a>
-                    <a href="./software-platform.html">  Software and
-                      Platforms</a>
-                    <a href="./travel.html">  Travel</a>
-                    <a href="./life-sciences.html"> Life Science</a>
-                    <a href="./manufacturing.html">  Manufacturing</a>
-                  </div>
-                </div>
-                <div class="list-item-wrapper m-list flex">
-                  <li class="list-item flex">
-                    <span><a href="../blogs.html"> Blogs</a></span>
-                  </li>
-    
-                </div>
-                <div class="list-item-wrapper m-list flex">
-                  <li class="list-item flex">
-                    <span><a href="#"> Contact Us</a></span>
-                  </li>
-                </div>
-                <div class="list-item-wrapper m-list flex">
-                  <li class="list-item flex">
-                    <span><a href="../about-us.html"> About Klaxontech </a></span>
-                  </li>
+                <div class="page-information-svg-card__heading">
+                  Mission-Critical Software Development
                 </div>
               </div>
-    
-              <div class="mobile-nav-contact-wrapper">
-                <!-- <div class="contact-wrapper">
-                  <a href="contact.html">Contact Us</a><a href="">Careers</a><a href="">Locations</a>
-                </div> -->
-                <div class="social-media">
-                  <a href="https://www.linkedin.com/company/klaxontech/"><ion-icon name="logo-linkedin"></ion-icon></a><a
-                    href="https://twitter.com/Klaxontech_Inc/"><ion-icon name="logo-twitter"></ion-icon></a><a
-                    href="https://www.facebook.com/Klaxontech/"><ion-icon name="logo-facebook"></ion-icon></a>
-                  <a href="https://www.instagram.com/klaxontech_inc/"><ion-icon name="logo-instagram"></ion-icon></a>
-                  <a href=""><ion-icon name="mail"></ion-icon></a>
+              <div class="page-information-svg-card">
+                <div class="page-information-svg-card__svg">
+                  <img src="../assets/images/img2.svg" alt="" />
+                </div>
+                <div class="page-information-svg-card__heading">
+                  Cybersecurity Solutions
                 </div>
               </div>
+              <div class="page-information-svg-card">
+                <div class="page-information-svg-card__svg">
+                  <img src="../assets/images/img3.svg" alt="" />
+                </div>
+                <div class="page-information-svg-card__heading">
+                  Supply Chain Optimization
+                </div>
+              </div>
+              <div class="page-information-svg-card">
+                <div class="page-information-svg-card__svg">
+                  <img src="../assets/images/img4.svg" alt="" />
+                </div>
+                <div class="page-information-svg-card__heading">
+                  Regulatory Compliance and Certification
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page-information page-information__grey">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm page-information-center">
+              <h2 class="page-information__title">Segments</h2>
+              <h4 class="page-information__sub-title">Key service that we offer to our clients.</h4>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4 page-information-cards">
+              <div class="page-information-card h-100">
+                <div class="page-information-cards__image">
+                  <img loading="lazy" decoding="async" width="1280" height="960"
+                    src="../assets/images/Software-and-Platforms-1.jpg"
+                    class="attachment-boldthemes_large_4:3 size-boldthemes_large_4:3"
+                    alt="../assets/images/Software-and-Platforms-1.jpg?resize=1280%2C960"
+                    data-full_image_src="../assets/images/Software-and-Platforms-1.jpg?fit=1920%2C1200"
+                    title="healthcare-seg-1"
+                    srcset="../assets/images/Software-and-Platforms-1.jpg?resize=1280%2C960 1280w, ../assets/images/Software-and-Platforms-1.jpg?resize=1080%2C810 1080w, ../assets/images/Software-and-Platforms-1.jpg?resize=540%2C405 540w"
+                    sizes="(max-width: 1200px) 100vw, 1200px">
+                </div>
+                <div class="page-information-cards__heading pb-1">
+                  Cloud Services and Migration
+                </div>
+                <div class="page-information-cards__sub-heading pt-0">
+                  Leverage the power of the cloud with Klaxontech's cloud services and migration solutions. Whether you're looking to migrate your existing infrastructure to the cloud, optimize cloud resources, or develop cloud-native applications, our cloud experts help you harness the scalability, flexibility, and cost-efficiency of cloud computing to drive innovation and accelerate growth.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 page-information-cards">
+              <div class="page-information-card h-100">
+                <div class="page-information-cards__image">
+                  <img loading="lazy" decoding="async" width="1280" height="960"
+                    src="../assets/images/Software-and-Platforms-2.jpg"
+                    class="attachment-boldthemes_large_4:3 size-boldthemes_large_4:3"
+                    alt="../assets/images/Software-and-Platforms-2.jpg"
+                    data-full_image_src="../assets/images/Software-and-Platforms-2.jpg?fit=1920%2C1200"
+                    title="healthcare-seg-3"
+                    srcset="../assets/images/Software-and-Platforms-2.jpg 1280w, ../assets/images/Software-and-Platforms-2.jpg?resize=1080%2C810 1080w, ../assets/images/Software-and-Platforms-2.jpg?resize=540%2C405 540w"
+                    sizes="(max-width: 1200px) 100vw, 1200px">
+                </div>
+                <div class="page-information-cards__heading pb-1">
+                  Data Analytics and Business Intelligence
+                </div>
+                <div class="page-information-cards__sub-heading pt-0">
+                  Transform data into actionable insights with Klaxontech's data analytics and business intelligence solutions. From data visualization and predictive analytics to machine learning and AI-driven insights, our advanced analytics capabilities help you unlock valuable insights, make informed decisions, and drive business performance across all levels of your organization.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 page-information-cards">
+              <div class="page-information-card h-100">
+                <div class="page-information-cards__image">
+                  <img loading="lazy" decoding="async" width="1280" height="960"
+                    src="../assets/images/Software-and-Platforms-3.jpg"
+                    class="attachment-boldthemes_large_4:3 size-boldthemes_large_4:3"
+                    alt="../assets/images/Software-and-Platforms-3.jpg"
+                    data-full_image_src="../assets/images/Software-and-Platforms-3.jpg?fit=1920%2C1200"
+                    title="healthcare-seg-2"
+                    srcset="../assets/images/Software-and-Platforms-3.jpg 1280w, ../assets/images/Software-and-Platforms-3.jpg?resize=1080%2C810 1080w, ../assets/images/Software-and-Platforms-3.jpg?resize=540%2C405 540w"
+                    sizes="(max-width: 1200px) 100vw, 1200px">
+                </div>
+                <div class="page-information-cards__heading pb-1">
+                  Enterprise Resource Planning (ERP) Solutions
+                </div>
+                <div class="page-information-cards__sub-heading pt-0">
+                  Streamline business processes and improve efficiency with Klaxontech's ERP solutions. Whether you're a small business or a large enterprise, our ERP experts help you implement, customize, and optimize ERP systems that integrate core business functions such as finance, HR, supply chain, and CRM, enabling you to drive operational excellence and achieve your business goals.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-information page-information__white">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm page-information-center">
+              <h2 class="page-information__title">Insights</h2>
+              <h4 class="page-information__sub-title">Some of the latest trends in Healthcare industry
+              </h4>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4 page-information-cards">
+              <div class="page-information-card h-100">
+                <div class="page-information-cards__image">
+                  <img loading="lazy" decoding="async" width="1280" height="960"
+                    src="../assets/images/Software-and-Platforms-4.jpg"
+                    class="attachment-boldthemes_large_4:3 size-boldthemes_large_4:3"
+                    alt="../assets/images/Software-and-Platforms-4.jpg"
+                    data-full_image_src="../assets/images/Software-and-Platforms-4.jpg?fit=1920%2C1200"
+                    title="healthcare-insights-1"
+                    srcset="../assets/images/Software-and-Platforms-4.jpg 1280w, ../assets/images/Software-and-Platforms-4.jpg?resize=1080%2C810 1080w, ../assets/images/Software-and-Platforms-4.jpg?resize=540%2C405 540w"
+                    sizes="(max-width: 1200px) 100vw, 1200px">
+                </div>
+                <div class="page-information-cards__heading pb-1">
+                  Digital Marketing and Customer Engagement
+                </div>
+                <div class="page-information-cards__sub-heading pt-0">
+                  Drive growth and engagement with Klaxontech's digital marketing and customer engagement solutions. From search engine optimization (SEO) and social media marketing to email automation and content strategy, our digital marketing experts help you reach and engage your target audience effectively, build brand loyalty, and drive conversions in today's competitive digital landscape.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 page-information-cards">
+              <div class="page-information-card h-100">
+                <div class="page-information-cards__image">
+                  <img loading="lazy" decoding="async" width="1280" height="960"
+                    src="../assets/images/Software-and-Platforms-5.jpg"
+                    class="attachment-boldthemes_large_4:3 size-boldthemes_large_4:3"
+                    alt="../assets/images/Software-and-Platforms-5.jpg"
+                    data-full_image_src="../assets/images/Software-and-Platforms-5.jpg?fit=1920%2C1200"
+                    title="healthcare-insights-2"
+                    srcset="../assets/images/Software-and-Platforms-5.jpg 1280w, ../assets/images/Software-and-Platforms-5.jpg?resize=1080%2C810 1080w, ../assets/images/Software-and-Platforms-5.jpg?resize=540%2C405 540w"
+                    sizes="(max-width: 1200px) 100vw, 1200px">
+                </div>
+                <div class="page-information-cards__heading pb-1">
+                  Cybersecurity and Compliance
+                </div>
+                <div class="page-information-cards__sub-heading pt-0">
+                  Protect your business from cyber threats and ensure compliance with Klaxontech's cybersecurity and compliance solutions. From threat detection and incident response to regulatory compliance and data privacy, our cybersecurity experts help you implement robust security measures and best practices to safeguard your assets, mitigate risks, and maintain regulatory compliance in an ever-evolving threat landscape.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 page-information-cards">
+              <div class="page-information-card h-100">
+                <div class="page-information-cards__image">
+                  <img loading="lazy" decoding="async" width="1280" height="960"
+                    src="../assets/images/Software-and-Platforms-6.jpg"
+                    class="attachment-boldthemes_large_4:3 size-boldthemes_large_4:3"
+                    alt="../assets/images/Software-and-Platforms-6.jpg"
+                    data-full_image_src="../assets/images/Software-and-Platforms-6.jpg?fit=1920%2C1200"
+                    title="healthcare-insights-3"
+                    srcset="../assets/images/Software-and-Platforms-6.jpg 1280w, ../assets/images/Software-and-Platforms-6.jpg?resize=1080%2C810 1080w, ../assets/images/Software-and-Platforms-6.jpg?resize=540%2C405 540w"
+                    sizes="(max-width: 1200px) 100vw, 1200px">
+                </div>
+                <div class="page-information-cards__heading pb-1">
+                  Partner with Klaxontech for Digital Success
+                </div>
+                <div class="page-information-cards__sub-heading pt-0">
+                  Discover how Klaxontech's Software and Platforms Solutions can help you achieve digital success. Whether you're looking to develop custom software, migrate to the cloud, harness data analytics, streamline business processes, or enhance cybersecurity, we're here to be your trusted partner on the journey to digital transformation and business growth.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-help">
+        <div class="container text-center">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-sm-6">
+              <h2 class="page-title mb-5">The next AI revolution will be built by people like you.</h2>
+            </div>
+            <div class="col-sm-6 page-help__button">
+              <div class="row">
+                <div class="col-sm-12">
+                  <button class="btn btn-primary btn-klaton" type="submit">Join us</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page-information page-information__white">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 class="page-information__title">
+                Awards and Recognition</h2>
+              <h4 class="page-information__sub-title">
+                Today's milestone. Tomorrow's start line.</h4>
+              <ul class="award-recognition-list">
+                <li>
+                  <img decoding="async" src="https://www.compunnel.com/storage/2024/01/sia-footer-logo-2023-new.svg"
+                    height="70" alt="2020" class="alignnone size-full" style="opacity: 1;">
+                </li>
+                <li>
+                  <img loading="lazy" decoding="async"
+                    src="https://www.compunnel.com/storage/2023/06/gptw-footer-logo.jpg" alt="2020" width="70"
+                    height="70" style="height: 70px; opacity: 1;" class="alignnone size-full">
+                </li>
+                <li>
+                  <img loading="lazy" decoding="async"
+                    src="https://www.compunnel.com/storage/2023/06/gptw-footer-logo2.jpg" alt="2020" width="70"
+                    height="70" style="height: 70px; opacity: 1;" class="alignnone size-full">
+                </li>
+                <li>
+                  <img decoding="async" src="https://www.compunnel.com/storage/2023/05/bh-gold-2021-footer.svg"
+                    height="70" alt="2021" class="alignnone size-full" style="opacity: 1;">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm align-self-center align-items-center">
+          <div class="footer-industry-partner mb-4">
+            <ul class="partners-logo">
+              <li><a href="https://www.compunnel.com/partners/microsoft" class="microsoft">Microsoft</a></li>
+              <li><a href="https://www.compunnel.com/partners/aws/" class="aws">AWS advanced consulting</a></li>
+              <li><a href="https://www.compunnel.com/partners/automation-anywhere/"
+                  class="automation-anywhere">Automation Anywhere</a></li>
+              <li><a href="https://www.compunnel.com/partners/adobe/" class="adobe-bronze">Adobe Bronze</a></li>
+              <li><a href="https://www.compunnel.com/partners/uipath/" class="uipath">UIpath</a></li>
             </ul>
           </div>
-        </nav>
-      </header>
-    <main id="main" tabindex=0>
-        <nav id="nav-roller-wrapper" class="">
-            <div class="nav-roller-wrap2 flex">
-                <div class="nav-roller-progress-bar"></div>
-                <ul class="nav-roller-menu flex">
-                    <button class="arrow-wrapper flex">
-                        <span class="flex"><i class="bi bi-arrow-right"></i></span>
-                    </button>
-                    <!-- <li class="nav-roller-menu-item flex">
-            <span>Case studies & stories</span>
-          </li>
-          <li class="nav-roller-menu-item flex">
-            <span>Join our team</span>
-          </li>
-          <li class="nav-roller-menu-item flex">
-            <span>Ideas that make an impact</span>
-          </li>
-          <li class="nav-roller-menu-item flex">
-            <span>Leading through channge</span>
-          </li> -->
-                </ul>
-            </div>
-        </nav>
-        <div id="main-wrapper">
-            <section id="hero-section">
-                <div class="hero-wrapper">
-                    <div class="main-content-wrap">
-
-                        <div class="hero-content-wrap">
-                            <h1>Artificial Intelligence services
-                            </h1>
-                            <p><span>
-                                    AI services and solutions to help you get more value from cloud.
-
-
-                                </span></p>
-                        </div>
-                    </div>
-                    <div class="video-wrap">
-                        <video src="/assets/videos/ai.mp4" autoplay muted loop></video>
-                    </div>
-                </div>
-            </section>
-
-            <section id="first-section" style="background-color: #fff;">
-                <div class="section-wrap">
-                    <div class="tittle-wrap">
-                        <h2>AI for business: Reinvent what's possible</h2>
-                    </div>
-                    <div class="para-img-wrap">
-                        <div class="para-wrap">
-                            <p>
-                                <span>
-                                    AI is accelerating into a mega-trend, transforming industries, companies and the way
-                                    we live and work.
-                                    Organizations that build a strong data & AI foundation will be better positioned to
-                                    reinvent, compete
-                                    and achieve new levels of performance.
-                                </span>
-                            </p>
-                            <p>
-                                <span>
-                                    Klaxontech helps companies move from AI interest to action to value, in a
-                                    responsible way with clear
-                                    business cases. We help companies get their data, people and processes ready for AI,
-                                    with a secure,
-                                    cloud-based digital core that allows for continuous reinvention and greater growth,
-                                    efficiency and
-                                    resilience.
-                                </span>
-                            </p>
-
-
-                        </div>
-                        <div class="img-wrap">
-                            <img src="/assets/videos/ai1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="third-section">
-                <div class="main-wrap">
-                    <div class="tittle-wrapper">
-                        <h2 style="padding: 50px 0 30px 0;">Our Artificial Intelligence (AI) capabilities
-
-                        </h2>
-                        <p>
-                            <span>
-                                We offer AI consulting services and solutions that will help you achieve your business
-                                objectives
-                                faster, while setting you up for sustainable growth.
-                            </span>
-                        </p>
-                    </div>
-                    <div class="cards-container">
-                        <div class="card-wrap">
-                            <div class="s-card">
-                                <h3>Generative AI
-                                </h3>
-                                <p>
-                                    <span>
-                                        Innovate securely, responsibly and sustainably with Large Language Models (LLMs)
-                                        and Generative AI.
-                                        <a href="#">Learn more.</a>
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card-wrap">
-                            <div class="s-card">
-                                <h3>Data-led Transformation
-
-                                </h3>
-                                <p>
-                                    <span>
-                                        Recognize the value of data to drive sustainable growth. <a href="#">Learn
-                                            more.</a>
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card-wrap">
-                            <div class="s-card">
-                                <h3>Solutions.AI
-
-
-
-                                </h3>
-                                <p>
-                                    <span>
-                                        Scalable artificial intelligence solutions that deliver game-changing results,
-                                        fast. <a href="#">Learn more.</a>
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card-wrap">
-                            <div class="s-card">
-                                <h3>Responsible AI
-
-
-                                </h3>
-                                <p>
-                                    <span>
-                                        Design and deploy AI solutions that are ethical, transparent, and trustworthy.<a
-                                            href="#">Learn
-                                            more.</a>
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="fourth-section">
-                <div class="section-wrap">
-                    <div class="tittle-wrap">
-                        <h2>Join us
-                        </h2>
-                    </div>
-                    <div class="para-img-wrap">
-                        <div class="para-wrap">
-                            <p>
-                                <span>
-                                    The next AI revolution will be built by people like you. Pursue your passion and
-                                    change the future of
-                                    business using all things AI, analytics and automation.
-                                </span>
-                            </p>
-                        </div>
-                        <div class="img-wrap">
-                            <img src="/assets/videos/ai2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-            <div class="contact-btn">
-                <a href="../contact.html">
-
-                    CONTACT US
-                </a>
-            </div>
         </div>
-    </main>
-    <footer id="footer" class="footer">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-sm align-self-center align-items-center">
-              <div class="footer-industry-partner mb-4">
-                <ul class="partners-logo">
-                  <li><a href="https://www.compunnel.com/partners/microsoft" class="microsoft">Microsoft</a></li>
-                  <li><a href="https://www.compunnel.com/partners/aws/" class="aws">AWS advanced consulting</a></li>
-                  <li><a href="https://www.compunnel.com/partners/automation-anywhere/"
-                      class="automation-anywhere">Automation Anywhere</a></li>
-                  <li><a href="https://www.compunnel.com/partners/adobe/" class="adobe-bronze">Adobe Bronze</a></li>
-                  <li><a href="https://www.compunnel.com/partners/uipath/" class="uipath">UIpath</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="middle-footer">
+      </div>
+    </div>
+    <div class="container">
+      <div class="middle-footer">
+        <div class="row">
+          <div class="col-sm">
             <div class="row">
-              <div class="col-sm">
-                <div class="row">
-                  <div class="col-md-4 col-sm-4 col-xs-12 footer-links">
-                    <h3>Klaxon</h3>
-                    <div class="menu-compunnel-for-footer-container">
-                      <ul id="menu-compunnel-for-footer" class="menu">
-                        <li id="menu-item-100"
-                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100 menu-item-who-we-are">
-                          <a href="../who-we-are.html">Who We Are</a>
-                        </li>
-                        <li id="menu-item-4141"
-                          class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4141 menu-item-talent">
-                          <a href="../founders.html">Founders</a>
-                        </li>
-                        <li id="menu-item-104"
-                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-104 menu-item-canada">
-                          <a href="../blogs.html">Blogs</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-4 col-xs-12 footer-links">
-                    <h3>About Us</h3>
-                    <div class="menu-about-us-for-footer-container">
-                      <ul id="menu-about-us-for-footer" class="menu">
-                        <li id="menu-item-243"
-                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243 menu-item-our-leaders">
-                          <a href="../our-leaders.html">Our Leaders</a>
-                        </li>
-    
-    
-                        <li id="menu-item-589"
-                          class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-589 menu-item-partners">
-                          <a href="#">Technology Partners</a>
-                        </li>
-                        <li id="menu-item-238"
-                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238 menu-item-information-security-policy">
-                          <a href="#">Information Security Policy</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-4 col-xs-12 footer-links">
-                    <h3>Resources</h3>
-                    <div class="menu-resources-for-footer-container">
-                      <ul id="menu-resources-for-footer" class="menu">
-                        <li id="menu-item-531"
-                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531 menu-item-terms-of-use">
-                          <a href="#">Terms of Use</a>
-                        </li>
-                        <li id="menu-item-624"
-                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-624 menu-item-privacy-policy">
-                          <a href="#">Privacy Policy</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+              <div class="col-md-4 col-sm-4 col-xs-12 footer-links">
+                <h3>Klaxon</h3>
+                <div class="menu-compunnel-for-footer-container">
+                  <ul id="menu-compunnel-for-footer" class="menu">
+                    <li id="menu-item-100"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100 menu-item-who-we-are">
+                      <a href="../who-we-are.html">Who We Are</a>
+                    </li>
+                    <li id="menu-item-4141"
+                      class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4141 menu-item-talent">
+                      <a href="../founders.html">Founders</a>
+                    </li>
+                    <li id="menu-item-104"
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-104 menu-item-canada">
+                      <a href="../blogs.html">Blogs</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="col-sm text-center logo-container">
-                <a href="../index.html" class="footer-logo"><img src="../assets/images/light-logo.png"
-                    alt="Klaxontech logo"></a>
-                <div class="footer-address">
-                  <div class="address-section footer-addresses" id="us-new-jersey">
-                    <div class="foot-add address">
-                      14 Wall St. Suite 2061, <br>New York, NY-10005
-                    </div>
-                    <div class="foot-add email">
-                      <a href="mailto:info@klaxontech.com" class="link">
-                        info@klaxontech.com
-                      </a>
-                    </div>
-                    <div class="foot-add phone">+1-212-404-6961</div>
-                    <br>
-                  </div>
+              <div class="col-md-4 col-sm-4 col-xs-12 footer-links">
+                <h3>About Us</h3>
+                <div class="menu-about-us-for-footer-container">
+                  <ul id="menu-about-us-for-footer" class="menu">
+                    <li id="menu-item-243"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243 menu-item-our-leaders">
+                      <a href="../our-leaders.html">Our Leaders</a>
+                    </li>
+
+
+                    <li id="menu-item-589"
+                      class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-589 menu-item-partners">
+                      <a href="#">Technology Partners</a>
+                    </li>
+                    <li id="menu-item-238"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238 menu-item-information-security-policy">
+                      <a href="#">Information Security Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12 footer-links">
+                <h3>Resources</h3>
+                <div class="menu-resources-for-footer-container">
+                  <ul id="menu-resources-for-footer" class="menu">
+                    <li id="menu-item-531"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531 menu-item-terms-of-use">
+                      <a href="#">Terms of Use</a>
+                    </li>
+                    <li id="menu-item-624"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-624 menu-item-privacy-policy">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="container">
-          <div class="lower-footer">
-            <div class="row">
-              <div class="col-sm text-center">
-                <!-- <div class="footer-logo"> -->
-              </div>
-              <!-- </div> -->
-            </div>
-            <div class="row">
-              <div class="col-lg-6 col-md-6 footer-social-wrapper">
-                <ul>
-                  <li><a href="https://www.instagram.com/klaxontech_inc/" target="_blank"
-                      class="footer-social instagram">instagram</a></li>
-                  <li><a href="https://www.facebook.com/Klaxontech/" target="_blank"
-                      class="footer-social facebook">facebook</a></li>
-                  <li><a href="https://twitter.com/Klaxontech_Inc/" target="_blank"
-                      class="footer-social twitter">twitter</a>
-                  </li>
-                  <li><a href="https://www.linkedin.com/company/klaxontech/" target="_blank"
-                      class="footer-social linkedin">linkedin</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 col-md-12 footer-copyrite">
-                © 2024 Klaxontech. All Rights Reserved.
+          <div class="col-sm text-center logo-container">
+            <a href="../index.html" class="footer-logo"><img src="../assets/images/light-logo.png"
+                alt="Klaxontech logo"></a>
+            <div class="footer-address">
+              <div class="address-section footer-addresses" id="us-new-jersey">
+                <div class="foot-add address">
+                  14 Wall St. Suite 2061, <br>New York, NY-10005
+                </div>
+                <div class="foot-add email">
+                  <a href="mailto:info@klaxontech.com" class="link">
+                    info@klaxontech.com
+                  </a>
+                </div>
+                <div class="foot-add phone">+1-212-404-6961</div>
+                <br>
               </div>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </div>
+    <div class="container">
+      <div class="lower-footer">
+        <div class="row">
+          <div class="col-sm text-center">
+            <!-- <div class="footer-logo"> -->
+          </div>
+          <!-- </div> -->
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 footer-social-wrapper">
+            <ul>
+              <li><a href="https://www.instagram.com/klaxontech_inc/" target="_blank"
+                  class="footer-social instagram">instagram</a></li>
+              <li><a href="https://www.facebook.com/Klaxontech/" target="_blank"
+                  class="footer-social facebook">facebook</a></li>
+              <li><a href="https://twitter.com/Klaxontech_Inc/" target="_blank"
+                  class="footer-social twitter">twitter</a>
+              </li>
+              <li><a href="https://www.linkedin.com/company/klaxontech/" target="_blank"
+                  class="footer-social linkedin">linkedin</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-12 footer-copyrite">
+            © 2024 Klaxontech. All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script defer type="text/javascript"
-        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script defer type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/10efffce76.js" crossorigin="anonymous"></script>
 
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement(
-                { pageLanguage: "en" },
-                "google_translate_element"
-            );
-        }
-    </script>
-    <script defer src="/assets/script/index.js"></script>
-    <script defer src="/assets/script/navbar.js"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        { pageLanguage: "en" },
+        "google_translate_element"
+      );
+    }
+  </script>
+  <script defer src="../assets/script/index.js"></script>
+  <script defer src="../assets/script/navbar.js"></script>
+  <!-- Bootstrap Bundle with Popper.js (Optional) -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- Custom JavaScript (if any) -->
+  <script src="../scripts.js"></script>
 </body>
 
 </html>
