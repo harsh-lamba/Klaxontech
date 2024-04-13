@@ -219,7 +219,10 @@ http://coaccelerate.io/offerings/technology-implementation/erp-enterprise-applic
 Technology Innovation : Done
 http://coaccelerate.io/offerings/technology-implementation/erp-enterprise-applications/
 
-Workforce Solutions
+Workforce Solutions-Done
+- Need heading for hero section.
+- Images pending for heading cards
+- content pending for other sections.
 
 Application Services 
 
@@ -260,5 +263,3 @@ Aerospace and Defense - Done Done
 Consumer Goods and Services - Done Done
 Energy - Done Done
 Pharma and Chemicals - Done Done
-
-mp4 pending.
