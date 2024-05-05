@@ -374,3 +374,31 @@ Services:
     :: Last section not used: (Already told in last call.)
 8. Marketing-solutions - Done
     :: Last section not used: (Already told in last call.)
+    9. Security - done.
+10. Supply chain - done.
+11. Sustainability - done.
+12. tech consulting and
+13. tech innovation - done (Same content on both screen)
+
+
+:: Last section not used: (Already told in last call.)
+Industries:
+1. Aerospace - Done.
+2. Automotive - Done.
+3. Banking-finance-capital-markets.html - done. ()
+4. Pharma-chemical.html - done ()
+5. Media - Done.
+6. Consumer-goods-service.html - done.
+7. Energy.html - done.
+7. health.html - done.
+7. insurance.html - done.
+
+
+1. Svg logos size to be corrected
+2. Swap industries and service menu items;
+3. Same content on same screen
+
+
+Akhilesh:
+1. Same content on Tech consulting and tech innnovation.
+2. Same content in health care for industries and services.
