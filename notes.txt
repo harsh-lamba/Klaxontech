@@ -1,0 +1,376 @@
+1. We need to make some changes on menu for services.
+
+Services: Copy from accenture.
+Industries: 
+
+Boolean Search for NPS:
+
+ChatBot:
+Hey, Please share your contact information?
+
+
+Site Map:
+HealthCare Solutions Technology  from Compunel
+Workforce Solutions from Compunel
+Application Services TCS/Infosys/Accenture
+Automation TCS/Infosys/Accenture
+Business Process Outsourcing TCS/Infosys/Accenture
+Data & AI  TCS/Infosys/Accenture
+Cloud Solutions TCS/Infosys/Accenture
+Marketing Soltions TCS/Infosys/Accenture
+Network and Cyber Security TCS/Infosys/Accenture
+Supply Chain Management TCS/Infosys/Accenture
+Sustainability ( ESG ) TCS/Infosys/Accenture
+Technology Consulting TCS/Infosys/Accenture
+Technology Innovation TCS/Infosys/Accenture
+
+TCS/Infosys/Accenture
+Aerospace and Defense
+Automotive
+Banking, Finance and Capital Markets
+Pharma and Chemicals 
+Communications and Media
+Consumer Goods and Services
+Energy
+Healthcare
+Insurance
+Retail
+Software and Platforms
+Travel
+Life Science
+Manufacturing
+
+Word Files Shared - Delloite/ENY/KPMG/PWC
+
+Add Blog
+Add BOT 
+Contact US
+Carriers
+
+Reference:
+https://www.ceipal.com/platform/
+https://www.infosys.com/
+https://www.compunnel.com/
+https://www.tcs.com/
+https://www.accenture.com/us-en/industries/industrial-equipment-index
+https://www2.deloitte.com/us/en.html
+
+
+Tasks:
+1. Pages placeholder: For all the links: services and industries. - Prateek  --->done
+2. index.html links update and then copy them to each and every html. - Prateek   ---> done
+3. Card design - Prateek. (Harsh)
+4. Button design - Harsh
+5. Form design and button design. (make it consiste across application) : Harsh
+6. Update the home page - Harsh.
+7. Move to top button update - Harsh
+8. Update Menu - Harsh
+6. For rest of the pages, we need videos.mp4. - Prateek and Harsh
+7. Now we should start coping content f
+
+
+Tasks (Design):
+- Header (Done) and Footer (??)
+- Home page - design. (??)
+- For sub pages.: 
+    - 4 component : repeat it with other sub pages.
+- Blog (??)
+- About us. (??)
+- Contact us. (??)
+    Form:
+    Form elements: input box and select box and button.
+
+Header:
+Sub header add icon.
+
+Font-family:
+
+body:
+
+Menu:
+- Height of the sub menu should be of content height and only apply padding.
+- icon for each and every
+
+Component A:
+Experience in store (https://www.bang-olufsen.com/en/int:)
+Component B:
+World of B&0.(https://www.bang-olufsen.com/en/int:)
+Component C: Carousel:
+https://itrexgroup.com/#cases:
+
+
+Page Structure (Sub Pages):
+- Header:
+- Hero:
+- Title + content: (https://lollypop.design/clients/) ??
+- Differentiator component: Experience in store (https://www.bang-olufsen.com/en/)
+- Componet: Text component: https://lollypop.design/clients/ (X)
+- Card Component: https://itrexgroup.com/#cases (Carousel style)
+- Component 4 (Text)
+- Component 5 ()
+- Join us (Harsh)
+Footer:
+
+Home Page
+
+
+https://www.figma.com/file/62itibPsdROfn46EuDqE6A/DigitalCo.?type=design&node-id=65-146&mode=design
+
+Reference:
+https://www.bang-olufsen.com/en/int
+https://itrexgroup.com/#cases
+https://www.howtodesignbetter.com/ebook?aff=35jJx
+https://www.chimeraprime.com/
+https://lollypop.design/clients/
+https://www.aufaitux.com/work/
+
+home page:
+- First carousel
+- second carousel
+- text desing: Clients section on https://lollypop.design/clients/
+- REad the story button section : https://www.nagarro.com/en
+- feature insight: https://www.nagarro.com/en
+- What can we help you achieve? https://www.nagarro.com/en
+- Experience in store https://www.bang-olufsen.com/en/int
+- footer
+
+
+- who we are: https://www.tcs.com/
+The Fluidic Enterprise Vision:   (grey background)
+featured insights: https://www.nagarro.com/en
+
+Join us section : What can we help you achieve?: https://www.nagarro.com/en
+Form: https://www.nagarro.com/en/industries/automotive
+
+Footer::https://www.compunnel.com/
+
+https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
+https://unsplash.com/s/photos/technology?license=free
+
+
+Feedbacks:
+Footer:
+- We need to add award and reg. -> https://www.compunnel.com/
+
+Careers? ()
+- We need to add it on Top menu and footer menu (Resources)
+
+Images -? Akhilesh and Sahil
+Other Pages COntent (Which are not avaialble on coaccelerate) -> Sahil and Akhilesh.
+
+Blogs: (Top: 20)
+http://coaccelerate.io/blog/
+
+
+
+-> About Us - Content
+
+
+Sub Pages:
+Need to align with coaccelerate design for content.
+
+Pages: 
+Who We Are: 
+Founder: 
+Our Leaders:
+Technology Partners
+Information Security Policy
+Terms of Use
+Privacy Policy
+
+Home page: 
+
+Work With Us -> Other Form -> To fill up details and attach resume
+    -> Attach a file and then save at some location.
+
+
+    http://coaccelerate.io/industries/healthcare/
+
+http://coaccelerate.io/
+
+Offerings(coaccelerate) - Services(klaxon):
+
+
+Tasks:
+
+images are remaining 
+
+1. Complete services page following same structure:
+--------------------------------------------------
+Services(klaxon):
+-------------------------------------------------
+
+HealthCare Solutions Technology : Done
+http://coaccelerate.io/industries/healthcare/
+
+Business Process Outsourcing Done
+http://coaccelerate.io/offerings/strategy/
+
+Data & AI  Done
+http://coaccelerate.io/offerings/technology-implementation/ai-generativeai/
+
+Cloud Solutions Done
+http://coaccelerate.io/offerings/technology-implementation/cloud-transformation/
+
+Marketing Solutions 
+http://coaccelerate.io/offerings/technology-implementation/digital-transformation/
+
+Network and Cyber Security Done
+http://coaccelerate.io/offerings/technology-implementation/cyber-security-privacy/
+
+Supply Chain Management Done
+http://coaccelerate.io/offerings/process-optimization/ 
+
+Sustainability ( ESG ) Done
+http://coaccelerate.io/offerings/esg-sustainability-reporting/
+
+Technology Consulting Done
+http://coaccelerate.io/offerings/technology-implementation/erp-enterprise-applications/
+
+Technology Innovation : Done
+http://coaccelerate.io/offerings/technology-implementation/erp-enterprise-applications/
+
+Workforce Solutions-Done
+- Need heading for hero section.
+- Images pending for heading cards
+- content pending for other sections.
+
+Application Services 
+- Check for content
+
+Automation 
+
+
+2. Complete industries page following same structure:
+--------------------------------------------------
+Industries:
+-------------------------------------------------
+
+Automotive Done
+http://coaccelerate.io/industries/transportation/
+
+Banking, Finance and Capital Markets Done
+http://coaccelerate.io/industries/banking-and-financial-services/
+
+Communications and Media done
+http://coaccelerate.io/industries/media-and-entertainment/
+
+Healthcare done
+http://coaccelerate.io/industries/healthcare/
+
+Insurance done
+http://coaccelerate.io/industries/insurance/
+
+
+Life Science done
+http://coaccelerate.io/industries/life-sciences/
+
+Manufacturing done
+http://coaccelerate.io/industries/manufacturing/
+
+Retail - Done Done
+Software and Platforms - Done. Done
+Travel - Done Done mp4
+Aerospace and Defense - Done Done
+Consumer Goods and Services - Done Done
+Energy - Done Done
+Pharma and Chemicals - Done Done
+
+-----------------------------------------------------------------------------------
+
+Feedback:
+Founder Or Leaders: Let's Remove both - Done
+All Pages: Need to Remove Compuenl links from footer partner logos - Done
+All Pages: Navbar Right Section is Empty need to Fix (Not looking good) - What to put?
+All Industries Pages: Section-2 Cards can we Small so, that all cards can we fit in a line - Where?
+All Pages: Footer Klaxon logo is not Aligned Properly (Need align left) - How?
+
+All Pages (Except Home Page): Fomating issues (Font size is small hard to Read, Fomating, margin & padding is required in each section)
+Contact us: Page is Pending
+
+
+S.No	Services	Feedback
+2	Work Force solution	
+    - Section 2 is Irrelevant (which one)
+    - last 4 Sections as well (Done)
+    - Need images for the hero section.
+
+
+3	Application Service
+    - Section 3 Tittle are Wrong - What is wrong and what should be replaced with?
+    - last 4 Sections are irrelevant Needs to Remove (Done)
+
+4	Automation
+    - Section 3 Tittle are Wrong: Done
+    - last 4 Sections are irrelevant Needs to Remove: Done
+5	business-process-outsourcing
+    - Content is Correct but needs to changes few irrelevant images in section 2 - Share ones which we want.
+    - Check for font-size. Its not correct
+
+6	Data & Al
+    - Section-1 Missing, - lets discuss
+    - Section-4 Missing - lets discuss
+7	Cloud Solutions	
+    - Wrongs Images used 
+    - Section-3 Missing - Lets discuss.
+
+8	Marketing Solutions
+    - Duplicate images used 
+    - section 4 missing - Lets discuss (decided not to incorporate in the call.)
+    https://coaccelerate.io/offerings/technology-implementation/digital-transformation/
+
+9	network-cybersecurity
+    - Content is correct but Wrong images used
+    https://coaccelerate.io/offerings/technology-implementation/cyber-security-privacy/
+
+10	supply-chain-management
+    - Wrong images used
+    https://coaccelerate.io/offerings/process-optimization/
+
+11	sustainability
+    - Wrong content used
+
+12	technology-consulting
+    - Content is right but images are irrelevant
+
+13	technology-innovation
+    - Wrong content used
+
+- Icon issues on all pages:
+- Revisi header and footer design
+- hero should have container class on it.
+
+Heading: 44px (600)
+Sub Heading: 23px (400)
+
+Heading: 4rem (600);
+SubHeading: 2.9rem (300)
+Description: 1.7rem;
+List Content: 1.7rem;
+
+Card:
+heading: 2.4rem
+Description: 1.7rem;
+
+------------------------------
+05 May
+------------------------------
+
+Swap: industries and service Menu.
+Services:
+1. Health-care.solutions.html - Done
+2. workforce.html - Done.
+    ::Pending
+    - four svg cards title.
+3. Application.service - Done
+    :: Not sure
+    - svg cards section.
+4. Automation.service - Done.
+5. Business Process outsourcing - Done.
+    :: Last section not used: (Already told in last call.)
+6. Data-ai.html - Done
+    :: Last section not used: (Already told in last call.)
+7. Cloud.html - Done
+    :: Last section not used: (Already told in last call.)
+8. Marketing-solutions - Done
+    :: Last section not used: (Already told in last call.)

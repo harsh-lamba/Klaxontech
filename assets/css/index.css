@@ -2150,7 +2150,6 @@ p {
 
 .page-information__white {
     background-color: #fff;
-    padding: 7rem 0;
     color: #202020;
     border: none;
 }
@@ -2186,6 +2185,7 @@ p {
     font-weight: 300;
     margin-bottom: 2.5rem;
     padding: 0 4rem;
+    line-height: 1.3;
 }
 
 .page-information__description {
@@ -2195,6 +2195,15 @@ p {
 
 .page-information__description__margin-bottom {
     margin-bottom: 2.5rem;
+}
+
+.page-information__list{
+    margin-left: 0;
+    padding-left: 7rem;
+    list-style: disc;
+}
+.page-information__list li{
+    margin-bottom: 0.5rem;
 }
 
 .page-information-cards {
@@ -2315,11 +2324,19 @@ p {
 }
 
 .page-information__container--right {
-    padding-left: 6rem;
+    padding-left: 3rem;
 }
 
 .page-information__container--left {
-    padding-right: 6rem;
+    padding-right: 3rem;
+}
+
+.page-information__container--image{
+    padding: 0 4rem 0 0;
+}
+
+.page-information__container--image-right{
+    padding: 0 0 0 4rem;
 }
 
 .award-recognition-list {
