@@ -363,7 +363,7 @@ a {
 
 /* down icon rotate */
 .active {
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 .down-icon.active {
