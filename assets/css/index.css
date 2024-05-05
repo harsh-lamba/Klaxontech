@@ -267,15 +267,14 @@ a {
 } */
 
 .list-item-wrapper .down-icon {
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 1.3rem;
     font-style: normal;
     line-height: 1;
     text-transform: none;
     letter-spacing: normal;
     word-wrap: normal;
     white-space: nowrap;
-    margin-left: 0.4rem;
+    margin-left: 0.7rem;
     margin-top: 0.32rem;
     transition: .5s ease;
 }
@@ -455,7 +454,7 @@ a {
     padding: 0;
     margin: 0;
     transform: translateY(-50%);
-    font-size: 64px;
+    font-size: 2.6rem;
     z-index: 1003;
     display: none;
 
@@ -544,10 +543,9 @@ a {
 
 }
 
-.social-media a ion-icon {
+.social-media a i.fa-brands {
     font-size: 18px;
     color: #000;
-
 }
 
 .mobile-nav .list-item-wrapper:hover li::after {
