@@ -395,9 +395,8 @@ Industries:
 
 
 1. Svg logos size to be corrected
-2. Swap industries and service menu items;
+2. Swap industries and service menu items && logo alignment with container as we have done in health-care;
 3. Same content on same screen
-
 
 Akhilesh:
 1. Same content on Tech consulting and tech innnovation.
