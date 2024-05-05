@@ -67,6 +67,10 @@ a {
     text-decoration: none;
 }
 
+.hamburger{
+    display: none;
+}
+
 @media (max-width: 991.98px) {
     /* .btn-klaton{
         font-size: 1.5rem;
@@ -616,7 +620,6 @@ a {
     width: 100%;
     margin: 0;
 }
-
 
 @media screen and (max-width: 1200px) {
 
