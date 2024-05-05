@@ -23,11 +23,6 @@
     color: var(--bs-gray-dark);
 }
 
-.hero-content-wrap h1 {
-    padding-top: 30px;
-
-}
-
 .main-content-wrap {
     position: absolute;
     z-index: 1;
@@ -41,7 +36,8 @@
 }
 
 .hero-content-wrap h1 {
-    font-size: 3.8rem;
+    padding-top: 30px;
+    font-size: 4.2rem;
     font-weight: 600;
     margin-bottom: 2rem;
 }
