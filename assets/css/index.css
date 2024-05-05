@@ -2130,14 +2130,10 @@ p {
 /*Text component*/
 .page-information {
     background-color: #1e1e1e;
-    padding: 15rem 0;
+    padding: 10rem 0;
     color: #fff;
     border-top: 1px solid #2a2a2a;
     background-color: #202020;
-}
-
-.page-information--more-spacing {
-    /* padding: 8rem 2rem 0rem 2rem; */
 }
 
 .page-information img {
@@ -2154,11 +2150,14 @@ p {
     border: none;
 }
 
+.page-information__white--less-spacing{
+    padding: 7rem 0;
+}
+
 .page-information__grey {
     background-color: rgb(245, 244, 243);
     border-top: 0;
     color: #1e1e1e;
-    padding-top: 10rem;
 }
 
 .page-information__white.small-spacing {
