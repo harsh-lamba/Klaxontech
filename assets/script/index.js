@@ -96,3 +96,11 @@ const targetElement = document.querySelector(".goog-te-gadget")
 
 // Check if the target element exists
 
+document.getElementById("myForm").addEventListener("redirect", function (event) {
+    event.preventDefault(); // Prevent default form submission behavior
+    // Perform any form validation here if needed
+
+    // Redirect to a new route
+    window.location.href = "/new-route";
+});
+
