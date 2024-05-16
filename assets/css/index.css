@@ -63,6 +63,12 @@ buttons
     padding: 10px 5rem;
 }
 
+.btn-klaton.btn-primary {
+    width: 250px;
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
 a {
     text-decoration: none;
 }
@@ -2774,7 +2780,6 @@ Page title
 
 .page-help__button .btn-klaton {
     margin-bottom: 2rem;
-    width: 250px;
     background: #fff;
     border-color: #fff;
     color: #222;
@@ -3291,6 +3296,33 @@ Footer CSS
 
 .arrow-link__text {
     transition: opacity .2s;
+}
+
+.contact-form{
+    background: #fff;
+    padding: 4rem 5rem;
+    border-radius: 10px;
+}
+
+.contact-info{
+    padding: 4rem 5rem;
+}
+
+.contact-info .page-information__sub-title{
+    margin: 6rem 0;
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 5rem;
+    padding-left: 0;
+}
+
+.contact-info .contact-info-group{
+    margin-bottom: 5rem;
+}
+
+.form-control{
+    padding: 1rem;
+    font-size: 2rem;
 }
 
 
